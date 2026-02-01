@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-01T22:08:03.939640",
-  "totalEvents": 66,
+  "lastUpdated": "2026-02-01T11:43:36.370173",
+  "totalEvents": 70,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -47,14 +47,14 @@
       "sourceName": "Ducati Owners Club Victoria"
     },
     {
-      "id": "cf638a60e998",
-      "title": "Canberra BMW Motorrad",
-      "description": "Canberra BMW Motorrad Offers financial BMWMCC members a discount of 10% off the full price of BMW Motorrad Servicing, Parts, Accessories, Riding Gear and Lifestyle wear. The discount is not available in conjunction with any other offer. Please present proof of current membership card before invoicing to receive the discount. What's On... BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 5 February 2026 05 Feb 2026 09:00 • KT Bee's Kitchen, 5/6 Bungendore Rd, Queanbeyan East, NSW Multi-Day Weekend Ri",
+      "id": "1497ca4b554c",
+      "title": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 5 February 2026",
+      "description": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 5 February 2026 Multi-Day Weekend Ride - Victorian High Country - VIC (Club Event)",
       "startDate": "2026-02-05",
       "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.bmwmcc.au/page-1419638",
+      "state": "VIC",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468894?CalendarViewType=1&SelectedDate=2/1/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -199,6 +199,17 @@
       "category": "track",
       "sourceUrl": "http://www.macparkraceway.org.au",
       "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "5bf816f660c8",
+      "title": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 5 March 2026",
+      "description": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 5 March 2026 Proposed 3 Day GS Adventure Ride – Snowy River Country – NSW/VIC (Club Event)",
+      "startDate": "2026-03-05",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468896?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceName": "BMW MCC Canberra"
     },
     {
       "id": "045f45494ddd",
@@ -520,58 +531,91 @@
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "4c243fe438eb",
-      "title": "Check Out Your Road Conditions -",
-      "description": "Check Out Your Road Conditions - Before you leave check out your route and local road conditions using these external links and leave the BMWMCC website. ACT Roads (Urban) ACT Emergency Services South Australia (Urban & Regional) , South Australia (Outback) New South Wales Victoria Queensland Tasmania Perth & Western Australia Northern Territory An interactive Bushfire Map for Australia. Planning that next off grid riding adventure and looking for a topographic map?  Then check out the Geoscienc",
+      "id": "a4a08b34ae1c",
+      "title": "Australia Day",
+      "description": "Australia Day Canberra Festival of Speed",
+      "startDate": null,
+      "location": "",
+      "state": "ACT",
+      "category": "other",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979222?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "f6990e74fe9b",
+      "title": "Canberra Festival of Speed",
+      "description": "Canberra Festival of Speed",
+      "startDate": null,
+      "location": "",
+      "state": "ACT",
+      "category": "other",
+      "sourceUrl": "https://www.bmwmcc.au/event-6378204?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "c207ed115007",
+      "title": "BMWMCC Australia Day Breakfast BBQ (Club Event)",
+      "description": "BMWMCC Australia Day Breakfast BBQ (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://www.bmwmcc.au/event-6432514?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "db3f6abdef15",
+      "title": "Multi-Day Weekend Ride - Victorian High Country - VIC (Club Event)",
+      "description": "Multi-Day Weekend Ride - Victorian High Country - VIC (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6439571?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "605b7da8f02d",
+      "title": "49th Karuah River Rally, BMWTCNSW (Club Event)",
+      "description": "49th Karuah River Rally, BMWTCNSW (Club Event)",
       "startDate": null,
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.cityservices.act.gov.au/roads-and-paths/act_public_road_closures",
+      "sourceUrl": "https://www.bmwmcc.au/event-6026911?CalendarViewType=1&SelectedDate=2/1/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "0db83c021390",
-      "title": "ACT Roads",
-      "description": "ACT Roads (Urban) ACT Emergency Services South Australia (Urban & Regional) , South Australia (Outback)",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "other",
-      "sourceUrl": "https://www.cityservices.act.gov.au/roads-and-paths/act_public_road_closures",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "9871181849e4",
-      "title": "New South Wales",
-      "description": "New South Wales Victoria",
+      "id": "9440bc528896",
+      "title": "Sunday Ride - Dalton, NSW - GS & TS Rides (Club Event)",
+      "description": "Sunday Ride - Dalton, NSW - GS & TS Rides (Club Event)",
       "startDate": null,
       "location": "",
       "state": "NSW",
-      "category": "other",
-      "sourceUrl": "https://www.livetraffic.com/desktop.html",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6496981?CalendarViewType=1&SelectedDate=2/1/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "09f5f91a9465",
-      "title": "Queensland",
-      "description": "",
+      "id": "ee784120a8e6",
+      "title": "Proposed 3 Day GS Adventure Ride – Snowy River Country – NSW/VIC (Club Event)",
+      "description": "Proposed 3 Day GS Adventure Ride – Snowy River Country – NSW/VIC (Club Event)",
       "startDate": null,
       "location": "",
-      "state": "QLD",
-      "category": "other",
-      "sourceUrl": "https://qldtraffic.qld.gov.au/",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=2/1/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "b1e9dbe5d62d",
-      "title": "Perth & Western Australia",
-      "description": "Perth & Western Australia Northern Territory",
+      "id": "07f2ac0b810a",
+      "title": "Want to organise or lead a ride",
+      "description": "Want to organise or lead a ride Ranking of Club Rides",
       "startDate": null,
       "location": "",
       "state": "WA",
-      "category": "other",
-      "sourceUrl": "https://www.perthnow.com.au/news/perth-traffic",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/page-1419638",
       "sourceName": "BMW MCC Canberra"
     },
     {
