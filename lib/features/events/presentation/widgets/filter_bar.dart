@@ -100,7 +100,7 @@ class FilterBar extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16),
           decoration: BoxDecoration(
             color: state.selectedState != null && state.selectedState != AustralianState.all
-                ? Theme.of(context).colorScheme.primary.withOpacity(0.2)
+                ? Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)
                 : Theme.of(context).cardColor,
             borderRadius: BorderRadius.circular(22),
             border: Border.all(
@@ -154,7 +154,7 @@ class FilterBar extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16),
           decoration: BoxDecoration(
             color: state.selectedCategory != null && state.selectedCategory != EventCategory.all
-                ? Theme.of(context).colorScheme.primary.withOpacity(0.2)
+                ? Theme.of(context).colorScheme.primary.withValues(alpha: 0.2)
                 : Theme.of(context).cardColor,
             borderRadius: BorderRadius.circular(22),
             border: Border.all(

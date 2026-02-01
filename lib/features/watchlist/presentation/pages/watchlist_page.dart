@@ -52,7 +52,7 @@ class WatchlistPage extends StatelessWidget {
         // Offline indicator
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-          color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+          color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
           child: Row(
             children: [
               Icon(

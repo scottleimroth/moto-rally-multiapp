@@ -30,7 +30,7 @@ Future<void> configureDependencies() async {
   getIt.registerLazySingleton<Box>(() => eventsBox, instanceName: 'events');
 
   // Core Services
-  getIt.registerLazySingleton<ScraperService>(() => ScraperService());
+  getIt.registerLazySingleton<ScraperService>(ScraperService.new);
 
   // Events Feature
   getIt.registerLazySingleton<EventsLocalDatasource>(
