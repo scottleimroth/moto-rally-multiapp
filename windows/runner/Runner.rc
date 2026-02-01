@@ -52,7 +52,7 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_APP_ICON               ICON                    "resources\\app_icon.ico"
+IDI_APP_ICON            ICON                    "resources\\app_icon.ico"
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "Woodsqott ~242~ MDFFMD" "\0"
-            VALUE "FileDescription", "Moto Rally Aggregator" "\0"
+            VALUE "CompanyName", "com.motorally" "\0"
+            VALUE "FileDescription", "moto_rally" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "moto_rally" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 Woodsqott ~242~ MDFFMD. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.motorally. All rights reserved." "\0"
             VALUE "OriginalFilename", "moto_rally.exe" "\0"
-            VALUE "ProductName", "Moto Rally Aggregator" "\0"
+            VALUE "ProductName", "moto_rally" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
@@ -107,6 +107,8 @@ END
 
 #endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
+
+
 
 #ifndef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
