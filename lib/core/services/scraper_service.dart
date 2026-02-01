@@ -20,7 +20,7 @@ class ScraperService {
   Future<ScraperResult> fetchAllEvents() async {
     final List<MotorcycleEvent> allEvents = [];
     final List<ScraperError> errors = [];
-    DateTime lastUpdated = DateTime.now();
+    final DateTime lastUpdated = DateTime.now();
 
     for (final source in AppConstants.eventSources) {
       try {
@@ -251,10 +251,10 @@ class ScraperService {
 
       // Extract location and state
       final locationText = _extractLocation(element);
-      final state = _extractState(locationText + ' ' + title + ' ' + description);
+      final state = _extractState('$locationText $title $description');
 
       // Extract category from title and description
-      final category = EventCategory.fromString(title + ' ' + description);
+      final category = EventCategory.fromString('$title $description');
 
       // Extract image
       final imageElement = element.querySelector('img');
@@ -342,8 +342,8 @@ class ScraperService {
       for (final format in formats) {
         final match = format.firstMatch(dateText);
         if (match != null) {
-          int day = int.parse(match.group(1)!);
-          int month = int.parse(match.group(2)!);
+          final int day = int.parse(match.group(1)!);
+          final int month = int.parse(match.group(2)!);
           int year = int.parse(match.group(3)!);
           if (year < 100) year += 2000;
           return DateTime(year, month, day);

@@ -161,7 +161,7 @@ class EventCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       decoration: BoxDecoration(
-        color: _getCategoryColor(event.category).withOpacity(0.2),
+        color: _getCategoryColor(event.category).withValues(alpha: 0.2),
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
           color: _getCategoryColor(event.category),
@@ -183,7 +183,7 @@ class EventCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       decoration: BoxDecoration(
-        color: Colors.grey.withOpacity(0.2),
+        color: Colors.grey.withValues(alpha: 0.2),
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
           color: Colors.grey,
@@ -425,7 +425,7 @@ class EventDetailsSheet extends StatelessWidget {
         // Source info
         Row(
           children: [
-            Icon(Icons.source, size: 16, color: Colors.grey),
+            const Icon(Icons.source, size: 16, color: Colors.grey),
             const SizedBox(width: 8),
             Text(
               'Source: ${event.sourceName}',
@@ -495,7 +495,7 @@ class EventDetailsSheet extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+        color: Theme.of(context).colorScheme.primary.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(20),
         border: Border.all(
           color: Theme.of(context).colorScheme.primary,
