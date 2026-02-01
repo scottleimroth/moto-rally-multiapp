@@ -107,3 +107,11 @@ pids
 # Ignore Android local files created by builds/IDE
 android/local.properties
 android/.gradle/
+
+# Flutter generated files
+.metadata
+devtools_options.yaml
+*.iml
+
+# Nested project folders (accidental)
+moto-rally-multiapp/
