@@ -326,18 +326,37 @@ class EventDetailsSheet extends StatelessWidget {
       controller: scrollController,
       padding: const EdgeInsets.all(20),
       children: [
-        // Handle indicator
-        Center(
-          child: Container(
-            width: 40,
-            height: 4,
-            margin: const EdgeInsets.only(bottom: 20),
-            decoration: BoxDecoration(
-              color: Colors.grey.shade400,
-              borderRadius: BorderRadius.circular(2),
+        // Handle indicator and close button
+        Row(
+          children: [
+            const Spacer(),
+            // Drag handle
+            Container(
+              width: 40,
+              height: 4,
+              decoration: BoxDecoration(
+                color: Colors.grey.shade400,
+                borderRadius: BorderRadius.circular(2),
+              ),
             ),
-          ),
+            const Spacer(),
+            // Close button
+            SizedBox(
+              width: 40,
+              height: 40,
+              child: IconButton(
+                onPressed: () => Navigator.of(context).pop(),
+                icon: const Icon(Icons.close),
+                tooltip: 'Close',
+                style: IconButton.styleFrom(
+                  backgroundColor: Colors.grey.shade800,
+                  foregroundColor: Colors.white,
+                ),
+              ),
+            ),
+          ],
         ),
+        const SizedBox(height: 16),
 
         // Title
         Text(

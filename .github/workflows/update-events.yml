@@ -1,0 +1,70 @@
+name: Update Events Data
+
+on:
+  # Run every Sunday at midnight UTC
+  schedule:
+    - cron: '0 0 * * 0'
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+  # Also run on push to main if scraper script changes
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/scrape_events.py'
+      - '.github/workflows/update-events.yml'
+
+jobs:
+  scrape-events:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Run scraper
+        run: python scripts/scrape_events.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet assets/data/events.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/data/events.json
+          git commit -m "chore: update events data [skip ci]"
+          git push
+
+      - name: Summary
+        run: |
+          echo "## Events Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f assets/data/events.json ]; then
+            TOTAL=$(jq '.totalEvents' assets/data/events.json)
+            UPDATED=$(jq -r '.lastUpdated' assets/data/events.json)
+            echo "- **Total Events:** $TOTAL" >> $GITHUB_STEP_SUMMARY
+            echo "- **Last Updated:** $UPDATED" >> $GITHUB_STEP_SUMMARY
+          fi
