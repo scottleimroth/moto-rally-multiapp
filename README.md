@@ -3,23 +3,31 @@
 A cross-platform Flutter application that aggregates Australian motorcycle rally and event information from multiple sources.
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.16+-blue.svg)
-![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20Web%20%7C%20Android%20%7C%20iOS-green.svg)
-![License](https://img.shields.io/badge/License-Private-red.svg)
+![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20Web%20%7C%20Android-green.svg)
+
+## Download & Install
+
+| Platform | Download | Instructions |
+|----------|----------|--------------|
+| **Web App** | [moto-rally-multiapp.pages.dev](https://moto-rally-multiapp.pages.dev) | Open in browser, works offline as PWA |
+| **Android** | [`dist/android/moto-rally.apk`](dist/android/moto-rally.apk) | Enable "Install from unknown sources", install APK |
+| **Windows** | [`dist/windows/moto-rally.exe`](dist/windows/) | Download and run (coming soon) |
 
 ## Features
 
-- **Multi-Source Aggregation**: Fetches events from:
+- **Multi-Source Aggregation**: Fetches events from 19+ Australian motorcycle sources including:
   - Just Bikes Australia
-  - Old Bike Magazine
-  - Motorcycling Australia
+  - Old Bike Australasia
+  - Motorcycling Australia, QLD, NSW, VIC
+  - BMW, Ducati, Harley-Davidson, Triumph clubs
+  - Classic Owners SA, VMCC NSW, Indian MC
+  - And more...
 
-- **Cross-Platform Support**:
-  - Windows desktop application
-  - Progressive Web App (PWA)
-  - Android mobile app
-  - iOS mobile app
+- **Automatic Updates**: Events are automatically scraped and updated weekly via GitHub Actions
 
-- **Offline Watchlist**: Save events for viewing in areas with no reception using Hive (SQLite/IndexedDB)
+- **Cross-Platform**: Single Flutter codebase builds for Windows, Web, and Android
+
+- **Offline Watchlist**: Save events for viewing in areas with no reception
 
 - **Responsive Design**:
   - Multi-column dashboard on desktop/tablet
@@ -32,28 +40,27 @@ A cross-platform Flutter application that aggregates Australian motorcycle rally
   - Category (Swap Meet, Rally, Track Day, etc.)
   - Search text
 
-## Architecture
-
-The project follows Feature-First Clean Architecture:
+## Project Structure
 
 ```
-lib/
-├── core/           # Shared utilities, theme, constants
-└── features/
-    ├── events/     # Event listing and scraping
-    └── watchlist/  # Offline event storage
+moto-rally-multiapp/
+├── dist/                    # Ready-to-use apps
+│   ├── android/
+│   │   └── moto-rally.apk   # Android app
+│   ├── web/                 # Web app files
+│   └── windows/             # Windows app (coming soon)
+│       └── moto-rally.exe
+├── lib/                     # Flutter source code
+├── assets/data/events.json  # Scraped event data
+├── scripts/                 # Python scraper
+└── .github/workflows/       # Auto-update automation
 ```
 
-Each feature contains:
-- `data/` - Data sources, repositories implementation
-- `domain/` - Entities, repository interfaces, use cases
-- `presentation/` - UI (pages, widgets, BLoC state management)
-
-## Quick Start
+## Development
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/moto-rally-multiapp.git
+git clone https://github.com/scottleimroth/moto-rally-multiapp.git
 cd moto-rally-multiapp
 
 # Install dependencies
@@ -63,46 +70,24 @@ flutter pub get
 flutter run -d chrome    # Web
 flutter run -d windows   # Windows
 flutter run -d android   # Android
-flutter run -d ios       # iOS
 ```
 
 ## Build
 
-See [BUILD_GUIDE.md](BUILD_GUIDE.md) for detailed build and deployment instructions.
-
-### Quick Build Commands
-
 ```bash
-# Windows executable
-flutter build windows --release
-
-# PWA (offline-first)
-flutter build web --release --pwa-strategy offline-first
-
 # Android APK
 flutter build apk --release
+cp build/app/outputs/flutter-apk/app-release.apk dist/android/moto-rally.apk
 
-# iOS (requires macOS)
-flutter build ios --release
+# Web PWA
+flutter build web --release
+cp -r build/web/* dist/web/
+
+# Windows EXE (requires Visual Studio)
+flutter build windows --release
+cp -r build/windows/x64/runner/Release/* dist/windows/
 ```
-
-## Deployment
-
-The project includes GitHub Actions for automatic deployment to GitHub Pages on push to `main`.
-
-## Tech Stack
-
-- **Framework**: Flutter 3.16+
-- **State Management**: flutter_bloc
-- **Local Storage**: Hive (cross-platform)
-- **Dependency Injection**: get_it
-- **HTTP**: http package
-- **HTML Parsing**: html package
-
-## Contributing
-
-This is a private repository. Contact the maintainer for contribution guidelines.
 
 ## License
 
-All rights reserved. This is a private repository.
+© 2026 Woodquott ~242~ MDFFMD. All rights reserved.
