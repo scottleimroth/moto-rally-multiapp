@@ -90,4 +90,4 @@ cp -r build/windows/x64/runner/Release/* dist/windows/
 
 ## License
 
-© 2026 Woodquott ~242~ MDFFMD. All rights reserved.
+© 2026 Woodsqott ~242~ MDFFMD. All rights reserved.
