@@ -1,0 +1,72 @@
+{
+  "name": "Moto Rally Aggregator",
+  "short_name": "Moto Rally",
+  "description": "Australian Motorcycle Rally & Event Aggregator - Find rallies, swap meets, track days and more",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#E65100",
+  "theme_color": "#E65100",
+  "categories": ["lifestyle", "sports"],
+  "lang": "en-AU",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Moto Rally Dashboard on Desktop"
+    },
+    {
+      "src": "screenshots/mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Moto Rally on Mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My Watchlist",
+      "short_name": "Watchlist",
+      "description": "View saved events",
+      "url": "/?tab=watchlist",
+      "icons": [
+        {
+          "src": "icons/shortcut-watchlist.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "handle_links": "preferred"
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Australian Motorcycle Rally & Event Aggregator - Find upcoming rallies, swap meets, track days and more across Australia">
+  <meta name="author" content="Woodquott ~242~ MDFFMD">
+  <meta name="copyright" content="Copyright 2026 Woodquott ~242~ MDFFMD">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Moto Rally">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="apple-touch-startup-image" href="icons/splash.png">
+
+  <!-- Android/Chrome meta tags -->
+  <meta name="theme-color" content="#E65100">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Preconnect to event sources for faster loading -->
+  <link rel="preconnect" href="https://www.justbikes.com.au">
+  <link rel="preconnect" href="https://www.oldbikemag.com.au">
+  <link rel="preconnect" href="https://motorcycling.com.au">
+
+  <title>Moto Rally - Australian Motorcycle Events</title>
+
+  <style>
+    /* Loading styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background-color: #E65100;
+      overflow: hidden;
+    }
+
+    .loading-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      background: linear-gradient(135deg, #E65100 0%, #FF6D00 100%);
+    }
+
+    .loading-icon {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 24px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    .loading-text {
+      color: white;
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top-color: white;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.8; }
+    }
+
+    /* Install prompt styles */
+    .install-prompt {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+
+    .install-prompt.show {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .install-prompt-text {
+      flex: 1;
+      font-size: 14px;
+    }
+
+    .install-prompt-btn {
+      padding: 8px 16px;
+      background: #E65100;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .install-prompt-close {
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading screen shown before Flutter loads -->
+  <div id="loading" class="loading-container">
+    <svg class="loading-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="50" cy="50" r="45" stroke="white" stroke-width="4" fill="none" opacity="0.3"/>
+      <path d="M30 50 L45 35 L55 45 L70 30" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="30" cy="70" r="12" stroke="white" stroke-width="3" fill="none"/>
+      <circle cx="70" cy="70" r="12" stroke="white" stroke-width="3" fill="none"/>
+      <line x1="42" y1="70" x2="58" y2="70" stroke="white" stroke-width="3"/>
+    </svg>
+    <div class="loading-text">Moto Rally</div>
+    <div class="loading-spinner"></div>
+  </div>
+
+  <!-- Install prompt for PWA -->
+  <div id="install-prompt" class="install-prompt">
+    <div class="install-prompt-text">
+      <strong>Install Moto Rally</strong><br>
+      Add to your home screen for the best experience
+    </div>
+    <button id="install-btn" class="install-prompt-btn">Install</button>
+    <button id="install-close" class="install-prompt-close">&times;</button>
+  </div>
+
+  <script src="flutter_bootstrap.js" async></script>
+
+  <script>
+    // PWA Install prompt handling
+    let deferredPrompt;
+    const installPrompt = document.getElementById('install-prompt');
+    const installBtn = document.getElementById('install-btn');
+    const installClose = document.getElementById('install-close');
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+
+      // Show install prompt after a delay
+      setTimeout(() => {
+        installPrompt.classList.add('show');
+      }, 3000);
+    });
+
+    installBtn.addEventListener('click', async () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`User ${outcome} the install prompt`);
+        deferredPrompt = null;
+        installPrompt.classList.remove('show');
+      }
+    });
+
+    installClose.addEventListener('click', () => {
+      installPrompt.classList.remove('show');
+    });
+
+    // Hide loading screen when Flutter is ready
+    window.addEventListener('flutter-first-frame', function() {
+      const loading = document.getElementById('loading');
+      if (loading) {
+        loading.style.opacity = '0';
+        loading.style.transition = 'opacity 0.3s ease';
+        setTimeout(() => {
+          loading.remove();
+        }, 300);
+      }
+    });
+
+    // Register service worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=492498878').then(
+          function (registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+          },
+          function (err) {
+            console.log('Service Worker registration failed:', err);
+          }
+        );
+      });
+    }
+  </script>
+</body>
+</html>
