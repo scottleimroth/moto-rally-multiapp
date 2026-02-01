@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "Woodquott ~242~ MDFFMD" "\0"
+            VALUE "CompanyName", "Woodsqott ~242~ MDFFMD" "\0"
             VALUE "FileDescription", "Moto Rally Aggregator" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "moto_rally" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 Woodquott ~242~ MDFFMD. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 Woodsqott ~242~ MDFFMD. All rights reserved." "\0"
             VALUE "OriginalFilename", "moto_rally.exe" "\0"
             VALUE "ProductName", "Moto Rally Aggregator" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"

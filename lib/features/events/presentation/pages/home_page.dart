@@ -305,7 +305,7 @@ class EventsContent extends StatelessWidget {
             ),
           ),
           child: Text(
-            '\u00A9 2026 Woodquott ~242~ MDFFMD',
+            '\u00A9 2026 Woodsqott ~242~ MDFFMD',
             style: Theme.of(context).textTheme.bodySmall,
             textAlign: TextAlign.center,
           ),
