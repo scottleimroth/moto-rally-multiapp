@@ -103,3 +103,7 @@ pids
 # Generated files
 *.g.dart
 *.freezed.dart
+
+# Ignore Android local files created by builds/IDE
+android/local.properties
+android/.gradle/
