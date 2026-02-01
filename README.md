@@ -1,93 +1,94 @@
-# Moto Rally Aggregator
+# Moto Rally Australia
 
-A cross-platform Flutter application that aggregates Australian motorcycle rally and event information from multiple sources.
+**Free Australian Motorcycle Events Aggregator**
 
-![Flutter](https://img.shields.io/badge/Flutter-3.16+-blue.svg)
-![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20Web%20%7C%20Android-green.svg)
+Find upcoming motorcycle rallies, swap meets, track days, and club events across Australia - all in one place.
 
-## Download & Install
+![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20Web%20%7C%20Android-orange.svg)
+![License](https://img.shields.io/badge/License-Free-green.svg)
+![Events](https://img.shields.io/badge/Events-Auto--Updated%20Weekly-blue.svg)
 
-| Platform | Download | Instructions |
-|----------|----------|--------------|
-| **Web App** | [moto-rally-multiapp.pages.dev](https://moto-rally-multiapp.pages.dev) | Open in browser, works offline as PWA |
-| **Android** | [`dist/android/moto-rally.apk`](dist/android/moto-rally.apk) | Enable "Install from unknown sources", install APK |
-| **Windows** | [`dist/windows/moto-rally.exe`](dist/windows/) | Download and run (coming soon) |
+## Download & Use
+
+| Platform | Download | How to Use |
+|----------|----------|------------|
+| **Web App** | [moto-rally-multiapp.pages.dev](https://moto-rally-multiapp.pages.dev) | Open in any browser - works offline! |
+| **Android** | [Download APK](dist/android/moto-rally.apk) | Enable "Install from unknown sources", tap to install |
+| **Windows** | [Download EXE](dist/windows/) | Download the `dist/windows` folder, run `moto-rally.exe` |
+
+**100% Free** - No ads, no tracking, no sign-up required.
 
 ## Features
 
-- **Multi-Source Aggregation**: Fetches events from 19+ Australian motorcycle sources including:
-  - Just Bikes Australia
-  - Old Bike Australasia
-  - Motorcycling Australia, QLD, NSW, VIC
-  - BMW, Ducati, Harley-Davidson, Triumph clubs
-  - Classic Owners SA, VMCC NSW, Indian MC
-  - And more...
+- **60+ Events** from 19 Australian motorcycle sources
+- **Auto-Updates Weekly** - Events scraped every Sunday via GitHub Actions
+- **Works Offline** - Save events to your watchlist for areas with no reception
+- **Filter by State** - NSW, VIC, QLD, SA, WA, TAS, NT, ACT
+- **Filter by Type** - Rallies, Swap Meets, Track Days, Club Rides, Shows
+- **Search** - Find events by name, location, or description
 
-- **Automatic Updates**: Events are automatically scraped and updated weekly via GitHub Actions
+## Event Sources
 
-- **Cross-Platform**: Single Flutter codebase builds for Windows, Web, and Android
+Events are automatically scraped from:
+- Just Bikes Australia
+- Old Bike Australasia
+- Motorcycling Australia (National, QLD, NSW, VIC)
+- BMW Motorcycle Club
+- Ducati Owners Club
+- Harley-Davidson Clubs
+- Triumph Owners
+- Classic Owners SA
+- VMCC NSW
+- Indian Motorcycle Club
+- And more...
 
-- **Offline Watchlist**: Save events for viewing in areas with no reception
+## Screenshots
 
-- **Responsive Design**:
-  - Multi-column dashboard on desktop/tablet
-  - Single-column scroll view on mobile
-  - High-contrast themes for outdoor visibility
-  - Large touch targets (44px minimum)
+The app features a clean, easy-to-read interface designed for motorcyclists:
+- Dark theme for outdoor visibility
+- Large touch targets for gloved hands
+- Event details with maps and sharing
 
-- **Filtering**: Filter events by:
-  - Australian State (NSW, VIC, QLD, etc.)
-  - Category (Swap Meet, Rally, Track Day, etc.)
-  - Search text
+## Technical Details
 
-## Project Structure
+Built with Flutter for true cross-platform support from a single codebase:
+- **Web**: Progressive Web App (PWA) with offline caching
+- **Android**: Native APK
+- **Windows**: Native desktop application
 
-```
-moto-rally-multiapp/
-├── dist/                    # Ready-to-use apps
-│   ├── android/
-│   │   └── moto-rally.apk   # Android app
-│   ├── web/                 # Web app files
-│   └── windows/             # Windows app (coming soon)
-│       └── moto-rally.exe
-├── lib/                     # Flutter source code
-├── assets/data/events.json  # Scraped event data
-├── scripts/                 # Python scraper
-└── .github/workflows/       # Auto-update automation
-```
+Events are scraped using Python and automatically committed to the repo weekly.
 
-## Development
+## For Developers
 
 ```bash
-# Clone the repository
+# Clone and run locally
 git clone https://github.com/scottleimroth/moto-rally-multiapp.git
 cd moto-rally-multiapp
-
-# Install dependencies
 flutter pub get
-
-# Run on your preferred platform
 flutter run -d chrome    # Web
 flutter run -d windows   # Windows
 flutter run -d android   # Android
 ```
 
-## Build
+### Build Commands
 
 ```bash
 # Android APK
 flutter build apk --release
-cp build/app/outputs/flutter-apk/app-release.apk dist/android/moto-rally.apk
 
 # Web PWA
 flutter build web --release
-cp -r build/web/* dist/web/
 
-# Windows EXE (requires Visual Studio)
+# Windows EXE
 flutter build windows --release
-cp -r build/windows/x64/runner/Release/* dist/windows/
 ```
+
+## Contributing
+
+Found a bug or want to add an event source? Pull requests welcome!
 
 ## License
 
 © 2026 Woodsqott ~242~ MDFFMD. All rights reserved.
+
+Free for personal use. Not for resale.
