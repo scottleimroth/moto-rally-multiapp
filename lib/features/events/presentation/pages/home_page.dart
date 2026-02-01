@@ -291,6 +291,25 @@ class EventsContent extends StatelessWidget {
             },
           ),
         ),
+
+        // Copyright footer
+        Container(
+          padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
+          decoration: BoxDecoration(
+            color: Theme.of(context).colorScheme.surface,
+            border: Border(
+              top: BorderSide(
+                color: Theme.of(context).dividerColor,
+                width: 1,
+              ),
+            ),
+          ),
+          child: Text(
+            '\u00A9 2026 Woodquott ~242~ MDFFMD',
+            style: Theme.of(context).textTheme.bodySmall,
+            textAlign: TextAlign.center,
+          ),
+        ),
       ],
     );
   }
