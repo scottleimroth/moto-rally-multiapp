@@ -54,8 +54,6 @@ flutter_launcher_icons:
   android: true
   ios: false
   image_path: "moto-rally-icon.png"
-  adaptive_icon_background: "#1a1a2e"
-  adaptive_icon_foreground: "moto-rally-icon.png"
 
 flutter:
   uses-material-design: true
