@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-01T11:43:36.370173",
-  "totalEvents": 70,
+  "lastUpdated": "2026-02-08T02:35:05.173924",
+  "totalEvents": 66,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,61 +24,6 @@
   ],
   "errors": [],
   "events": [
-    {
-      "id": "2200f21851ba",
-      "title": "Big Hot Licola Ride",
-      "description": "1 Feb 2026 Big Hot Licola Ride",
-      "startDate": "2026-02-01",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://www.docv.org/event-6473519",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
-      "id": "45aaabefc3c0",
-      "title": "2026 \"Ride to Remember\". The Grampians.",
-      "description": "1 Feb 2026 2026 \"Ride to Remember\". The Grampians.",
-      "startDate": "2026-02-01",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://www.docv.org/event-6431334",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
-      "id": "1497ca4b554c",
-      "title": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 5 February 2026",
-      "description": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 5 February 2026 Multi-Day Weekend Ride - Victorian High Country - VIC (Club Event)",
-      "startDate": "2026-02-05",
-      "location": "",
-      "state": "VIC",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468894?CalendarViewType=1&SelectedDate=2/1/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "25fbde3f1bfb",
-      "title": "Ride To Nug Nug 26",
-      "description": "All day Ride To Nug Nug 26",
-      "startDate": "2026-02-06",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://tomcc.com.au/event/ride-to-nug-nug-26/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
-    {
-      "id": "ae9bc45c3e48",
-      "title": "2026 Nug Nug Rally",
-      "description": "February 6 @ 13:00 - February 8 @ 11:00 2026 Nug Nug Rally",
-      "startDate": "2026-02-06",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://tomcc.com.au/event/2026-nug-nug-rally/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
     {
       "id": "c6b5ded5e0c0",
       "title": "Bridgetstone Festival of Speed 7-8 February 2026",
@@ -208,7 +153,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468896?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468896?CalendarViewType=1&SelectedDate=2/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -366,39 +311,6 @@
       "sourceName": "VMCC NSW"
     },
     {
-      "id": "0f727d31babb",
-      "title": "2026 Lang Lang Shownshine plus SwapmeetFeb 8thVIC, 3984",
-      "description": "2026 Lang Lang Shownshine plus Swapmeet Feb 8th VIC, 3984",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/2026-lang-lang-shownshine-plus-swapmeet/1070560",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "3d8f40bea3ab",
-      "title": "VCCA SOUTH-OLD BEACH CAR SHOW & SWAPFeb 8thTAS, 7017",
-      "description": "VCCA SOUTH-OLD BEACH CAR SHOW & SWAP Feb 8th TAS, 7017",
-      "startDate": null,
-      "location": "",
-      "state": "WA",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/vcca-south-old-beach-car-show-swap/1059595",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "9d9dcdcc0bbb",
-      "title": "EURO-TAS 26Feb 8thTAS, 7248",
-      "description": "EURO-TAS 26 Feb 8th TAS, 7248",
-      "startDate": null,
-      "location": "",
-      "state": "TAS",
-      "category": "other",
-      "sourceUrl": "https://www.justbikes.com.au/events/euro-tas-26/1063100",
-      "sourceName": "Just Bikes"
-    },
-    {
       "id": "1e8df9dcf949",
       "title": "Tommys Motorcycle Show & Swap MeetFeb 15thTAS, 7315",
       "description": "Tommys Motorcycle Show & Swap Meet Feb 15th TAS, 7315",
@@ -498,6 +410,39 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "723d9c1e7937",
+      "title": "42nd Annual Horsham Automotive Swap MeetApr 11thVIC, 3400",
+      "description": "42nd Annual Horsham Automotive Swap Meet Apr 11th VIC, 3400",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/42nd-annual-horsham-automotive-swap-meet/1063023",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "07e0784d3a0a",
+      "title": "26th Annual Motorcycle Only Swap MeetApr 12thVIC, 3179",
+      "description": "26th Annual Motorcycle Only Swap Meet Apr 12th VIC, 3179",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/26th-annual-motorcycle-only-swap-meet/1064173",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "fe6aa521b177",
+      "title": "21st Mildura MeanderMay 16thVIC, 3500",
+      "description": "21st Mildura Meander May 16th VIC, 3500",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "other",
+      "sourceUrl": "https://www.justbikes.com.au/events/21st-mildura-meander/1072074",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "fe73c38f75c1",
       "title": "BMW Clubs Australia National Motorrad Rally",
       "description": "25 Mar @ 08:00 – 27 Mar @ 17:00 UTC+10 BMW Clubs Australia National Motorrad Rally",
@@ -538,7 +483,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979222?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979222?CalendarViewType=1&SelectedDate=2/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -549,7 +494,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6378204?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6378204?CalendarViewType=1&SelectedDate=2/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -560,7 +505,7 @@
       "location": "",
       "state": "NT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6432514?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6432514?CalendarViewType=1&SelectedDate=2/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -571,7 +516,7 @@
       "location": "",
       "state": "VIC",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6439571?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6439571?CalendarViewType=1&SelectedDate=2/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -582,7 +527,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6026911?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6026911?CalendarViewType=1&SelectedDate=2/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -593,7 +538,18 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6496981?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6496981?CalendarViewType=1&SelectedDate=2/8/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "56bec55099ff",
+      "title": "Saturday Ride - Majors Creek, NSW (Club Event)",
+      "description": "Saturday Ride - Majors Creek, NSW (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=2/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -604,7 +560,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=2/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=2/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -687,12 +643,12 @@
     {
       "id": "01c2b70e3121",
       "title": "Triumph Owners Motorcycle Club of Australia (TOMCC)",
-      "description": "Triumph Owners Motorcycle Club of Australia (TOMCC) Register Now For Nug Nug Join us for the 2026 Rally at Nug Nug Reserve!  (near Myrtleford) The annual Triumph Owners Motorcycle Club’s Nulli Secundus Rally is happening again in 2026 – Friday 6th. February 2026 1:00 PM – Sunday 8th  February 2026 11:00AM More details Here NUG NUG Rally 2026 Click Image for More Nug Nug Details The Triumph Owners Motorcycle Club of Australia (TOMCC) is more than just a group of motorcycle enthusiasts; we are a c",
+      "description": "Triumph Owners Motorcycle Club of Australia (TOMCC) Online Entries Closed - Buy Tickets at the Gate Join us for the 2026 Rally at Nug Nug Reserve!  (near Myrtleford) The annual Triumph Owners Motorcycle Club’s Nulli Secundus Rally is happening again in 2026 – Friday 6th. February 2026 1:00 PM – Sunday 8th  February 2026 11:00AM More details Here NUG NUG Rally 2026 Click Image for More Nug Nug Details The Triumph Owners Motorcycle Club of Australia (TOMCC) is more than just a group of motorcycle ",
       "startDate": null,
       "location": "",
       "state": "VIC",
       "category": "rally",
-      "sourceUrl": "https://www.trybooking.com/DHHCB",
+      "sourceUrl": "https://tomcc.com.au/event/2026-nug-nug-rally/",
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
