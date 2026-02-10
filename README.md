@@ -8,13 +8,13 @@ Find upcoming motorcycle rallies, swap meets, track days, and club events across
 ![License](https://img.shields.io/badge/License-Free-green.svg)
 ![Events](https://img.shields.io/badge/Events-Auto--Updated%20Weekly-blue.svg)
 
-## Download & Use
+## Available Platforms
 
-| Platform | Download | How to Use |
-|----------|----------|------------|
-| **Web App** | [moto-rally-multiapp.pages.dev](https://moto-rally-multiapp.pages.dev) | Open in any browser - works offline! |
-| **Android** | [Download APK](dist/android/moto-rally.apk) | Enable "Install from unknown sources", tap to install |
-| **Windows** | [Download EXE](dist/windows/) | Download the `dist/windows` folder, run `moto-rally.exe` |
+| Platform | How to Get It |
+|----------|---------------|
+| Web App | [Launch in browser](https://moto-rally-multiapp.pages.dev) — works offline! |
+| Android | [Download APK](https://github.com/scottleimroth/moto-rally-multiapp/releases/latest/download/moto-rally.apk) — enable "Unknown sources" to install |
+| Windows | [Download EXE](https://github.com/scottleimroth/moto-rally-multiapp/releases/latest) — run directly, no install needed |
 
 **100% Free** - No ads, no tracking, no sign-up required.
 

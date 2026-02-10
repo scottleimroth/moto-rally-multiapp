@@ -1,3 +1,11 @@
+# Credentials - NEVER commit
+CREDENTIALS.md
+.env
+.env.*
+*.key
+*.pem
+*.p12
+
 # Miscellaneous
 *.class
 *.log
