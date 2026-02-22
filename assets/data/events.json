@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-15T02:22:39.564207",
-  "totalEvents": 67,
+  "lastUpdated": "2026-02-22T02:10:59.020513",
+  "totalEvents": 63,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -25,83 +25,6 @@
   "errors": [],
   "events": [
     {
-      "id": "4650538ddc54",
-      "title": "Classic & Enthusiasts MCC NSW 43rd Annual Orange Rally 14-15 February 2026",
-      "description": "Classic & Enthusiasts MCC NSW 43rd Annual Orange Rally 14-15 February 2026 – HQ at Scout Camp, Lake Canobolas NSW For entry form email: cemccorange@gmail.com or contact PO Box 431 Orange NSW 2800 or Rick Kent 0400 109 751 or Brian Corey 0439 784 737. Saturday and Sunday rides, presentation dinner Saturday night. _______________________________________",
-      "startDate": "2026-02-15",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "mailto:cemccorange@gmail.com",
-      "sourceName": "Old Bike Australasia"
-    },
-    {
-      "id": "04ad783983a6",
-      "title": "North Coast Classic Motorcycle Show & Swap 15 February 2026",
-      "description": "North Coast Classic Motorcycle Show & Swap 15 February 2026 – Alstonville Showgrounds, Alstonville, northern NSW Enquiries: Col McAndrew 0428 869 889 Em: col_aqua@yahoo.com.au _______________________________________",
-      "startDate": "2026-02-15",
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "mailto:col_aqua@yahoo.com.au",
-      "sourceName": "Old Bike Australasia"
-    },
-    {
-      "id": "50a2d860d51c",
-      "title": "Ride TBA Place holder. Make a note in your diary",
-      "description": "15 Feb 2026 Ride TBA Place holder. Make a note in your diary",
-      "startDate": "2026-02-15",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://www.docv.org/event-6431325",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
-      "id": "548c03c9221d",
-      "title": "Club Events",
-      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
-      "startDate": "2026-02-17",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
-      "id": "be32bd09745c",
-      "title": "February Monthly General Meeting",
-      "description": "19:00 - 20:00 February Monthly General Meeting",
-      "startDate": "2026-02-17",
-      "location": "",
-      "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://tomcc.com.au/event/february-monthly-general-meeting-26/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
-    {
-      "id": "daa35ea635c4",
-      "title": "Midweek Ride",
-      "description": "9:30 am - 4:00 pm Midweek Ride",
-      "startDate": "2026-02-17",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/midweek-ride-10/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "1f788ea88544",
-      "title": "Committee Meeting",
-      "description": "7:30 pm - 9:00 pm Committee Meeting",
-      "startDate": "2026-02-17",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/committee-meeting-5/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
       "id": "7f690c049111",
       "title": "42nd All British Day 22 February 2026",
       "description": "42nd All British Day 22 February 2026 – Echunga Showgrounds SA For British-built motorcycles, cars, trucks, tractors and boats. Over 700 vehicles regularly displayed. Free parking, family entertainment. For info visit https://www.allbritishday.com _______________________________________",
@@ -111,6 +34,17 @@
       "category": "show",
       "sourceUrl": "https://www.allbritishday.com",
       "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "503abfcdcb46",
+      "title": "Chris's Murrindindi Meander",
+      "description": "22 Feb 2026 Chris's Murrindindi Meander",
+      "startDate": "2026-02-22",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://www.docv.org/event-6552197",
+      "sourceName": "Ducati Owners Club Victoria"
     },
     {
       "id": "03906d3f7d69",
@@ -135,6 +69,28 @@
       "sourceName": "Old Bike Australasia"
     },
     {
+      "id": "42cf7778e061",
+      "title": "Weekend Run",
+      "description": "9:30 am - 4:00 pm Weekend Run",
+      "startDate": "2026-03-01",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/weekend-run/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "76841394c09f",
+      "title": "Midweek Run",
+      "description": "9:30 am - 4:00 pm Midweek Run",
+      "startDate": "2026-03-04",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/midweek-run/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "14b21a84048e",
       "title": "Weekday Ride to Lunch - Braidwood, NSW (Club Event)",
       "description": "Weekday Ride to Lunch - Braidwood, NSW (Club Event) BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 5 March 2026 Proposed 3 Day GS Adventure Ride – Snowy River Country – NSW/VIC (Club Event)",
@@ -142,8 +98,19 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569184?CalendarViewType=1&SelectedDate=2/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569184?CalendarViewType=1&SelectedDate=2/22/2026",
       "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "c8381d4a2c96",
+      "title": "Club Events",
+      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
+      "startDate": "2026-03-07",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
+      "sourceName": "Ducati Owners Club Victoria"
     },
     {
       "id": "045f45494ddd",
@@ -179,15 +146,37 @@
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
-      "id": "037be6e38407",
-      "title": "Flocking to Flowerdale? or somewhere else",
-      "description": "March 14 - March 15 Flocking to Flowerdale? or somewhere else",
+      "id": "139abfa2c77c",
+      "title": "Walhalla Via the Windies",
+      "description": "09:30 - 14:00 Walhalla Via the Windies",
       "startDate": "2026-03-14",
+      "location": "",
+      "state": "WA",
+      "category": "other",
+      "sourceUrl": "https://tomcc.com.au/event/walhalla-via-the-windies/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "79b867d54558",
+      "title": "Midweek Ride",
+      "description": "9:30 am - 4:00 pm Midweek Ride",
+      "startDate": "2026-03-17",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/midweek-ride-9/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "14f2f236cb38",
+      "title": "Committee Meeting",
+      "description": "7:30 pm - 9:30 pm Committee Meeting",
+      "startDate": "2026-03-17",
       "location": "",
       "state": "ALL",
       "category": "other",
-      "sourceUrl": "https://tomcc.com.au/event/flocking-to-flowerdale-or-somewhere-else/",
-      "sourceName": "Triumph Owners MCC Australia"
+      "sourceUrl": "https://classicowners.org/event/committee-meeting-6/",
+      "sourceName": "Classic Owners MC SA"
     },
     {
       "id": "4f367890182d",
@@ -201,6 +190,17 @@
       "sourceName": "Old Bike Australasia"
     },
     {
+      "id": "4d9c3eaf0161",
+      "title": "General Meeting",
+      "description": "7:30 pm - 9:30 pm General Meeting",
+      "startDate": "2026-03-24",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/general-meeting-5/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "882d422daea4",
       "title": "Moto Piccolo 28-29 March 2026",
       "description": "Moto Piccolo 28-29 March 2026 – Crookwell NSW The Classic Italian Motorcycle Association of Australia (CIMAA NSW) celebrates Italian motorcycles and scooters, 500cc and under. Info: Gary Pratt – Em: cimaansw@gmail.com _______________________________________",
@@ -210,6 +210,28 @@
       "category": "other",
       "sourceUrl": "mailto:cimaansw@gmail.com",
       "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "15c3a16f543b",
+      "title": "Weekend Run",
+      "description": "9:30 am - 4:00 pm Weekend Run",
+      "startDate": "2026-03-29",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/weekend-run-3/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "45de5df04e60",
+      "title": "Midweek Ride",
+      "description": "9:30 am - 4:00 pm Midweek Ride",
+      "startDate": "2026-04-01",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/midweek-ride-11/",
+      "sourceName": "Classic Owners MC SA"
     },
     {
       "id": "c677abb3daab",
@@ -245,61 +267,6 @@
       "sourceName": "Old Bike Australasia"
     },
     {
-      "id": "19d0c6bf6cd5",
-      "title": "Mopeds Plus : Gumeracha Glide",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : Gumeracha Glide",
-      "startDate": "2026-05-10",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-gumeracha-glide/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "f4ce4f2a1193",
-      "title": "Log Book Day 2026",
-      "description": "9:00 am - 1:00 pm Log Book Day 2026",
-      "startDate": "2026-06-13",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/log-book-day-2026/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "b16159c74eea",
-      "title": "Mopeds Plus : Strathalbyn Stroll",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : Strathalbyn Stroll",
-      "startDate": "2026-06-14",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-strathalbyn-stroll/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "f9be099770e0",
-      "title": "Mopeds Plus : Mt Torrens Trek",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : Mt Torrens Trek",
-      "startDate": "2026-07-12",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-mt-torrens-trek/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "5a6de2e9eecd",
-      "title": "Mopeds Plus : Williamstown Wander 2",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : Williamstown Wander 2",
-      "startDate": "2026-08-09",
-      "location": "",
-      "state": "WA",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-williamstown-wander-2/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
       "id": "78718b4befdb",
       "title": "BMW Clubs Australia Cars National Rally",
       "description": "18 Mar 2027 @ 08:00 – 21 Mar 2027 @ 17:00 UTC+10 BMW Clubs Australia Cars National Rally",
@@ -320,28 +287,6 @@
       "category": "swap_meet",
       "sourceUrl": "https://vmccnsw.org.au/wp-content/uploads/2026/01/Bathurst-Easter-Tour-2026-Entry-Form.pdf",
       "sourceName": "VMCC NSW"
-    },
-    {
-      "id": "e94f715cb442",
-      "title": "Bi Annual Swap MeetFeb 21stVIC, 3202",
-      "description": "Bi Annual Swap Meet Feb 21st VIC, 3202",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/bi-annual-swap-meet/1060963",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "683de333f94c",
-      "title": "North Coast Show n ShineFeb 22ndNSW, 2478",
-      "description": "North Coast Show n Shine Feb 22nd NSW, 2478",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "show",
-      "sourceUrl": "https://www.justbikes.com.au/events/north-coast-show-n-shine/1072895",
-      "sourceName": "Just Bikes"
     },
     {
       "id": "372334936fed",
@@ -454,6 +399,17 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "9c6ed0f5f2ca",
+      "title": "The 50th Anniversary Rally of the R100RS and other /7Sep 20thNSW, 2580",
+      "description": "The 50th Anniversary Rally of the R100RS and other /7 Sep 20th NSW, 2580",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.justbikes.com.au/events/the-50th-anniversary-rally-of-the-r100rs-and-other-7/1077057",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "fe73c38f75c1",
       "title": "BMW Clubs Australia National Motorrad Rally",
       "description": "25 Mar @ 08:00 – 27 Mar @ 17:00 UTC+10 BMW Clubs Australia National Motorrad Rally",
@@ -494,7 +450,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979222?CalendarViewType=1&SelectedDate=2/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979222?CalendarViewType=1&SelectedDate=2/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -505,7 +461,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6378204?CalendarViewType=1&SelectedDate=2/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6378204?CalendarViewType=1&SelectedDate=2/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -516,7 +472,7 @@
       "location": "",
       "state": "NT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6432514?CalendarViewType=1&SelectedDate=2/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6432514?CalendarViewType=1&SelectedDate=2/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -527,7 +483,7 @@
       "location": "",
       "state": "VIC",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6439571?CalendarViewType=1&SelectedDate=2/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6439571?CalendarViewType=1&SelectedDate=2/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -538,7 +494,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6026911?CalendarViewType=1&SelectedDate=2/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6026911?CalendarViewType=1&SelectedDate=2/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -549,7 +505,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6496981?CalendarViewType=1&SelectedDate=2/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6496981?CalendarViewType=1&SelectedDate=2/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -560,7 +516,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=2/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=2/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -571,7 +527,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=2/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=2/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -637,7 +593,7 @@
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://32europeanhogrally2026.widetravel.pt/home/wide.php?lang=ENG",
+      "sourceUrl": "https://32europeanhogrally2026.widetravel.pt/home/wide.php",
       "sourceName": "Harley-Davidson Australia"
     },
     {
