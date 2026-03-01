@@ -20,8 +20,8 @@ class EventsRemoteDatasource {
 
   /// Fetch all events - tries remote JSON first, then bundled JSON, then scraper fallback
   Future<ScraperResult> fetchEvents() async {
-    List<MotorcycleEvent> events = [];
-    List<ScraperError> errors = [];
+    final List<MotorcycleEvent> events = [];
+    final List<ScraperError> errors = [];
 
     // Try 1: Fetch fresh JSON from GitHub (for web/desktop with network)
     try {
@@ -114,7 +114,7 @@ class EventsRemoteDatasource {
     final Map<String, dynamic> data = json.decode(jsonString);
     final List<dynamic> eventsData = data['events'] ?? [];
 
-    return eventsData.map((e) => _eventFromJson(e)).toList();
+    return eventsData.map(_eventFromJson).toList();
   }
 
   /// Convert JSON map to MotorcycleEvent
