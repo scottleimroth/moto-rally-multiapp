@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-22T02:10:59.020513",
-  "totalEvents": 63,
+  "lastUpdated": "2026-03-01T02:24:41.397174",
+  "totalEvents": 77,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -25,42 +25,9 @@
   "errors": [],
   "events": [
     {
-      "id": "7f690c049111",
-      "title": "42nd All British Day 22 February 2026",
-      "description": "42nd All British Day 22 February 2026 – Echunga Showgrounds SA For British-built motorcycles, cars, trucks, tractors and boats. Over 700 vehicles regularly displayed. Free parking, family entertainment. For info visit https://www.allbritishday.com _______________________________________",
-      "startDate": "2026-02-22",
-      "location": "",
-      "state": "SA",
-      "category": "show",
-      "sourceUrl": "https://www.allbritishday.com",
-      "sourceName": "Old Bike Australasia"
-    },
-    {
-      "id": "503abfcdcb46",
-      "title": "Chris's Murrindindi Meander",
-      "description": "22 Feb 2026 Chris's Murrindindi Meander",
-      "startDate": "2026-02-22",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://www.docv.org/event-6552197",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
-      "id": "03906d3f7d69",
-      "title": "General Meeting",
-      "description": "7:30 pm - 9:30 pm General Meeting",
-      "startDate": "2026-02-24",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/general-meeting-4/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "a3c93ab9ee65",
-      "title": "Laurie Fox Memorial Classic Masters of Mac Park 27 Feb-1 March 2026",
-      "description": "Laurie Fox Memorial Classic Masters of Mac Park 27 Feb-1 March 2026 – McNamara Park Raceway, 606 Mitchell Rd, Moorak SA Plenty of track time, camping available. Details: www.macparkraceway.org.au , Facebook.com/Macparkmotorcycleclub _______________________________________",
+      "id": "ecfef22d8b99",
+      "title": "Laurie Fox Memorial Classic Masters of Mac Park 27 Feb–1 March 2026",
+      "description": "Laurie Fox Memorial Classic Masters of Mac Park 27 Feb–1 March 2026 – McNamara Park Raceway, 606 Mitchell Rd, Moorak SA Plenty of track time, camping available. Details: www.macparkraceway.org.au or Facebook.com/Macparkmotorcycleclub",
       "startDate": "2026-03-01",
       "location": "",
       "state": "WA",
@@ -98,7 +65,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569184?CalendarViewType=1&SelectedDate=2/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569184?CalendarViewType=1&SelectedDate=3/1/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -115,12 +82,12 @@
     {
       "id": "045f45494ddd",
       "title": "Daytona Bike Week",
-      "description": "Daytona Bike Week Daytona Beach, Florida February 28–March 7, 2026 Join us down south at the 85th year of this world-famous bike week. Featuring live entertainment, races, bike shows, demo rides, and more.",
+      "description": "Daytona Bike Week Daytona Beach, Florida February 28–March 7, 2026 Join us down south at the 85th year of this world-famous bike week. Featuring live entertainment, races, bike shows, demo rides, and more. See Details",
       "startDate": "2026-03-07",
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://www.harley-davidson.com/au/en/content/event-calendar.html",
+      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/event-calendar/daytona-bike-week.html",
       "sourceName": "Harley-Davidson Australia"
     },
     {
@@ -181,7 +148,7 @@
     {
       "id": "4f367890182d",
       "title": "Goulburn CRCG Motorcycle Only Swap Meet 22 March 2026",
-      "description": "Goulburn CRCG Motorcycle Only Swap Meet 22 March 2026 – Goulburn NSW Contact Cherrie Thrower – Em: secretary@classicridersclubgoulburn.com.au _______________________________________",
+      "description": "Goulburn CRCG Motorcycle Only Swap Meet 22 March 2026 – Goulburn NSW Hunt for treasures and unearth hard-to-find gems. Organised by the Classic Riders Club Goulburn. Contact: Cherrie Thrower Email: secretary@classicridersclubgoulburn.com.au",
       "startDate": "2026-03-22",
       "location": "",
       "state": "NSW",
@@ -201,9 +168,9 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
-      "id": "882d422daea4",
-      "title": "Moto Piccolo 28-29 March 2026",
-      "description": "Moto Piccolo 28-29 March 2026 – Crookwell NSW The Classic Italian Motorcycle Association of Australia (CIMAA NSW) celebrates Italian motorcycles and scooters, 500cc and under. Info: Gary Pratt – Em: cimaansw@gmail.com _______________________________________",
+      "id": "bd08f4fee6da",
+      "title": "Moto Piccolo 28–29 March 2026",
+      "description": "Moto Piccolo 28–29 March 2026 – Crookwell NSW The Classic Italian Motorcycle Association of Australia (CIMAA NSW) celebrates Italian motorcycles and scooters, 500cc and under. Info: Gary Pratt Email: cimaansw@gmail.com",
       "startDate": "2026-03-29",
       "location": "",
       "state": "NSW",
@@ -234,9 +201,31 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
-      "id": "c677abb3daab",
-      "title": "Scoresby Swap Meet 12 April 2026 –National Steam Centre, 1200 Ferntree Gully Rd, Scoresby VIC Presen",
-      "description": "Scoresby Swap Meet 12 April 2026 –National Steam Centre, 1200 Ferntree Gully Rd, Scoresby VIC Presented by Vintage Motorcycle Club of Vic. Gates open 6am for stallholders, booking not required. General public entry 7am -12 noon. Entry $10 per person, Swap Site $20 per site. Veteran, Vintage, Classic and Modern parts and machines. Contacts: Lindsay Wheeler 0477 057 732, Brian Tyler 0411 556 755,  Alan Scoble 0418 376 099. Website: https://vmcc.com.au/ _______________________________________",
+      "id": "872d1cbfa683",
+      "title": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 2 April 2026",
+      "description": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 2 April 2026 Easter (ACT Public Holiday)",
+      "startDate": "2026-04-02",
+      "location": "",
+      "state": "ACT",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "2239de5960dd",
+      "title": "Bathurst Motorcycle Enthusiasts Club 51st Easter Bathurst Tour 29 March–5 April 2026",
+      "description": "Bathurst Motorcycle Enthusiasts Club 51st Easter Bathurst Tour 29 March–5 April 2026 – HQ at Bathurst Showgrounds, Bathurst NSW For motorcycles up to 1990. Rides every day to a different destination. Daily de-brief at HQ from 16.30 (free limited drinks). Informal dinner (PAYG) at Bathurst RSL Club, Thursday 9 April from 6pm. Contact: Clyde Ikin 0401 773 042 Email: Bathursteastertour@gmail.com",
+      "startDate": "2026-04-05",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "mailto:Bathursteastertour@gmail.com",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "a23ea625da23",
+      "title": "Scoresby Swap Meet 12 April 2026",
+      "description": "Scoresby Swap Meet 12 April 2026 – National Steam Centre, 1200 Ferntree Gully Rd, Scoresby VIC Presented by Vintage Motorcycle Club of Vic. Gates open 6am for stallholders, booking not required. General public entry 7am -12 noon. Entry $10 per person, Swap Site $20 per site. Veteran, Vintage, Classic and Modern parts and machines. Contacts: Lindsay Wheeler 0477 057 732, Brian Tyler 0411 556 755, Alan Scoble 0418 376 099 Website: https://vmcc.com.au/",
       "startDate": "2026-04-12",
       "location": "",
       "state": "VIC",
@@ -256,14 +245,212 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
-      "id": "4453bb6b9dec",
-      "title": "30th Annual Heart of the Hunter Rally 1-3 May 2026",
-      "description": "30th Annual Heart of the Hunter Rally 1-3 May 2026 – Singleton NSW Presented by the Singleton Classic Motorcycle Club. Entry form available on our website: singletonclassicmotorcycleclub.com or contact Rally Organiser Jacob Mb: 0422 072 901, Em: singletonclassicmcc@gmail.com or PO Box 255 Singleton 2330. _______________________________________",
+      "id": "a2dd15fa4ccf",
+      "title": "Midweek Ride",
+      "description": "9:30 am - 4:00 pm Midweek Ride",
+      "startDate": "2026-04-21",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/midweek-ride-12/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "5fc5631cf652",
+      "title": "30th Annual Heart of the Hunter Rally 1–3 May 2026",
+      "description": "30th Annual Heart of the Hunter Rally 1–3 May 2026 – Singleton NSW Presented by the Singleton Classic Motorcycle Club. Entry form available on our website. Contact: Jacob 0422 072 901 Email: singletonclassicmcc@gmail.com Website: singletonclassicmotorcycleclub.com",
       "startDate": "2026-05-03",
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://singletonclassicmotorcycleclub.com",
+      "sourceUrl": "mailto:singletonclassicmcc@gmail.com",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "020790dd2771",
+      "title": "Maleny Motorcycle Swap Meet 13 June 2026",
+      "description": "Maleny Motorcycle Swap Meet 13 June 2026 – Maleny Showgrounds, Maleny QLD Saturday only, hosted by Sunshine Coast HMCCQ. Free parking inside grounds. Entry $10 per person, Swap Sites $10. Access to main oval from 2pm Friday. Strictly no trading before 6am Saturday. Contact: Keith Canning 0429 000 178 Email: kcvelo@gmail.com",
+      "startDate": "2026-06-13",
+      "location": "",
+      "state": "QLD",
+      "category": "swap_meet",
+      "sourceUrl": "mailto:kcvelo@gmail.com",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "7af73f18404c",
+      "title": "NSW Junior & Senior Dirt Track Championship 4–5 July 2026",
+      "description": "NSW Junior & Senior Dirt Track Championship 4–5 July 2026 – Griffith Motorcycle Club, NSW A major two-day event bringing the dirt track community together. For 2026, juniors and seniors run together in a showcase championship that will be live-streamed. Details: www.motorcycling.com.au",
+      "startDate": "2026-07-05",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "http://www.motorcycling.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "ad876cd85be2",
+      "title": "NSW Enduro Championship (Rounds 5 & 6) 18–19 July 2026",
+      "description": "NSW Enduro Championship (Rounds 5 & 6) 18–19 July 2026 – Armidale, NSW Hosted by the Armidale Motorcycle Club, this weekend features two rounds of the 10-round state championship series, challenging riders on technical terrain. Details: www.motorcycling.com.au",
+      "startDate": "2026-07-19",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "http://www.motorcycling.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "5914ec25d54e",
+      "title": "NSW Classics & Post Classics Dirt Track Titles 1–2 August 2026",
+      "description": "NSW Classics & Post Classics Dirt Track Titles 1–2 August 2026 – City of Penrith Motorcycle Club, NSW Celebrate the golden era of dirt track racing at Nepean Raceway. A must-attend for fans of vintage machinery sliding sideways. Details: www.motorcycling.com.au",
+      "startDate": "2026-08-02",
+      "location": "",
+      "state": "NSW",
+      "category": "track",
+      "sourceUrl": "http://www.motorcycling.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "d95007bdf8fd",
+      "title": "NSW Road Race State Championship (Round 1) 1–2 August 2026",
+      "description": "NSW Road Race State Championship (Round 1) 1–2 August 2026 – Sydney Motorsport Park, NSW Hosted by St George MMC, this is the opening round of the state road racing title fight at the premier Eastern Creek circuit. Details: www.stgeorgemcc.com",
+      "startDate": "2026-08-02",
+      "location": "",
+      "state": "NSW",
+      "category": "track",
+      "sourceUrl": "http://www.stgeorgemcc.com",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "eaf428a31032",
+      "title": "NSW Enduro Championship (Rounds 7 & 8) 8–9 August 2026",
+      "description": "NSW Enduro Championship (Rounds 7 & 8) 8–9 August 2026 – Macleay Valley, NSW The state enduro series heads to the Macleay Valley for a double-header weekend hosted by the Macleay Valley Enduro Riders. Details: www.motorcycling.com.au",
+      "startDate": "2026-08-09",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "http://www.motorcycling.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "52af7b2d775e",
+      "title": "NSW Junior Track Championship 15–16 August 2026",
+      "description": "NSW Junior Track Championship 15–16 August 2026 – ACT Motorcycle Club, ACT The future stars of speedway and track converge in Canberra to battle for the 2026 Junior State Titles. Details: www.actmotorcycleclub.com.au",
+      "startDate": "2026-08-16",
+      "location": "",
+      "state": "NSW",
+      "category": "racing",
+      "sourceUrl": "http://www.actmotorcycleclub.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "9bf30a0d39f2",
+      "title": "NSW Classic & Post Classic Motocross State Championship 22 August 2026",
+      "description": "NSW Classic & Post Classic Motocross State Championship 22 August 2026 – Venue TBC A newly introduced championship event for 2026, dedicated specifically to classic and post-classic motocross machines. Details: www.motorcycling.com.au",
+      "startDate": "2026-08-22",
+      "location": "",
+      "state": "NSW",
+      "category": "racing",
+      "sourceUrl": "http://www.motorcycling.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "98d4b5d6e194",
+      "title": "Dubbo MotorFest 29 August 2026",
+      "description": "Dubbo MotorFest 29 August 2026 – Dubbo, NSW A massive celebration of motoring culture in regional NSW, featuring bikes, cars, and family entertainment. Details: www.dubbomotorfest.com.au",
+      "startDate": "2026-08-29",
+      "location": "",
+      "state": "NSW",
+      "category": "other",
+      "sourceUrl": "http://www.dubbomotorfest.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "bd16882e3146",
+      "title": "NSW Road Race State Championship (Round 2) 12–13 September 2026",
+      "description": "NSW Road Race State Championship (Round 2) 12–13 September 2026 – One Raceway, Goulburn NSW Hosted by St George MMC. The championship decider takes place at the newly redeveloped One Raceway (formerly Wakefield Park). Details: www.stgeorgemcc.com",
+      "startDate": "2026-09-13",
+      "location": "",
+      "state": "NSW",
+      "category": "track",
+      "sourceUrl": "http://www.stgeorgemcc.com",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "84d34423942f",
+      "title": "Warhorse Muster 18–20 September 2026",
+      "description": "Warhorse Muster 18–20 September 2026 – Southern Wheatbelt, WA A unique grassroots motorcycle gathering in Western Australia’s wheatbelt region. Camping, riding, and community spirit. Details: motologyfilms.com/warhorse-muster/",
+      "startDate": "2026-09-20",
+      "location": "",
+      "state": "WA",
+      "category": "other",
+      "sourceUrl": "https://www.oldbikemag.com.au/october-rally-calendar/",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "9cb17164a57f",
+      "title": "MXGP of Australia (Round 20) 20 September 2026",
+      "description": "MXGP of Australia (Round 20) 20 September 2026 – Darwin, NT The FIM Motocross World Championship heads to the Top End! Witness the world’s best motocross riders competing on Australian soil in this prestigious international round. Details: www.mxgp.com",
+      "startDate": "2026-09-20",
+      "location": "",
+      "state": "NT",
+      "category": "rally",
+      "sourceUrl": "http://www.mxgp.com",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "ab7d4383e2a8",
+      "title": "NSW Enduro Championship (Rounds 9 & 10) 26–27 September 2026",
+      "description": "NSW Enduro Championship (Rounds 9 & 10) 26–27 September 2026 – Venue TBA The grand finale of the 2026 NSW Enduro Championship. Riders will fight for the final points to secure their state titles. Details: www.motorcycling.com.au",
+      "startDate": "2026-09-27",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "http://www.motorcycling.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "56ad66904bc5",
+      "title": "NSW Flat Track Championship 17–18 October 2026",
+      "description": "NSW Flat Track Championship 17–18 October 2026 – Gunnedah Motorcycle Club, NSW Gunnedah hosts the state’s best flat track racers for a weekend of high-speed oval action. Details: www.motorcycling.com.au",
+      "startDate": "2026-10-18",
+      "location": "",
+      "state": "NSW",
+      "category": "track",
+      "sourceUrl": "http://www.motorcycling.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "9d987f2d76ea",
+      "title": "Australian MotoGP 23–25 October 2026",
+      "description": "Australian MotoGP 23–25 October 2026 – Phillip Island, VIC The big one. The MotoGP circus descends on the spectacular Phillip Island Grand Prix Circuit for three days of world-class racing. Details: www.motogp.com.au",
+      "startDate": "2026-10-25",
+      "location": "",
+      "state": "VIC",
+      "category": "track",
+      "sourceUrl": "http://www.motogp.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "68fa486e2940",
+      "title": "NSW Stadium Cross State Titles 24–25 October 2026",
+      "description": "NSW Stadium Cross State Titles 24–25 October 2026 – Venue TBC Another exciting addition to the 2026 calendar, bringing stadium-style motocross racing to the state level. Details: www.motorcycling.com.au",
+      "startDate": "2026-10-25",
+      "location": "",
+      "state": "NSW",
+      "category": "track",
+      "sourceUrl": "http://www.motorcycling.com.au",
+      "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "b23bb69cd16c",
+      "title": "Variety Postie Bike Dash 1–6 November 2026",
+      "description": "Variety Postie Bike Dash 1–6 November 2026 – Location TBA A six-day charity adventure ride exclusively for Honda CT110 ‘Postie Bikes’. A fun challenge raising much-needed funds for kids in need. Details: fundraise.varietynswact.org.au/event/postiedash",
+      "startDate": "2026-11-06",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://fundraise.varietynswact.org.au/event/postiedash/home",
       "sourceName": "Old Bike Australasia"
     },
     {
@@ -287,17 +474,6 @@
       "category": "swap_meet",
       "sourceUrl": "https://vmccnsw.org.au/wp-content/uploads/2026/01/Bathurst-Easter-Tour-2026-Entry-Form.pdf",
       "sourceName": "VMCC NSW"
-    },
-    {
-      "id": "372334936fed",
-      "title": "Spoke Motorcycle FestivalFeb 27thTAS, 7190",
-      "description": "Spoke Motorcycle Festival Feb 27th TAS, 7190",
-      "startDate": null,
-      "location": "",
-      "state": "TAS",
-      "category": "other",
-      "sourceUrl": "https://www.justbikes.com.au/events/spoke-motorcycle-festival/1066931",
-      "sourceName": "Just Bikes"
     },
     {
       "id": "44932d76c91f",
@@ -423,7 +599,7 @@
     {
       "id": "d7ec024fcf73",
       "title": "Log in with Google",
-      "description": "Log in with Google Log in with Microsoft * Email * Password Remember me Forgot password",
+      "description": "Log in with Google Log in with Microsoft Log in with Apple * Email * Password Remember me Forgot password",
       "startDate": null,
       "location": "",
       "state": "ALL",
@@ -443,72 +619,6 @@
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "a4a08b34ae1c",
-      "title": "Australia Day",
-      "description": "Australia Day Canberra Festival of Speed",
-      "startDate": null,
-      "location": "",
-      "state": "ACT",
-      "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979222?CalendarViewType=1&SelectedDate=2/22/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "f6990e74fe9b",
-      "title": "Canberra Festival of Speed",
-      "description": "Canberra Festival of Speed",
-      "startDate": null,
-      "location": "",
-      "state": "ACT",
-      "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6378204?CalendarViewType=1&SelectedDate=2/22/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "c207ed115007",
-      "title": "BMWMCC Australia Day Breakfast BBQ (Club Event)",
-      "description": "BMWMCC Australia Day Breakfast BBQ (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6432514?CalendarViewType=1&SelectedDate=2/22/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "db3f6abdef15",
-      "title": "Multi-Day Weekend Ride - Victorian High Country - VIC (Club Event)",
-      "description": "Multi-Day Weekend Ride - Victorian High Country - VIC (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6439571?CalendarViewType=1&SelectedDate=2/22/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "605b7da8f02d",
-      "title": "49th Karuah River Rally, BMWTCNSW (Club Event)",
-      "description": "49th Karuah River Rally, BMWTCNSW (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6026911?CalendarViewType=1&SelectedDate=2/22/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "9440bc528896",
-      "title": "Sunday Ride - Dalton, NSW - GS & TS Rides (Club Event)",
-      "description": "Sunday Ride - Dalton, NSW - GS & TS Rides (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6496981?CalendarViewType=1&SelectedDate=2/22/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
       "id": "56bec55099ff",
       "title": "Saturday Ride - Majors Creek, NSW (Club Event)",
       "description": "Saturday Ride - Majors Creek, NSW (Club Event)",
@@ -516,7 +626,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=2/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/1/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -527,7 +637,73 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=2/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "c1c69691ccb9",
+      "title": "Canberra Day, ACT Public Holiday",
+      "description": "Canberra Day, ACT Public Holiday Saturday Ride - Trunkey Creek, NSW (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "c3cb8bf1cfa7",
+      "title": "Weekday (Monday) Ride - Jindabyne, NSW (Club Event)",
+      "description": "Weekday (Monday) Ride - Jindabyne, NSW (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "7b97e55c5cae",
+      "title": "Australian Classic TT 2026, Classic Motorcycle Racing Club",
+      "description": "Australian Classic TT 2026, Classic Motorcycle Racing Club",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "track",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "21681e031972",
+      "title": "Famous.  Wheels of Canberra 2026, Council of ACT Motor Clubs",
+      "description": "Famous.  Wheels of Canberra 2026, Council of ACT Motor Clubs",
+      "startDate": null,
+      "location": "",
+      "state": "ACT",
+      "category": "other",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "ea0871d3d99e",
+      "title": "BMW Clubs Australia 2026 National Motorrad Rally, BMWTCNSW TS2",
+      "description": "BMW Clubs Australia 2026 National Motorrad Rally, BMWTCNSW TS2",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "8224b4e3e306",
+      "title": "Easter (ACT Public Holiday)",
+      "description": "Easter (ACT Public Holiday)",
+      "startDate": null,
+      "location": "",
+      "state": "ACT",
+      "category": "other",
+      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/1/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -542,69 +718,47 @@
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "1658aff2c770",
-      "title": "Sturgis",
-      "description": "Sturgis Sturgis, South Dakota August 1–8, 2025 The mother of motorcycle rallies is back for its 85th year. Celebrate the legendary rally with Harley-Davidson August 2025. See Details",
-      "startDate": null,
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/event-calendar/sturgis-rally.html",
-      "sourceName": "Harley-Davidson Australia"
-    },
-    {
-      "id": "a6bc10e05db7",
-      "title": "European Bike Week",
-      "description": "European Bike Week Lake Faak, Austria September 2–7, 2025 Experience Austria’s beautiful Lake Faak in September for the once-a-year event that brings together riders from around the world for one of a kind events, demos, and builds. See Details",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/event-calendar/european-bike-week.html",
-      "sourceName": "Harley-Davidson Australia"
-    },
-    {
-      "id": "e58facffc88f",
-      "title": "ASIA HARLEY DAYS 2025",
-      "description": "ASIA HARLEY DAYS 2025 Khao Yai, Thailand NOVEMBER 21 – 22, 2025 Get ready for a two-day moto music festival where the passion of our riders meets our iconic products, and the spirit of adventure and freedom in a common thread. This event has something for everyone, whether one is a H.O.G.™ Chapter member, part of a motorcycle club, a custom builder, music lover, or simply a fan of the lifestyle. Join us at Midwinter, Khao Yai, Thailand for the event as we will be welcoming riders and fans from o",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://www.asiaharleydays.com/",
-      "sourceName": "Harley-Davidson Australia"
-    },
-    {
-      "id": "b4596400e8c1",
-      "title": "BLUE SKY HEAVEN",
-      "description": "BLUE SKY HEAVEN Yokohama, Japan May 10–11, 2025 Blue Sky Heaven an urban lifestyle festival which combines music and motorcycling, is one of the largest riders' events in Japan. An event that anyone can enjoy, whether they are alone, a couple, or with their family. See Details",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://blueskyheaven.jp/",
-      "sourceName": "Harley-Davidson Australia"
-    },
-    {
       "id": "6cc171161f23",
       "title": "European H.O.G. Rally",
-      "description": "European H.O.G. Rally Cascais, Portugal June 18–21, 2026 Join us for the 32nd European H.O.G. Rally in the beautiful coastal town of Cascais, Portugal.  This event is open to all riders, Harley enthusiasts, and H.O.G. members – so bring your friends, rev up your engines, and get ready for an epic adventure! Book Accommodation",
+      "description": "European H.O.G. Rally Cascais, Portugal June 18–21, 2026 Join us for the 32nd European H.O.G. Rally in the beautiful coastal town of Cascais, Portugal.  This event is open to all riders, Harley enthusiasts, and H.O.G. members – so bring your friends, rev up your engines, and get ready for an epic adventure! See Details",
       "startDate": null,
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://32europeanhogrally2026.widetravel.pt/home/wide.php",
+      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/hog/rallies/european-hog-rally.html",
       "sourceName": "Harley-Davidson Australia"
     },
     {
       "id": "e7ed0324a2a3",
       "title": "Harley-Davidson Homecoming™",
-      "description": "Harley-Davidson Homecoming™ Milwaukee, Wisconsin July 9–12, 2026 In 2026, join thousands of enthusiasts from around the world for an unforgettable four-day festival jam-packed with music, events and activities.",
+      "description": "Harley-Davidson Homecoming™ Milwaukee, Wisconsin July 9–12, 2026 In 2026, join thousands of enthusiasts from around the world for an unforgettable four-day festival jam-packed with music, events and activities. See Details",
       "startDate": null,
       "location": "",
       "state": "WA",
       "category": "other",
+      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/event-calendar/homecoming.html",
+      "sourceName": "Harley-Davidson Australia"
+    },
+    {
+      "id": "1658aff2c770",
+      "title": "Sturgis",
+      "description": "Sturgis Sturgis, South Dakota August 7–14, 2026 The mother of motorcycle rallies is back for its 86th year. Celebrate the legendary rally with Harley-Davidson August 2026.",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
       "sourceUrl": "https://www.harley-davidson.com/au/en/content/event-calendar.html",
+      "sourceName": "Harley-Davidson Australia"
+    },
+    {
+      "id": "a6bc10e05db7",
+      "title": "European Bike Week",
+      "description": "European Bike Week Lake Faak, Austria September 8–13, 2026 Experience Austria’s beautiful Lake Faak in September for the once-a-year event that brings together riders from around the world for one of a kind events, demos, and builds. See Details",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "rally",
+      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/event-calendar/european-bike-week.html",
       "sourceName": "Harley-Davidson Australia"
     },
     {
@@ -627,6 +781,17 @@
       "state": "ACT",
       "category": "other",
       "sourceUrl": "https://classicowners.org/contact-us/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "1dd892380183",
+      "title": "Rescheduled Summer BBQ",
+      "description": "Rescheduled Summer BBQ 27 Feb Club Events",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/rescheduled-summer-bbq/",
       "sourceName": "Classic Owners MC SA"
     },
     {
@@ -704,17 +869,6 @@
       "state": "NT",
       "category": "rally",
       "sourceUrl": "https://classicowners.org/ride-to-greenock-sunday-27-july/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "7a6e95c2558b",
-      "title": "Vale : Barry Young",
-      "description": "Vale : Barry Young 16 Jul It was with great sadness to learn that club stalwart and all round great guy Barry Young passed away this morning. Barry, a life member, joined the club in 2006. He served as Vice-President 2019-20 and 2022-23, Social Secretary 2007-12 and 2014-20, more recently Barry was one of our Assistant Registrars serving in that role for at least the past 5 years. He was also voted the Club Member of the Year in 2016. Barry used to enjoy restoring bikes – the most recent being a",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "show",
-      "sourceUrl": "https://classicowners.org/vale-barry-young/",
       "sourceName": "Classic Owners MC SA"
     }
   ]
