@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-01T02:24:41.397174",
-  "totalEvents": 77,
+  "lastUpdated": "2026-03-08T02:08:45.455394",
+  "totalEvents": 75,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -25,72 +25,6 @@
   "errors": [],
   "events": [
     {
-      "id": "ecfef22d8b99",
-      "title": "Laurie Fox Memorial Classic Masters of Mac Park 27 Feb–1 March 2026",
-      "description": "Laurie Fox Memorial Classic Masters of Mac Park 27 Feb–1 March 2026 – McNamara Park Raceway, 606 Mitchell Rd, Moorak SA Plenty of track time, camping available. Details: www.macparkraceway.org.au or Facebook.com/Macparkmotorcycleclub",
-      "startDate": "2026-03-01",
-      "location": "",
-      "state": "WA",
-      "category": "track",
-      "sourceUrl": "http://www.macparkraceway.org.au",
-      "sourceName": "Old Bike Australasia"
-    },
-    {
-      "id": "42cf7778e061",
-      "title": "Weekend Run",
-      "description": "9:30 am - 4:00 pm Weekend Run",
-      "startDate": "2026-03-01",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/weekend-run/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "76841394c09f",
-      "title": "Midweek Run",
-      "description": "9:30 am - 4:00 pm Midweek Run",
-      "startDate": "2026-03-04",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/midweek-run/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "14b21a84048e",
-      "title": "Weekday Ride to Lunch - Braidwood, NSW (Club Event)",
-      "description": "Weekday Ride to Lunch - Braidwood, NSW (Club Event) BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 5 March 2026 Proposed 3 Day GS Adventure Ride – Snowy River Country – NSW/VIC (Club Event)",
-      "startDate": "2026-03-05",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569184?CalendarViewType=1&SelectedDate=3/1/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "c8381d4a2c96",
-      "title": "Club Events",
-      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
-      "startDate": "2026-03-07",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
-      "id": "045f45494ddd",
-      "title": "Daytona Bike Week",
-      "description": "Daytona Bike Week Daytona Beach, Florida February 28–March 7, 2026 Join us down south at the 85th year of this world-famous bike week. Featuring live entertainment, races, bike shows, demo rides, and more. See Details",
-      "startDate": "2026-03-07",
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/event-calendar/daytona-bike-week.html",
-      "sourceName": "Harley-Davidson Australia"
-    },
-    {
       "id": "be817f78015a",
       "title": "Mopeds Plus : Williamstown Wander 1",
       "description": "8:00 am - 4:00 pm Mopeds Plus : Williamstown Wander 1",
@@ -113,9 +47,9 @@
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
-      "id": "139abfa2c77c",
-      "title": "Walhalla Via the Windies",
-      "description": "09:30 - 14:00 Walhalla Via the Windies",
+      "id": "0a071c7b58f6",
+      "title": "Windy Way to The Wally",
+      "description": "09:30 - 14:00 Windy Way to The Wally",
       "startDate": "2026-03-14",
       "location": "",
       "state": "WA",
@@ -208,7 +142,7 @@
       "location": "",
       "state": "ACT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -245,6 +179,17 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
+      "id": "4620cf28dffb",
+      "title": "April Monthly General Meeting",
+      "description": "19:00 - 20:00 April Monthly General Meeting",
+      "startDate": "2026-04-14",
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://tomcc.com.au/event/april-monthly-general-meeting-2/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
       "id": "a2dd15fa4ccf",
       "title": "Midweek Ride",
       "description": "9:30 am - 4:00 pm Midweek Ride",
@@ -253,6 +198,28 @@
       "state": "ALL",
       "category": "rally",
       "sourceUrl": "https://classicowners.org/event/midweek-ride-12/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "560163eb2109",
+      "title": "Committee Meeting",
+      "description": "7:30 pm - 9:30 pm Committee Meeting",
+      "startDate": "2026-04-21",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/committee-meeting-7/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "502762ed177d",
+      "title": "General Meeting",
+      "description": "7:30 pm - 9:30 pm General Meeting",
+      "startDate": "2026-04-28",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/general-meeting-6/",
       "sourceName": "Classic Owners MC SA"
     },
     {
@@ -265,6 +232,28 @@
       "category": "rally",
       "sourceUrl": "mailto:singletonclassicmcc@gmail.com",
       "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "d8d9de8ab0a2",
+      "title": "The Annual Link Run – 2026",
+      "description": "09:30 - 15:00 The Annual Link Run – 2026",
+      "startDate": "2026-05-03",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://tomcc.com.au/event/the-annual-link-run-2026/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "af838a15f6c4",
+      "title": "May Monthly General Meeting",
+      "description": "19:00 - 20:00 May Monthly General Meeting",
+      "startDate": "2026-05-12",
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://tomcc.com.au/event/may-monthly-general-meeting-2026/",
+      "sourceName": "Triumph Owners MCC Australia"
     },
     {
       "id": "020790dd2771",
@@ -476,28 +465,6 @@
       "sourceName": "VMCC NSW"
     },
     {
-      "id": "44932d76c91f",
-      "title": "VICTORIAN STATE H.O.G. RALLYMar 6thVIC, 3631",
-      "description": "VICTORIAN STATE H.O.G. RALLY Mar 6th VIC, 3631",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "rally",
-      "sourceUrl": "https://www.justbikes.com.au/events/victorian-state-h-o-g-rally/1060426",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "bb8129055c28",
-      "title": "INVERELL ANTIQUE MOTOR CLUB Swap Meet 2026Mar 8thNSW, 2360",
-      "description": "INVERELL ANTIQUE MOTOR CLUB Swap Meet 2026 Mar 8th NSW, 2360",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/inverell-antique-motor-club-swap-meet-2026/1069734",
-      "sourceName": "Just Bikes"
-    },
-    {
       "id": "d8c8ae0bd16b",
       "title": "Toodyay Swap MeetMar 15thWA, 6566",
       "description": "Toodyay Swap Meet Mar 15th WA, 6566",
@@ -564,6 +531,17 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "088e4e70e302",
+      "title": "Berry Charity Bike Show 2026May 3rdNSW, 2535",
+      "description": "Berry Charity Bike Show 2026 May 3rd NSW, 2535",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/berry-charity-bike-show-2026/1078699",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "fe6aa521b177",
       "title": "21st Mildura MeanderMay 16thVIC, 3500",
       "description": "21st Mildura Meander May 16th VIC, 3500",
@@ -626,7 +604,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -637,7 +615,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -648,7 +626,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -659,7 +637,18 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "9720123730af",
+      "title": "Weekday Ride to Lunch - Braidwood, NSW (Club Event)",
+      "description": "Weekday Ride to Lunch - Braidwood, NSW (Club Event) Australian Classic TT 2026, Classic Motorcycle Racing Club",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6593891?CalendarViewType=1&SelectedDate=3/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -670,7 +659,7 @@
       "location": "",
       "state": "ALL",
       "category": "track",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -681,7 +670,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -692,7 +681,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -703,7 +692,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/8/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -726,17 +715,6 @@
       "state": "NT",
       "category": "rally",
       "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/hog/rallies/european-hog-rally.html",
-      "sourceName": "Harley-Davidson Australia"
-    },
-    {
-      "id": "e7ed0324a2a3",
-      "title": "Harley-Davidson Homecoming™",
-      "description": "Harley-Davidson Homecoming™ Milwaukee, Wisconsin July 9–12, 2026 In 2026, join thousands of enthusiasts from around the world for an unforgettable four-day festival jam-packed with music, events and activities. See Details",
-      "startDate": null,
-      "location": "",
-      "state": "WA",
-      "category": "other",
-      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/event-calendar/homecoming.html",
       "sourceName": "Harley-Davidson Australia"
     },
     {
