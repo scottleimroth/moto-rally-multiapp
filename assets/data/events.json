@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T02:08:45.455394",
+  "lastUpdated": "2026-03-15T02:29:04.821756",
   "totalEvents": 75,
   "sources": [
     "Motorcycle Rallies Australia",
@@ -24,39 +24,6 @@
   ],
   "errors": [],
   "events": [
-    {
-      "id": "be817f78015a",
-      "title": "Mopeds Plus : Williamstown Wander 1",
-      "description": "8:00 am - 4:00 pm Mopeds Plus : Williamstown Wander 1",
-      "startDate": "2026-03-08",
-      "location": "",
-      "state": "WA",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-williamstown-wander-1/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "eb53a417d107",
-      "title": "March Monthly General Meeting",
-      "description": "19:00 - 20:00 March Monthly General Meeting",
-      "startDate": "2026-03-10",
-      "location": "",
-      "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://tomcc.com.au/event/march-monthly-general-meeting-2026/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
-    {
-      "id": "0a071c7b58f6",
-      "title": "Windy Way to The Wally",
-      "description": "09:30 - 14:00 Windy Way to The Wally",
-      "startDate": "2026-03-14",
-      "location": "",
-      "state": "WA",
-      "category": "other",
-      "sourceUrl": "https://tomcc.com.au/event/walhalla-via-the-windies/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
     {
       "id": "79b867d54558",
       "title": "Midweek Ride",
@@ -102,6 +69,17 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
+      "id": "858aa4e8082b",
+      "title": "Falls Rally 2026",
+      "description": "March 27 - March 28 Falls Rally 2026",
+      "startDate": "2026-03-27",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://tomcc.com.au/event/falls-rally-2026/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
       "id": "bd08f4fee6da",
       "title": "Moto Piccolo 28–29 March 2026",
       "description": "Moto Piccolo 28–29 March 2026 – Crookwell NSW The Classic Italian Motorcycle Association of Australia (CIMAA NSW) celebrates Italian motorcycles and scooters, 500cc and under. Info: Gary Pratt Email: cimaansw@gmail.com",
@@ -113,14 +91,14 @@
       "sourceName": "Old Bike Australasia"
     },
     {
-      "id": "15c3a16f543b",
-      "title": "Weekend Run",
-      "description": "9:30 am - 4:00 pm Weekend Run",
+      "id": "2eae5205ccb8",
+      "title": "Rescheduled BBQ",
+      "description": "11:30 am - 2:00 pm Rescheduled BBQ",
       "startDate": "2026-03-29",
       "location": "",
       "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/weekend-run-3/",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/rescheduled-bbq/",
       "sourceName": "Classic Owners MC SA"
     },
     {
@@ -142,7 +120,7 @@
       "location": "",
       "state": "ACT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -155,6 +133,17 @@
       "category": "rally",
       "sourceUrl": "mailto:Bathursteastertour@gmail.com",
       "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "6d4827576f02",
+      "title": "Weekend Run",
+      "description": "9:30 am - 4:00 pm Weekend Run",
+      "startDate": "2026-04-06",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/weekend-run-2/",
+      "sourceName": "Classic Owners MC SA"
     },
     {
       "id": "a23ea625da23",
@@ -465,17 +454,6 @@
       "sourceName": "VMCC NSW"
     },
     {
-      "id": "d8c8ae0bd16b",
-      "title": "Toodyay Swap MeetMar 15thWA, 6566",
-      "description": "Toodyay Swap Meet Mar 15th WA, 6566",
-      "startDate": null,
-      "location": "",
-      "state": "WA",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/toodyay-swap-meet/1060263",
-      "sourceName": "Just Bikes"
-    },
-    {
       "id": "e5ab8053648b",
       "title": "OPENROADS RALLY LICOLAMar 27thVIC, 3858",
       "description": "OPENROADS RALLY LICOLA Mar 27th VIC, 3858",
@@ -553,6 +531,28 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "71120dc251be",
+      "title": "Rylstone Swap MeetMay 17thNSW, 2849",
+      "description": "Rylstone Swap Meet May 17th NSW, 2849",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/rylstone-swap-meet/1079873",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "e76c6bb5d111",
+      "title": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOWSep 12thQLD, 4570",
+      "description": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW Sep 12th QLD, 4570",
+      "startDate": null,
+      "location": "",
+      "state": "QLD",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/2026-gympie-historic-auto-club-inc-swap-meet-and-car-show/1079683",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "9c6ed0f5f2ca",
       "title": "The 50th Anniversary Rally of the R100RS and other /7Sep 20thNSW, 2580",
       "description": "The 50th Anniversary Rally of the R100RS and other /7 Sep 20th NSW, 2580",
@@ -604,7 +604,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -615,7 +615,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -626,7 +626,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -637,7 +637,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -648,7 +648,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6593891?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6593891?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -659,7 +659,7 @@
       "location": "",
       "state": "ALL",
       "category": "track",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -670,7 +670,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -681,7 +681,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -692,7 +692,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/8/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/15/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -707,9 +707,9 @@
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "6cc171161f23",
-      "title": "European H.O.G. Rally",
-      "description": "European H.O.G. Rally Cascais, Portugal June 18–21, 2026 Join us for the 32nd European H.O.G. Rally in the beautiful coastal town of Cascais, Portugal.  This event is open to all riders, Harley enthusiasts, and H.O.G. members – so bring your friends, rev up your engines, and get ready for an epic adventure! See Details",
+      "id": "a25e5bf2df9a",
+      "title": "EUROPEAN H.O.G. RALLY",
+      "description": "EUROPEAN H.O.G. RALLY Cascais, Portugal June 18–21, 2026 Join us for the 32nd European H.O.G. Rally in the beautiful coastal town of Cascais, Portugal.  This event is open to all riders, Harley enthusiasts, and H.O.G. members – so bring your friends, rev up your engines, and get ready for an epic adventure! See Details",
       "startDate": null,
       "location": "",
       "state": "NT",
@@ -718,9 +718,9 @@
       "sourceName": "Harley-Davidson Australia"
     },
     {
-      "id": "1658aff2c770",
-      "title": "Sturgis",
-      "description": "Sturgis Sturgis, South Dakota August 7–14, 2026 The mother of motorcycle rallies is back for its 86th year. Celebrate the legendary rally with Harley-Davidson August 2026.",
+      "id": "fd8c9b0a1c11",
+      "title": "STURGIS",
+      "description": "STURGIS Sturgis, South Dakota August 7–14, 2026 The mother of motorcycle rallies is back for its 86th year. Celebrate the legendary rally with Harley-Davidson August 2026.",
       "startDate": null,
       "location": "",
       "state": "ALL",
@@ -729,9 +729,9 @@
       "sourceName": "Harley-Davidson Australia"
     },
     {
-      "id": "a6bc10e05db7",
-      "title": "European Bike Week",
-      "description": "European Bike Week Lake Faak, Austria September 8–13, 2026 Experience Austria’s beautiful Lake Faak in September for the once-a-year event that brings together riders from around the world for one of a kind events, demos, and builds. See Details",
+      "id": "d5e9d86b90b1",
+      "title": "EUROPEAN BIKE WEEK",
+      "description": "EUROPEAN BIKE WEEK Lake Faak, Austria September 8–13, 2026 Experience Austria’s beautiful Lake Faak in September for the once-a-year event that brings together riders from around the world for one of a kind events, demos, and builds. See Details",
       "startDate": null,
       "location": "",
       "state": "NT",
@@ -751,6 +751,17 @@
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
+      "id": "1dd892380183",
+      "title": "Rescheduled Summer BBQ",
+      "description": "Rescheduled Summer BBQ 27 Feb Club Events",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/rescheduled-summer-bbq/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "4e8489bef3cf",
       "title": "Contact Us",
       "description": "Contact Us 20 Oct Membership Enquiries : membership@classicowners.org All other enquiries : secretary@classicowners.org Uncategorized",
@@ -762,14 +773,14 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
-      "id": "1dd892380183",
-      "title": "Rescheduled Summer BBQ",
-      "description": "Rescheduled Summer BBQ 27 Feb Club Events",
+      "id": "274b9c66e250",
+      "title": "For Sale : BMW R1200R SE 125k kms",
+      "description": "For Sale : BMW R1200R SE 125k kms 11 Mar LOVINGLY CARED FOR CAREFULLY RIDEN BY CLUB MAN FORCED SALE DUE TO ILL HEALTH PRICE $6,750 THE BIKE 1200 OIL HEAD BOXER ENGINE Traction control ABS Dynamic braking system Air and oil cooled Crash bars Screw and locknut adjustment tappets not shims Electronic adjustable suspension Heated grips Windscreen Super powerful driving lights and additional side lights (not fitted) Factory panniers and top box One pannier contains removable extra fuel container Air ",
       "startDate": null,
       "location": "",
-      "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/rescheduled-summer-bbq/",
+      "state": "VIC",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/for-sale-bmw-r1200r-se-125k-kms/",
       "sourceName": "Classic Owners MC SA"
     },
     {
@@ -836,17 +847,6 @@
       "state": "SA",
       "category": "rally",
       "sourceUrl": "https://classicowners.org/for-sale-1982-triumph-t140e/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "c4fbe35d3f38",
-      "title": "Ride to Greenock, Sunday 27 July",
-      "description": "Ride to Greenock, Sunday 27 July 25 Jul Following the forecast for inclement weather, this Sunday’s visit to Greenock Aviation Museum is still on, but the Club Captain has advised that members should gather their family and friends and travel to the museum by car. Club Events",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/ride-to-greenock-sunday-27-july/",
       "sourceName": "Classic Owners MC SA"
     }
   ]
