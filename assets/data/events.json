@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-15T02:29:04.821756",
-  "totalEvents": 75,
+  "lastUpdated": "2026-03-22T02:22:00.113369",
+  "totalEvents": 79,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -25,28 +25,6 @@
   "errors": [],
   "events": [
     {
-      "id": "79b867d54558",
-      "title": "Midweek Ride",
-      "description": "9:30 am - 4:00 pm Midweek Ride",
-      "startDate": "2026-03-17",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/midweek-ride-9/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "14f2f236cb38",
-      "title": "Committee Meeting",
-      "description": "7:30 pm - 9:30 pm Committee Meeting",
-      "startDate": "2026-03-17",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/committee-meeting-6/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
       "id": "4f367890182d",
       "title": "Goulburn CRCG Motorcycle Only Swap Meet 22 March 2026",
       "description": "Goulburn CRCG Motorcycle Only Swap Meet 22 March 2026 – Goulburn NSW Hunt for treasures and unearth hard-to-find gems. Organised by the Classic Riders Club Goulburn. Contact: Cherrie Thrower Email: secretary@classicridersclubgoulburn.com.au",
@@ -67,6 +45,17 @@
       "category": "other",
       "sourceUrl": "https://classicowners.org/event/general-meeting-5/",
       "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "f6b51043ae89",
+      "title": "Club Events",
+      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
+      "startDate": "2026-03-27",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
+      "sourceName": "Ducati Owners Club Victoria"
     },
     {
       "id": "858aa4e8082b",
@@ -120,7 +109,7 @@
       "location": "",
       "state": "ACT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -234,6 +223,28 @@
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
+      "id": "0c57cdf0b42e",
+      "title": "Sunday Ride",
+      "description": "9:30 am - 3:00 pm Sunday Ride",
+      "startDate": "2026-05-03",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/sunday-ride-3/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "3e9640a2c76e",
+      "title": "Midweek Ride",
+      "description": "9:30 am - 4:00 pm Midweek Ride",
+      "startDate": "2026-05-06",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/midweek-ride-13/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "af838a15f6c4",
       "title": "May Monthly General Meeting",
       "description": "19:00 - 20:00 May Monthly General Meeting",
@@ -242,6 +253,17 @@
       "state": "NT",
       "category": "other",
       "sourceUrl": "https://tomcc.com.au/event/may-monthly-general-meeting-2026/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "e4118f37ade0",
+      "title": "Distinguished Gentlemen’s Ride 2026",
+      "description": "All day Distinguished Gentlemen’s Ride 2026",
+      "startDate": "2026-05-17",
+      "location": "",
+      "state": "NT",
+      "category": "rally",
+      "sourceUrl": "https://tomcc.com.au/event/distinguished-gentlemens-ride-2026/",
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
@@ -443,10 +465,10 @@
       "sourceName": "BMW Clubs Australia"
     },
     {
-      "id": "9744e4a51c6a",
+      "id": "6a44947e7f08",
       "title": "The club sponsors a full calendar of events suited to girder fork bikes. Some rides are divided into long and short runs or have alternative routes.  A support vehicle accompanies all VMCC rides to cater for breakdowns.",
       "description": "The club sponsors a full calendar of events suited to girder fork bikes. Some rides are divided into long and short runs or have alternative routes.  A support vehicle accompanies all VMCC rides to cater for breakdowns. VMCC members also participate in Invitation Events sponsored by affiliated historic motorcycle clubs.  Some of these are included on this events calendar. For 2026 there is a full calendar of events, hopefully something to suit everyone and all of your machines.  Please plan to j",
-      "startDate": "2027-10-22",
+      "startDate": "2027-10-31",
       "location": "",
       "state": "NSW",
       "category": "swap_meet",
@@ -498,6 +520,17 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "81c6c9bd1da4",
+      "title": "Rare Spares and Repco RockynatsApr 17thQLD, 4700",
+      "description": "Rare Spares and Repco Rockynats Apr 17th QLD, 4700",
+      "startDate": null,
+      "location": "",
+      "state": "QLD",
+      "category": "other",
+      "sourceUrl": "https://www.justbikes.com.au/events/rare-spares-and-repco-rockynats/1080994",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "d4181d042ecc",
       "title": "48th All British RallyApr 24thVIC, 3462",
       "description": "48th All British Rally Apr 24th VIC, 3462",
@@ -506,6 +539,28 @@
       "state": "VIC",
       "category": "rally",
       "sourceUrl": "https://www.justbikes.com.au/events/48th-all-british-rally/1076388",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "63a44f873e7c",
+      "title": "Federation Scorsby Picnic Car and Motorcycle ShowApr 26thVIC, 3179",
+      "description": "Federation Scorsby Picnic Car and Motorcycle Show Apr 26th VIC, 3179",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/federation-scorsby-picnic-car-and-motorcycle-show/1080824",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "2ae8384b4681",
+      "title": "Naracoorte Swap Meet & Show n Shine 2026May 2ndSA, 5271",
+      "description": "Naracoorte Swap Meet & Show n Shine 2026 May 2nd SA, 5271",
+      "startDate": null,
+      "location": "",
+      "state": "WA",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/naracoorte-swap-meet-show-n-shine-2026/1080827",
       "sourceName": "Just Bikes"
     },
     {
@@ -542,25 +597,14 @@
       "sourceName": "Just Bikes"
     },
     {
-      "id": "e76c6bb5d111",
-      "title": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOWSep 12thQLD, 4570",
-      "description": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW Sep 12th QLD, 4570",
-      "startDate": null,
-      "location": "",
-      "state": "QLD",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/2026-gympie-historic-auto-club-inc-swap-meet-and-car-show/1079683",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "9c6ed0f5f2ca",
-      "title": "The 50th Anniversary Rally of the R100RS and other /7Sep 20thNSW, 2580",
-      "description": "The 50th Anniversary Rally of the R100RS and other /7 Sep 20th NSW, 2580",
+      "id": "1ab8930fd0bb",
+      "title": "North Coast Classic Motorcycle Show and SwapMay 31stNSW, 2477",
+      "description": "North Coast Classic Motorcycle Show and Swap May 31st NSW, 2477",
       "startDate": null,
       "location": "",
       "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.justbikes.com.au/events/the-50th-anniversary-rally-of-the-r100rs-and-other-7/1077057",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/north-coast-classic-motorcycle-show-and-swap/1080847",
       "sourceName": "Just Bikes"
     },
     {
@@ -604,7 +648,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -615,7 +659,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -626,7 +670,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -637,18 +681,18 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "9720123730af",
-      "title": "Weekday Ride to Lunch - Braidwood, NSW (Club Event)",
-      "description": "Weekday Ride to Lunch - Braidwood, NSW (Club Event) Australian Classic TT 2026, Classic Motorcycle Racing Club",
+      "id": "63c702d4fee5",
+      "title": "Postponed - Weekday Ride to Lunch - Braidwood, NSW (Club Event)",
+      "description": "Postponed - Weekday Ride to Lunch - Braidwood, NSW (Club Event) Australian Classic TT 2026, Classic Motorcycle Racing Club",
       "startDate": null,
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6593891?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6593891?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -659,7 +703,7 @@
       "location": "",
       "state": "ALL",
       "category": "track",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -670,7 +714,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -681,7 +725,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -692,7 +736,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/15/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/22/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -773,6 +817,17 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
+      "id": "183b58a06d0e",
+      "title": "Classic Courier : March – May 2026",
+      "description": "Classic Courier : March – May 2026 17 Mar Classic Courier",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/classic-courier-march-may-2026/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "274b9c66e250",
       "title": "For Sale : BMW R1200R SE 125k kms",
       "description": "For Sale : BMW R1200R SE 125k kms 11 Mar LOVINGLY CARED FOR CAREFULLY RIDEN BY CLUB MAN FORCED SALE DUE TO ILL HEALTH PRICE $6,750 THE BIKE 1200 OIL HEAD BOXER ENGINE Traction control ABS Dynamic braking system Air and oil cooled Crash bars Screw and locknut adjustment tappets not shims Electronic adjustable suspension Heated grips Windscreen Super powerful driving lights and additional side lights (not fitted) Factory panniers and top box One pannier contains removable extra fuel container Air ",
@@ -836,17 +891,6 @@
       "state": "SA",
       "category": "rally",
       "sourceUrl": "https://classicowners.org/fomsa-ride-week-2025/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "04dfedb766fa",
-      "title": "For Sale : 1982 Triumph T140E",
-      "description": "For Sale : 1982 Triumph T140E 22 Aug Untouched original paintwork. Motor & frame have matching numbers in very good condition. Club registered and only used on club rides. Rego TFX207  $17,600 ono. Peter 0419 306 208 – send text and will call back. For Sale",
-      "startDate": null,
-      "location": "",
-      "state": "SA",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/for-sale-1982-triumph-t140e/",
       "sourceName": "Classic Owners MC SA"
     }
   ]
