@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-22T02:22:00.113369",
-  "totalEvents": 79,
+  "lastUpdated": "2026-03-29T02:30:28.983897",
+  "totalEvents": 76,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,50 +24,6 @@
   ],
   "errors": [],
   "events": [
-    {
-      "id": "4f367890182d",
-      "title": "Goulburn CRCG Motorcycle Only Swap Meet 22 March 2026",
-      "description": "Goulburn CRCG Motorcycle Only Swap Meet 22 March 2026 – Goulburn NSW Hunt for treasures and unearth hard-to-find gems. Organised by the Classic Riders Club Goulburn. Contact: Cherrie Thrower Email: secretary@classicridersclubgoulburn.com.au",
-      "startDate": "2026-03-22",
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "mailto:secretary@classicridersclubgoulburn.com.au",
-      "sourceName": "Old Bike Australasia"
-    },
-    {
-      "id": "4d9c3eaf0161",
-      "title": "General Meeting",
-      "description": "7:30 pm - 9:30 pm General Meeting",
-      "startDate": "2026-03-24",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/general-meeting-5/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "f6b51043ae89",
-      "title": "Club Events",
-      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
-      "startDate": "2026-03-27",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
-      "id": "858aa4e8082b",
-      "title": "Falls Rally 2026",
-      "description": "March 27 - March 28 Falls Rally 2026",
-      "startDate": "2026-03-27",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://tomcc.com.au/event/falls-rally-2026/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
     {
       "id": "bd08f4fee6da",
       "title": "Moto Piccolo 28–29 March 2026",
@@ -109,7 +65,7 @@
       "location": "",
       "state": "ACT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -144,6 +100,17 @@
       "category": "swap_meet",
       "sourceUrl": "https://vmcc.com.au/",
       "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "14ee8941fe93",
+      "title": "Club Events",
+      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
+      "startDate": "2026-04-12",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
+      "sourceName": "Ducati Owners Club Victoria"
     },
     {
       "id": "4635724d7c43",
@@ -242,6 +209,17 @@
       "state": "ALL",
       "category": "rally",
       "sourceUrl": "https://classicowners.org/event/midweek-ride-13/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "19d0c6bf6cd5",
+      "title": "Mopeds Plus : Gumeracha Glide",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Gumeracha Glide",
+      "startDate": "2026-05-10",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-gumeracha-glide/",
       "sourceName": "Classic Owners MC SA"
     },
     {
@@ -476,28 +454,6 @@
       "sourceName": "VMCC NSW"
     },
     {
-      "id": "e5ab8053648b",
-      "title": "OPENROADS RALLY LICOLAMar 27thVIC, 3858",
-      "description": "OPENROADS RALLY LICOLA Mar 27th VIC, 3858",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "rally",
-      "sourceUrl": "https://www.justbikes.com.au/events/openroads-rally-licola/1063453",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "376e6807c048",
-      "title": "90th Anniversary Harley-Davidson Knucklehead RunMar 27thNSW, 2640",
-      "description": "90th Anniversary Harley-Davidson Knucklehead Run Mar 27th NSW, 2640",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.justbikes.com.au/events/90th-anniversary-harley-davidson-knucklehead-run/1073992",
-      "sourceName": "Just Bikes"
-    },
-    {
       "id": "723d9c1e7937",
       "title": "42nd Annual Horsham Automotive Swap MeetApr 11thVIC, 3400",
       "description": "42nd Annual Horsham Automotive Swap Meet Apr 11th VIC, 3400",
@@ -597,6 +553,17 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "510337914255",
+      "title": "Tilligerry MotoramaMay 17thNSW, 2319",
+      "description": "Tilligerry Motorama May 17th NSW, 2319",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "other",
+      "sourceUrl": "https://www.justbikes.com.au/events/tilligerry-motorama/1081505",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "1ab8930fd0bb",
       "title": "North Coast Classic Motorcycle Show and SwapMay 31stNSW, 2477",
       "description": "North Coast Classic Motorcycle Show and Swap May 31st NSW, 2477",
@@ -608,15 +575,15 @@
       "sourceName": "Just Bikes"
     },
     {
-      "id": "fe73c38f75c1",
-      "title": "BMW Clubs Australia National Motorrad Rally",
-      "description": "25 Mar @ 08:00 – 27 Mar @ 17:00 UTC+10 BMW Clubs Australia National Motorrad Rally",
+      "id": "fbfd4a3e60b6",
+      "title": "Tatts Finke Desert RaceJun 5thNT, 0870",
+      "description": "Tatts Finke Desert Race Jun 5th NT, 0870",
       "startDate": null,
       "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://bmwca.au/?tribe_events=bmw-clubs-australia-national-motorrad-rally",
-      "sourceName": "BMW Clubs Australia"
+      "state": "NT",
+      "category": "track",
+      "sourceUrl": "https://www.justbikes.com.au/events/tatts-finke-desert-race/1081781",
+      "sourceName": "Just Bikes"
     },
     {
       "id": "d7ec024fcf73",
@@ -648,7 +615,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -659,7 +626,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -670,7 +637,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -681,7 +648,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -692,7 +659,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6593891?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6593891?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -703,7 +670,7 @@
       "location": "",
       "state": "ALL",
       "category": "track",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -714,7 +681,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -725,7 +692,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -736,7 +703,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/22/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/29/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
