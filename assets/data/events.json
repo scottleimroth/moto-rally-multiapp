@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-29T02:30:28.983897",
-  "totalEvents": 76,
+  "lastUpdated": "2026-04-05T02:32:42.148675",
+  "totalEvents": 72,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,50 +24,6 @@
   ],
   "errors": [],
   "events": [
-    {
-      "id": "bd08f4fee6da",
-      "title": "Moto Piccolo 28–29 March 2026",
-      "description": "Moto Piccolo 28–29 March 2026 – Crookwell NSW The Classic Italian Motorcycle Association of Australia (CIMAA NSW) celebrates Italian motorcycles and scooters, 500cc and under. Info: Gary Pratt Email: cimaansw@gmail.com",
-      "startDate": "2026-03-29",
-      "location": "",
-      "state": "NSW",
-      "category": "other",
-      "sourceUrl": "mailto:cimaansw@gmail.com",
-      "sourceName": "Old Bike Australasia"
-    },
-    {
-      "id": "2eae5205ccb8",
-      "title": "Rescheduled BBQ",
-      "description": "11:30 am - 2:00 pm Rescheduled BBQ",
-      "startDate": "2026-03-29",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/rescheduled-bbq/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "45de5df04e60",
-      "title": "Midweek Ride",
-      "description": "9:30 am - 4:00 pm Midweek Ride",
-      "startDate": "2026-04-01",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/midweek-ride-11/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "872d1cbfa683",
-      "title": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 2 April 2026",
-      "description": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 2 April 2026 Easter (ACT Public Holiday)",
-      "startDate": "2026-04-02",
-      "location": "",
-      "state": "ACT",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468899?CalendarViewType=1&SelectedDate=3/29/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
     {
       "id": "2239de5960dd",
       "title": "Bathurst Motorcycle Enthusiasts Club 51st Easter Bathurst Tour 29 March–5 April 2026",
@@ -212,6 +168,17 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
+      "id": "0426e60338ce",
+      "title": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 7 May  2026",
+      "description": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 7 May  2026",
+      "startDate": "2026-05-07",
+      "location": "",
+      "state": "NT",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468900?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
       "id": "19d0c6bf6cd5",
       "title": "Mopeds Plus : Gumeracha Glide",
       "description": "10:00 am - 4:00 pm Mopeds Plus : Gumeracha Glide",
@@ -245,6 +212,17 @@
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
+      "id": "ae70f102df32",
+      "title": "Midweek Ride",
+      "description": "9:30 am - 4:00 pm Midweek Ride",
+      "startDate": "2026-05-19",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/midweek-ride-14/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "020790dd2771",
       "title": "Maleny Motorcycle Swap Meet 13 June 2026",
       "description": "Maleny Motorcycle Swap Meet 13 June 2026 – Maleny Showgrounds, Maleny QLD Saturday only, hosted by Sunshine Coast HMCCQ. Free parking inside grounds. Entry $10 per person, Swap Sites $10. Access to main oval from 2pm Friday. Strictly no trading before 6am Saturday. Contact: Keith Canning 0429 000 178 Email: kcvelo@gmail.com",
@@ -254,6 +232,17 @@
       "category": "swap_meet",
       "sourceUrl": "mailto:kcvelo@gmail.com",
       "sourceName": "Old Bike Australasia"
+    },
+    {
+      "id": "f4ce4f2a1193",
+      "title": "Log Book Day 2026",
+      "description": "9:00 am - 1:00 pm Log Book Day 2026",
+      "startDate": "2026-06-13",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/log-book-day-2026/",
+      "sourceName": "Classic Owners MC SA"
     },
     {
       "id": "7af73f18404c",
@@ -608,94 +597,6 @@
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "56bec55099ff",
-      "title": "Saturday Ride - Majors Creek, NSW (Club Event)",
-      "description": "Saturday Ride - Majors Creek, NSW (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479448?CalendarViewType=1&SelectedDate=3/29/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "ee784120a8e6",
-      "title": "Proposed 3 Day GS Adventure Ride – Snowy River Country – NSW/VIC (Club Event)",
-      "description": "Proposed 3 Day GS Adventure Ride – Snowy River Country – NSW/VIC (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6441110?CalendarViewType=1&SelectedDate=3/29/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "c1c69691ccb9",
-      "title": "Canberra Day, ACT Public Holiday",
-      "description": "Canberra Day, ACT Public Holiday Saturday Ride - Trunkey Creek, NSW (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979234?CalendarViewType=1&SelectedDate=3/29/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "c3cb8bf1cfa7",
-      "title": "Weekday (Monday) Ride - Jindabyne, NSW (Club Event)",
-      "description": "Weekday (Monday) Ride - Jindabyne, NSW (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569995?CalendarViewType=1&SelectedDate=3/29/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "63c702d4fee5",
-      "title": "Postponed - Weekday Ride to Lunch - Braidwood, NSW (Club Event)",
-      "description": "Postponed - Weekday Ride to Lunch - Braidwood, NSW (Club Event) Australian Classic TT 2026, Classic Motorcycle Racing Club",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6593891?CalendarViewType=1&SelectedDate=3/29/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "7b97e55c5cae",
-      "title": "Australian Classic TT 2026, Classic Motorcycle Racing Club",
-      "description": "Australian Classic TT 2026, Classic Motorcycle Racing Club",
-      "startDate": null,
-      "location": "",
-      "state": "ALL",
-      "category": "track",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312139?CalendarViewType=1&SelectedDate=3/29/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "21681e031972",
-      "title": "Famous.  Wheels of Canberra 2026, Council of ACT Motor Clubs",
-      "description": "Famous.  Wheels of Canberra 2026, Council of ACT Motor Clubs",
-      "startDate": null,
-      "location": "",
-      "state": "ACT",
-      "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6312133?CalendarViewType=1&SelectedDate=3/29/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "ea0871d3d99e",
-      "title": "BMW Clubs Australia 2026 National Motorrad Rally, BMWTCNSW TS2",
-      "description": "BMW Clubs Australia 2026 National Motorrad Rally, BMWTCNSW TS2",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-5916419?CalendarViewType=1&SelectedDate=3/29/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
       "id": "8224b4e3e306",
       "title": "Easter (ACT Public Holiday)",
       "description": "Easter (ACT Public Holiday)",
@@ -703,7 +604,62 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=3/29/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "9720123730af",
+      "title": "Weekday Ride to Lunch - Braidwood, NSW (Club Event)",
+      "description": "Weekday Ride to Lunch - Braidwood, NSW (Club Event) BMW Motorcycle Club Canberra Inc. 2026 AGM (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6618394?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "025a20fd976f",
+      "title": "BMWMCC Weekday Ride to Lunch - Crookwell (Club Event)",
+      "description": "BMWMCC Weekday Ride to Lunch - Crookwell (Club Event) 32nd Cane Toad Rally, BMWMCQ",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6596059?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "275744b41c13",
+      "title": "32nd Cane Toad Rally, BMWMCQ",
+      "description": "32nd Cane Toad Rally, BMWMCQ",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6624850?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "004290130f17",
+      "title": "Sunday Ride - Koorawatha, NSW (Club Event)",
+      "description": "Sunday Ride - Koorawatha, NSW (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479412?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "091b64747c06",
+      "title": "Fix-A-Flat Session (Club Event)",
+      "description": "Fix-A-Flat Session (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=4/5/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -762,25 +718,36 @@
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
-      "id": "1dd892380183",
-      "title": "Rescheduled Summer BBQ",
-      "description": "Rescheduled Summer BBQ 27 Feb Club Events",
+      "id": "4943bc82d200",
+      "title": "Easter Monday Ride",
+      "description": "Easter Monday Ride 31 Mar Come on the Easter Monday ride 6th April – meet at Hawthorn Crescent, Hazelwood Park at 9:30am for a 10am start. All makes and years of bikes welcome. Club Events",
       "startDate": null,
       "location": "",
       "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/rescheduled-summer-bbq/",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/easter-monday-ride/",
       "sourceName": "Classic Owners MC SA"
     },
     {
-      "id": "4e8489bef3cf",
-      "title": "Contact Us",
-      "description": "Contact Us 20 Oct Membership Enquiries : membership@classicowners.org All other enquiries : secretary@classicowners.org Uncategorized",
+      "id": "c3155206feda",
+      "title": "Vale : Warren Duncan",
+      "description": "Vale : Warren Duncan 1 Apr I’m sad to report the passing of Warren Duncan who joined the Club in 1990 and achieved 35 years of continuous membership. He was an active participant in meetings and was elected joint Vice President in 2002/03 and as Vice President in 2006/07 when he also took on the role of Federation Rep. In 2012, together with Alan Wallis, Warren took on the task of coordinating the Moped Plus rides. Warren designed all the rides while driving local school buses through the Adelai",
       "startDate": null,
       "location": "",
-      "state": "ACT",
+      "state": "VIC",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/vale-warren-duncan/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "5e398ed96b94",
+      "title": "Club BBQ @ Thorndon Park 29/3/26",
+      "description": "Club BBQ @ Thorndon Park 29/3/26 31 Mar We couldn’t have picked a better day for the reorganised Summer BBQ, which was rescheduled due to hot weather. Thanks to Alan Kernich, Bob Cole (chef) and Evangeline (apple pie & cream) and all who attended and helped out on the day. We all agreed that this time of year is the perfect time for future club BBQs. Club Events",
+      "startDate": null,
+      "location": "",
+      "state": "WA",
       "category": "other",
-      "sourceUrl": "https://classicowners.org/contact-us/",
+      "sourceUrl": "https://classicowners.org/club-bbq-thorndon-park-29-3-26/",
       "sourceName": "Classic Owners MC SA"
     },
     {
@@ -797,10 +764,10 @@
     {
       "id": "274b9c66e250",
       "title": "For Sale : BMW R1200R SE 125k kms",
-      "description": "For Sale : BMW R1200R SE 125k kms 11 Mar LOVINGLY CARED FOR CAREFULLY RIDEN BY CLUB MAN FORCED SALE DUE TO ILL HEALTH PRICE $6,750 THE BIKE 1200 OIL HEAD BOXER ENGINE Traction control ABS Dynamic braking system Air and oil cooled Crash bars Screw and locknut adjustment tappets not shims Electronic adjustable suspension Heated grips Windscreen Super powerful driving lights and additional side lights (not fitted) Factory panniers and top box One pannier contains removable extra fuel container Air ",
+      "description": "For Sale : BMW R1200R SE 125k kms 11 Mar LOVINGLY CARED FOR CAREFULLY RIDEN BY CLUB MAN FORCED SALE DUE TO ILL HEALTH PRICE $6,750THE BIKE1200 OIL HEAD BOXER ENGINETraction controlABSDynamic braking systemAir and oil cooledCrash barsScrew and locknut adjustment tappets not shimsElectronic adjustable suspensionHeated gripsWindscreenSuper powerful driving … Read More » For Sale",
       "startDate": null,
       "location": "",
-      "state": "VIC",
+      "state": "SA",
       "category": "rally",
       "sourceUrl": "https://classicowners.org/for-sale-bmw-r1200r-se-125k-kms/",
       "sourceName": "Classic Owners MC SA"
@@ -808,7 +775,7 @@
     {
       "id": "d127af05ee55",
       "title": "For Sale : Triumph Speed Twin",
-      "description": "For Sale : Triumph Speed Twin 18 Jan A 2022 MY23 Triumph Speed Twin 900.\n24500km \nService history, books , keys and all original pieces kept.\nIt’s in excellent condition, I just have too many and this is the one that has to go.\nRegistered until 2/3/26 but will include 3 months rego to any buyer.\n$9,700 but open to offers. No telephone number, but email address for Ashley Pyman is packoh@gmail.com For Sale",
+      "description": "For Sale : Triumph Speed Twin 18 Jan A 2022 MY23 Triumph Speed Twin 900. 24500km Service history, books , keys and all original pieces kept. It’s in excellent condition, I just have too many and this is the one that has to go. Registered until 2/3/26 but … Read More » For Sale",
       "startDate": null,
       "location": "",
       "state": "VIC",
@@ -830,7 +797,7 @@
     {
       "id": "cb387f9fd3a7",
       "title": "For Sale : Moto Guzzi Falcone 1972",
-      "description": "For Sale : Moto Guzzi Falcone 1972 7 Sep Mileage : 9940 km Condition : good Registration : RK 608 Price : $ 6500 (open for discussion but a reasonable offer is preferred) Eddy 08 81650032 For Sale",
+      "description": "For Sale : Moto Guzzi Falcone 1972 7 Sep Mileage : 9940 km Condition : good Registration : RK 608 Price : $ 6500 (open for discussion but a reasonable offer is preferred) Eddy              08 81650032 For Sale",
       "startDate": null,
       "location": "",
       "state": "SA",
@@ -847,17 +814,6 @@
       "state": "ALL",
       "category": "other",
       "sourceUrl": "https://classicowners.org/classic-courier-september-november-2025/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "30387b40c8ca",
-      "title": "FOMSA Ride Week 2025",
-      "description": "FOMSA Ride Week 2025 1 Sep Other Events",
-      "startDate": null,
-      "location": "",
-      "state": "SA",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/fomsa-ride-week-2025/",
       "sourceName": "Classic Owners MC SA"
     }
   ]
