@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-05T02:32:42.148675",
-  "totalEvents": 72,
+  "lastUpdated": "2026-04-12T02:37:53.913468",
+  "totalEvents": 73,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,28 +24,6 @@
   ],
   "errors": [],
   "events": [
-    {
-      "id": "2239de5960dd",
-      "title": "Bathurst Motorcycle Enthusiasts Club 51st Easter Bathurst Tour 29 March–5 April 2026",
-      "description": "Bathurst Motorcycle Enthusiasts Club 51st Easter Bathurst Tour 29 March–5 April 2026 – HQ at Bathurst Showgrounds, Bathurst NSW For motorcycles up to 1990. Rides every day to a different destination. Daily de-brief at HQ from 16.30 (free limited drinks). Informal dinner (PAYG) at Bathurst RSL Club, Thursday 9 April from 6pm. Contact: Clyde Ikin 0401 773 042 Email: Bathursteastertour@gmail.com",
-      "startDate": "2026-04-05",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "mailto:Bathursteastertour@gmail.com",
-      "sourceName": "Old Bike Australasia"
-    },
-    {
-      "id": "6d4827576f02",
-      "title": "Weekend Run",
-      "description": "9:30 am - 4:00 pm Weekend Run",
-      "startDate": "2026-04-06",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/weekend-run-2/",
-      "sourceName": "Classic Owners MC SA"
-    },
     {
       "id": "a23ea625da23",
       "title": "Scoresby Swap Meet 12 April 2026",
@@ -88,6 +66,17 @@
       "state": "NT",
       "category": "other",
       "sourceUrl": "https://tomcc.com.au/event/april-monthly-general-meeting-2/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "f09532f80410",
+      "title": "Overnighter To Forrest – 2026",
+      "description": "April 18 @ 09:30 - April 19 @ 15:00 Overnighter To Forrest – 2026",
+      "startDate": "2026-04-18",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://tomcc.com.au/event/overnighter-to-forrest-2026/",
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
@@ -137,7 +126,7 @@
     {
       "id": "d8d9de8ab0a2",
       "title": "The Annual Link Run – 2026",
-      "description": "09:30 - 15:00 The Annual Link Run – 2026",
+      "description": "09:30 - 14:00 The Annual Link Run – 2026",
       "startDate": "2026-05-03",
       "location": "",
       "state": "ALL",
@@ -175,7 +164,7 @@
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468900?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468900?CalendarViewType=1&SelectedDate=4/12/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -242,6 +231,17 @@
       "state": "ALL",
       "category": "other",
       "sourceUrl": "https://classicowners.org/event/log-book-day-2026/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "b16159c74eea",
+      "title": "Mopeds Plus : Strathalbyn Stroll",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Strathalbyn Stroll",
+      "startDate": "2026-06-14",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-strathalbyn-stroll/",
       "sourceName": "Classic Owners MC SA"
     },
     {
@@ -443,28 +443,6 @@
       "sourceName": "VMCC NSW"
     },
     {
-      "id": "723d9c1e7937",
-      "title": "42nd Annual Horsham Automotive Swap MeetApr 11thVIC, 3400",
-      "description": "42nd Annual Horsham Automotive Swap Meet Apr 11th VIC, 3400",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/42nd-annual-horsham-automotive-swap-meet/1063023",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "07e0784d3a0a",
-      "title": "26th Annual Motorcycle Only Swap MeetApr 12thVIC, 3179",
-      "description": "26th Annual Motorcycle Only Swap Meet Apr 12th VIC, 3179",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/26th-annual-motorcycle-only-swap-meet/1064173",
-      "sourceName": "Just Bikes"
-    },
-    {
       "id": "81c6c9bd1da4",
       "title": "Rare Spares and Repco RockynatsApr 17thQLD, 4700",
       "description": "Rare Spares and Repco Rockynats Apr 17th QLD, 4700",
@@ -575,6 +553,28 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "3868e213938a",
+      "title": "GRENFELL VJMC MOTORCYCLE SHOW N SHINEJun 7thNSW, 2810",
+      "description": "GRENFELL VJMC MOTORCYCLE SHOW N SHINE Jun 7th NSW, 2810",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/grenfell-vjmc-motorcycle-show-n-shine/1082391",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "c49df116abe8",
+      "title": "Townsville Combined Motor Clubs Swap Meet 2026Aug 16thQLD, 4810",
+      "description": "Townsville Combined Motor Clubs Swap Meet 2026 Aug 16th QLD, 4810",
+      "startDate": null,
+      "location": "",
+      "state": "QLD",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/townsville-combined-motor-clubs-swap-meet-2026/1081386",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "d7ec024fcf73",
       "title": "Log in with Google",
       "description": "Log in with Google Log in with Microsoft Log in with Apple * Email * Password Remember me Forgot password",
@@ -604,7 +604,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=4/12/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -615,7 +615,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6618394?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6618394?CalendarViewType=1&SelectedDate=4/12/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -626,7 +626,7 @@
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6596059?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6596059?CalendarViewType=1&SelectedDate=4/12/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -637,7 +637,7 @@
       "location": "",
       "state": "ALL",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6624850?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6624850?CalendarViewType=1&SelectedDate=4/12/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -648,7 +648,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479412?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479412?CalendarViewType=1&SelectedDate=4/12/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -659,7 +659,7 @@
       "location": "",
       "state": "NT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=4/5/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=4/12/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -709,12 +709,12 @@
     {
       "id": "01c2b70e3121",
       "title": "Triumph Owners Motorcycle Club of Australia (TOMCC)",
-      "description": "Triumph Owners Motorcycle Club of Australia (TOMCC) The Triumph Owners Motorcycle Club of Australia (TOMCC) is more than just a group of motorcycle enthusiasts; we are a community dedicated to celebrating the iconic British brand Joining TOMCC means joining a family-oriented community that welcomes riders of all ages and experience levels. Whether you’re a seasoned rider or newbie. As a member, you’ll enjoy social get-togethers, group rides, and other organized events throughout the year. Highli",
+      "description": "Triumph Owners Motorcycle Club of Australia (TOMCC) Don't Forget the Annual link Run is coming up - The 3rd of May. Click on the link for more details The Triumph Owners Motorcycle Club of Australia (TOMCC) is more than just a group of motorcycle enthusiasts; we are a community dedicated to celebrating the iconic British brand Joining TOMCC means joining a family-oriented community that welcomes riders of all ages and experience levels. Whether you’re a seasoned rider or newbie. As a member, you",
       "startDate": null,
       "location": "",
       "state": "VIC",
       "category": "rally",
-      "sourceUrl": "https://www.facebook.com/tomccau/",
+      "sourceUrl": "https://tomcc.com.au/event/the-annual-link-run-2026/",
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
@@ -762,47 +762,14 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
-      "id": "274b9c66e250",
-      "title": "For Sale : BMW R1200R SE 125k kms",
-      "description": "For Sale : BMW R1200R SE 125k kms 11 Mar LOVINGLY CARED FOR CAREFULLY RIDEN BY CLUB MAN FORCED SALE DUE TO ILL HEALTH PRICE $6,750THE BIKE1200 OIL HEAD BOXER ENGINETraction controlABSDynamic braking systemAir and oil cooledCrash barsScrew and locknut adjustment tappets not shimsElectronic adjustable suspensionHeated gripsWindscreenSuper powerful driving … Read More » For Sale",
-      "startDate": null,
-      "location": "",
-      "state": "SA",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/for-sale-bmw-r1200r-se-125k-kms/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "d127af05ee55",
-      "title": "For Sale : Triumph Speed Twin",
-      "description": "For Sale : Triumph Speed Twin 18 Jan A 2022 MY23 Triumph Speed Twin 900. 24500km Service history, books , keys and all original pieces kept. It’s in excellent condition, I just have too many and this is the one that has to go. Registered until 2/3/26 but … Read More » For Sale",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/for-sale-triumph-speed-twin/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
       "id": "4a030de7f685",
       "title": "Classic Courier : December 2025 – February 2026",
-      "description": "Classic Courier : December 2025 – February 2026 10 Dec Uncategorized",
+      "description": "Classic Courier : December 2025 – February 2026 10 Dec Classic Courier",
       "startDate": null,
       "location": "",
       "state": "ALL",
       "category": "other",
       "sourceUrl": "https://classicowners.org/classic-courier-december-2025-february-2026/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "cb387f9fd3a7",
-      "title": "For Sale : Moto Guzzi Falcone 1972",
-      "description": "For Sale : Moto Guzzi Falcone 1972 7 Sep Mileage : 9940 km Condition : good Registration : RK 608 Price : $ 6500 (open for discussion but a reasonable offer is preferred) Eddy              08 81650032 For Sale",
-      "startDate": null,
-      "location": "",
-      "state": "SA",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/for-sale/",
       "sourceName": "Classic Owners MC SA"
     },
     {
@@ -814,6 +781,50 @@
       "state": "ALL",
       "category": "other",
       "sourceUrl": "https://classicowners.org/classic-courier-september-november-2025/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "30387b40c8ca",
+      "title": "FOMSA Ride Week 2025",
+      "description": "FOMSA Ride Week 2025 1 Sep Other Events",
+      "startDate": null,
+      "location": "",
+      "state": "SA",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/fomsa-ride-week-2025/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "c4fbe35d3f38",
+      "title": "Ride to Greenock, Sunday 27 July",
+      "description": "Ride to Greenock, Sunday 27 July 25 Jul Following the forecast for inclement weather, this Sunday’s visit to Greenock Aviation Museum is still on, but the Club Captain has advised that members should gather their family and friends and travel to the museum by car. Club Events",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/ride-to-greenock-sunday-27-july/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "7a6e95c2558b",
+      "title": "Vale : Barry Young",
+      "description": "Vale : Barry Young 16 Jul It was with great sadness to learn that club stalwart and all round great guy Barry Young passed away this morning. Barry, a life member, joined the club in 2006. He served as Vice-President 2019-20 and 2022-23, Social Secretary 2007-12 and 2014-20, more recently Barry was one of our Assistant Registrars serving in that role for at least the past 5 years. He was also voted the Club Member of the Year in 2016. Barry used to enjoy restoring bikes – the most recent being a",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "show",
+      "sourceUrl": "https://classicowners.org/vale-barry-young/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "259d539d2066",
+      "title": "Midweek Ride, Wednesday 6th August",
+      "description": "Midweek Ride, Wednesday 6th August 4 Jul Club Events",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/midweek-ride-wednesday-6th-august/",
       "sourceName": "Classic Owners MC SA"
     }
   ]
