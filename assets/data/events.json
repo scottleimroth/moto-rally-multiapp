@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-19T02:43:12.784806",
-  "totalEvents": 55,
+  "lastUpdated": "2026-04-26T02:46:13.593106",
+  "totalEvents": 53,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,50 +24,6 @@
   ],
   "errors": [],
   "events": [
-    {
-      "id": "c598b0e41574",
-      "title": "Club Events",
-      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
-      "startDate": "2026-04-21",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
-      "id": "a2dd15fa4ccf",
-      "title": "Midweek Ride",
-      "description": "9:30 am - 4:00 pm Midweek Ride",
-      "startDate": "2026-04-21",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/midweek-ride-12/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "560163eb2109",
-      "title": "Committee Meeting",
-      "description": "7:30 pm - 9:30 pm Committee Meeting",
-      "startDate": "2026-04-21",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/committee-meeting-7/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "8b65ffaf4d78",
-      "title": "All British Rally – 2026",
-      "description": "April 24 - April 26 All British Rally – 2026",
-      "startDate": "2026-04-24",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://tomcc.com.au/event/all-british-rally-2026/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
     {
       "id": "502762ed177d",
       "title": "General Meeting",
@@ -131,7 +87,7 @@
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468900?CalendarViewType=1&SelectedDate=4/19/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468900?CalendarViewType=1&SelectedDate=4/26/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -223,6 +179,28 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
+      "id": "5a6de2e9eecd",
+      "title": "Mopeds Plus : Williamstown Wander 2",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Williamstown Wander 2",
+      "startDate": "2026-08-09",
+      "location": "",
+      "state": "WA",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-williamstown-wander-2/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "e547022dbb70",
+      "title": "Mopeds Plus : Uraidla Ultimate",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Uraidla Ultimate",
+      "startDate": "2026-09-13",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-uraidla-ultimate-2/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "78718b4befdb",
       "title": "BMW Clubs Australia Cars National Rally",
       "description": "18 Mar 2027 @ 08:00 – 21 Mar 2027 @ 17:00 UTC+10 BMW Clubs Australia Cars National Rally",
@@ -243,28 +221,6 @@
       "category": "swap_meet",
       "sourceUrl": "https://vmccnsw.org.au/wp-content/uploads/2026/01/Bathurst-Easter-Tour-2026-Entry-Form.pdf",
       "sourceName": "VMCC NSW"
-    },
-    {
-      "id": "d4181d042ecc",
-      "title": "48th All British RallyApr 24thVIC, 3462",
-      "description": "48th All British Rally Apr 24th VIC, 3462",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "rally",
-      "sourceUrl": "https://www.justbikes.com.au/events/48th-all-british-rally/1076388",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "63a44f873e7c",
-      "title": "Federation Scorsby Picnic Car and Motorcycle ShowApr 26thVIC, 3179",
-      "description": "Federation Scorsby Picnic Car and Motorcycle Show Apr 26th VIC, 3179",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "show",
-      "sourceUrl": "https://www.justbikes.com.au/events/federation-scorsby-picnic-car-and-motorcycle-show/1080824",
-      "sourceName": "Just Bikes"
     },
     {
       "id": "2ae8384b4681",
@@ -344,6 +300,17 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "86e8991c13db",
+      "title": "37th Annual Swap MeetJun 7thNSW, 2485",
+      "description": "37th Annual Swap Meet Jun 7th NSW, 2485",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/37th-annual-swap-meet/1084198",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "3868e213938a",
       "title": "GRENFELL VJMC MOTORCYCLE SHOW N SHINEJun 7thNSW, 2810",
       "description": "GRENFELL VJMC MOTORCYCLE SHOW N SHINE Jun 7th NSW, 2810",
@@ -377,6 +344,17 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "8904ed8ccb29",
+      "title": "Veteran Vintage and Classic Motorcycle ShowSep 11thNSW, 2880",
+      "description": "Veteran Vintage and Classic Motorcycle Show Sep 11th NSW, 2880",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/veteran-vintage-and-classic-motorcycle-show/1081782",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "d7ec024fcf73",
       "title": "Log in with Google",
       "description": "Log in with Google Log in with Microsoft Log in with Apple * Email * Password Remember me Forgot password",
@@ -406,7 +384,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=4/19/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=4/26/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -417,7 +395,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6618394?CalendarViewType=1&SelectedDate=4/19/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6618394?CalendarViewType=1&SelectedDate=4/26/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -428,7 +406,7 @@
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6596059?CalendarViewType=1&SelectedDate=4/19/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6596059?CalendarViewType=1&SelectedDate=4/26/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -439,7 +417,7 @@
       "location": "",
       "state": "ALL",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6624850?CalendarViewType=1&SelectedDate=4/19/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6624850?CalendarViewType=1&SelectedDate=4/26/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -450,7 +428,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479412?CalendarViewType=1&SelectedDate=4/19/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6479412?CalendarViewType=1&SelectedDate=4/26/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -461,7 +439,7 @@
       "location": "",
       "state": "NT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=4/19/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=4/26/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -520,6 +498,17 @@
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
+      "id": "b6e932a5b166",
+      "title": "Midweek Ride 21st April",
+      "description": "Midweek Ride 21st April 25 Apr Chris Herreen, led us on a Mystery Ride and 9 riders turned up, the weather was perfect for motorbikes. It turned out that the Mystery part of the ride was a stop at Hahndorf to play Mini Golf. We parked close to the golf links, very close to Otto’s Bakery, paid our $8- fees and started our round, at the beginning some tried to keep score but the scores were so depressing that almost all gave up and had fun. Every player was subjected to a considerable amount of us",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/midweek-ride-21st-april/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "c3155206feda",
       "title": "Vale : Warren Duncan",
       "description": "Vale : Warren Duncan 1 Apr I’m sad to report the passing of Warren Duncan who joined the Club in 1990 and achieved 35 years of continuous membership. He was an active participant in meetings and was elected joint Vice President in 2002/03 and as Vice President in 2006/07 when he also took on the role of Federation Rep. In 2012, together with Alan Wallis, Warren took on the task of coordinating the Moped Plus rides. Warren designed all the rides while driving local school buses through the Adelai",
@@ -533,7 +522,7 @@
     {
       "id": "5e398ed96b94",
       "title": "Club BBQ @ Thorndon Park 29/3/26",
-      "description": "Club BBQ @ Thorndon Park 29/3/26 31 Mar We couldn’t have picked a better day for the reorganised Summer BBQ, which was rescheduled due to hot weather. Thanks to Alan Kernich, Bob Cole (chef) and Evangeline (apple pie & cream) and all who attended and helped out on the day. We all agreed that this time of year is the perfect time for future club BBQs. Club Events",
+      "description": "Club BBQ @ Thorndon Park 29/3/26 31 Mar We couldn’t have picked a better day for the reorganised Summer BBQ, which was rescheduled due to hot weather. Thanks to Alan Kernich, Bob Cole (chef) and Evangeline (apple pie & cream) and all who attended and helped out on the day. We all agreed that this time of year is the perfect time for future club BBQs. Club Events , Event Reports",
       "startDate": null,
       "location": "",
       "state": "WA",
@@ -616,17 +605,6 @@
       "state": "NT",
       "category": "rally",
       "sourceUrl": "https://classicowners.org/midweek-ride-wednesday-6th-august/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "7c99f2037713",
-      "title": "Classic Courier : June – August 2025",
-      "description": "Classic Courier : June – August 2025 5 Jun Classic Courier",
-      "startDate": null,
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/classic-courier-june-august-2025/",
       "sourceName": "Classic Owners MC SA"
     }
   ]
