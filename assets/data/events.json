@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-26T02:46:13.593106",
-  "totalEvents": 53,
+  "lastUpdated": "2026-05-03T02:55:51.005972",
+  "totalEvents": 55,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,17 +24,6 @@
   ],
   "errors": [],
   "events": [
-    {
-      "id": "502762ed177d",
-      "title": "General Meeting",
-      "description": "7:30 pm - 9:30 pm General Meeting",
-      "startDate": "2026-04-28",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/general-meeting-6/",
-      "sourceName": "Classic Owners MC SA"
-    },
     {
       "id": "5fc5631cf652",
       "title": "30th Annual Heart of the Hunter Rally 1–3 May 2026",
@@ -87,8 +76,19 @@
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6468900?CalendarViewType=1&SelectedDate=4/26/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6468900?CalendarViewType=1&SelectedDate=5/3/2026",
       "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "cc4e4e111b44",
+      "title": "Club Events",
+      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
+      "startDate": "2026-05-09",
+      "location": "",
+      "state": "NSW",
+      "category": "swap_meet",
+      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
+      "sourceName": "Ducati Owners Club Victoria"
     },
     {
       "id": "19d0c6bf6cd5",
@@ -133,6 +133,17 @@
       "category": "rally",
       "sourceUrl": "https://classicowners.org/event/midweek-ride-14/",
       "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "33c07a18a560",
+      "title": "Reconciliation Day, ACT Public Holiday",
+      "description": "Reconciliation Day, ACT Public Holiday BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 4 June  2026 56th Alpine Rally, BMWTCNSW",
+      "startDate": "2026-06-04",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979240?CalendarViewType=1&SelectedDate=5/3/2026",
+      "sourceName": "BMW MCC Canberra"
     },
     {
       "id": "f4ce4f2a1193",
@@ -201,6 +212,17 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
+      "id": "4949c25978a4",
+      "title": "Mopeds Plus : Mt Barker Burble",
+      "description": "8:00 am - 5:00 pm Mopeds Plus : Mt Barker Burble",
+      "startDate": "2026-10-11",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-mt-barker-burble/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "78718b4befdb",
       "title": "BMW Clubs Australia Cars National Rally",
       "description": "18 Mar 2027 @ 08:00 – 21 Mar 2027 @ 17:00 UTC+10 BMW Clubs Australia Cars National Rally",
@@ -221,28 +243,6 @@
       "category": "swap_meet",
       "sourceUrl": "https://vmccnsw.org.au/wp-content/uploads/2026/01/Bathurst-Easter-Tour-2026-Entry-Form.pdf",
       "sourceName": "VMCC NSW"
-    },
-    {
-      "id": "2ae8384b4681",
-      "title": "Naracoorte Swap Meet & Show n Shine 2026May 2ndSA, 5271",
-      "description": "Naracoorte Swap Meet & Show n Shine 2026 May 2nd SA, 5271",
-      "startDate": null,
-      "location": "",
-      "state": "WA",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/naracoorte-swap-meet-show-n-shine-2026/1080827",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "088e4e70e302",
-      "title": "Berry Charity Bike Show 2026May 3rdNSW, 2535",
-      "description": "Berry Charity Bike Show 2026 May 3rd NSW, 2535",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "show",
-      "sourceUrl": "https://www.justbikes.com.au/events/berry-charity-bike-show-2026/1078699",
-      "sourceName": "Just Bikes"
     },
     {
       "id": "fe6aa521b177",
@@ -355,6 +355,28 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "e76c6bb5d111",
+      "title": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOWSep 12thQLD, 4570",
+      "description": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW Sep 12th QLD, 4570",
+      "startDate": null,
+      "location": "",
+      "state": "QLD",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/2026-gympie-historic-auto-club-inc-swap-meet-and-car-show/1079683",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "9c6ed0f5f2ca",
+      "title": "The 50th Anniversary Rally of the R100RS and other /7Sep 20thNSW, 2580",
+      "description": "The 50th Anniversary Rally of the R100RS and other /7 Sep 20th NSW, 2580",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.justbikes.com.au/events/the-50th-anniversary-rally-of-the-r100rs-and-other-7/1077057",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "d7ec024fcf73",
       "title": "Log in with Google",
       "description": "Log in with Google Log in with Microsoft Log in with Apple * Email * Password Remember me Forgot password",
@@ -377,61 +399,6 @@
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "8224b4e3e306",
-      "title": "Easter (ACT Public Holiday)",
-      "description": "Easter (ACT Public Holiday)",
-      "startDate": null,
-      "location": "",
-      "state": "ACT",
-      "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6519790?CalendarViewType=1&SelectedDate=4/26/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "9720123730af",
-      "title": "Weekday Ride to Lunch - Braidwood, NSW (Club Event)",
-      "description": "Weekday Ride to Lunch - Braidwood, NSW (Club Event) BMW Motorcycle Club Canberra Inc. 2026 AGM (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6618394?CalendarViewType=1&SelectedDate=4/26/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "025a20fd976f",
-      "title": "BMWMCC Weekday Ride to Lunch - Crookwell (Club Event)",
-      "description": "BMWMCC Weekday Ride to Lunch - Crookwell (Club Event) 32nd Cane Toad Rally, BMWMCQ",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6596059?CalendarViewType=1&SelectedDate=4/26/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "275744b41c13",
-      "title": "32nd Cane Toad Rally, BMWMCQ",
-      "description": "32nd Cane Toad Rally, BMWMCQ",
-      "startDate": null,
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6624850?CalendarViewType=1&SelectedDate=4/26/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "004290130f17",
-      "title": "Sunday Ride - Koorawatha, NSW (Club Event)",
-      "description": "Sunday Ride - Koorawatha, NSW (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6479412?CalendarViewType=1&SelectedDate=4/26/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
       "id": "091b64747c06",
       "title": "Fix-A-Flat Session (Club Event)",
       "description": "Fix-A-Flat Session (Club Event)",
@@ -439,7 +406,62 @@
       "location": "",
       "state": "NT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=4/26/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=5/3/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "fb1fb15718a4",
+      "title": "Weekday Ride to Lunch - Nelligen, NSW (Club Event)",
+      "description": "Weekday Ride to Lunch - Nelligen, NSW (Club Event) National Motor Heritage Day - Tuross Head, NSW (Joint BMWMCC & BMWTCNSW Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6659070?CalendarViewType=1&SelectedDate=5/3/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "e9b51856f108",
+      "title": "National Motor Heritage Day - Tuross Head, NSW (Joint BMWMCC & BMWTCNSW Club Event)",
+      "description": "National Motor Heritage Day - Tuross Head, NSW (Joint BMWMCC & BMWTCNSW Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "other",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569256?CalendarViewType=1&SelectedDate=5/3/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "dbb8d3e6bf87",
+      "title": "Distinguished Gentleman's Club Ride, Canberra, ACT (Club Event)",
+      "description": "Distinguished Gentleman's Club Ride, Canberra, ACT (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "ACT",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6625793?CalendarViewType=1&SelectedDate=5/3/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "cd34962f8770",
+      "title": "Jun 1",
+      "description": "",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://www.bmwmcc.au/page-1419638",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "30de9b42faeb",
+      "title": "56th Alpine Rally, BMWTCNSW",
+      "description": "56th Alpine Rally, BMWTCNSW",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6541711?CalendarViewType=1&SelectedDate=5/3/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
