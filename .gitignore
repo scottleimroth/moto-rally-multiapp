@@ -123,3 +123,8 @@ devtools_options.yaml
 
 # Nested project folders (accidental)
 moto-rally-multiapp/
+
+# Security baseline
+*.db
+*.sqlite
+*.sqlite3
