@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-10T02:57:57.125217",
-  "totalEvents": 53,
+  "lastUpdated": "2026-05-17T03:29:08.283361",
+  "totalEvents": 51,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -25,48 +25,26 @@
   "errors": [],
   "events": [
     {
-      "id": "19d0c6bf6cd5",
-      "title": "Mopeds Plus : Gumeracha Glide",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : Gumeracha Glide",
-      "startDate": "2026-05-10",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-gumeracha-glide/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "af838a15f6c4",
-      "title": "May Monthly General Meeting",
-      "description": "19:00 - 20:00 May Monthly General Meeting",
-      "startDate": "2026-05-12",
-      "location": "",
-      "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://tomcc.com.au/event/may-monthly-general-meeting-2026/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
-    {
-      "id": "8fbdb39e6250",
-      "title": "Club Events",
-      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
-      "startDate": "2026-05-17",
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
       "id": "e4118f37ade0",
       "title": "Distinguished Gentlemen’s Ride 2026",
-      "description": "All day Distinguished Gentlemen’s Ride 2026",
+      "description": "08:30 - 14:00 Distinguished Gentlemen’s Ride 2026",
       "startDate": "2026-05-17",
       "location": "",
       "state": "NT",
       "category": "rally",
       "sourceUrl": "https://tomcc.com.au/event/distinguished-gentlemens-ride-2026/",
       "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "32ff17e807ff",
+      "title": "Club Events",
+      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
+      "startDate": "2026-05-19",
+      "location": "",
+      "state": "NSW",
+      "category": "swap_meet",
+      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
+      "sourceName": "Ducati Owners Club Victoria"
     },
     {
       "id": "ae70f102df32",
@@ -87,7 +65,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979240?CalendarViewType=1&SelectedDate=5/10/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979240?CalendarViewType=1&SelectedDate=5/17/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -212,39 +190,6 @@
       "sourceName": "VMCC NSW"
     },
     {
-      "id": "fe6aa521b177",
-      "title": "21st Mildura MeanderMay 16thVIC, 3500",
-      "description": "21st Mildura Meander May 16th VIC, 3500",
-      "startDate": null,
-      "location": "",
-      "state": "VIC",
-      "category": "other",
-      "sourceUrl": "https://www.justbikes.com.au/events/21st-mildura-meander/1072074",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "71120dc251be",
-      "title": "Rylstone Swap MeetMay 17thNSW, 2849",
-      "description": "Rylstone Swap Meet May 17th NSW, 2849",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/rylstone-swap-meet/1079873",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "510337914255",
-      "title": "Tilligerry MotoramaMay 17thNSW, 2319",
-      "description": "Tilligerry Motorama May 17th NSW, 2319",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "other",
-      "sourceUrl": "https://www.justbikes.com.au/events/tilligerry-motorama/1081505",
-      "sourceName": "Just Bikes"
-    },
-    {
       "id": "1ab8930fd0bb",
       "title": "North Coast Classic Motorcycle Show and SwapMay 31stNSW, 2477",
       "description": "North Coast Classic Motorcycle Show and Swap May 31st NSW, 2477",
@@ -344,6 +289,39 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "9c6ed0f5f2ca",
+      "title": "The 50th Anniversary Rally of the R100RS and other /7Sep 20thNSW, 2580",
+      "description": "The 50th Anniversary Rally of the R100RS and other /7 Sep 20th NSW, 2580",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.justbikes.com.au/events/the-50th-anniversary-rally-of-the-r100rs-and-other-7/1077057",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "18e2c2dd8026",
+      "title": "All British DaySep 27thQLD, 4105",
+      "description": "All British Day Sep 27th QLD, 4105",
+      "startDate": null,
+      "location": "",
+      "state": "QLD",
+      "category": "other",
+      "sourceUrl": "https://www.justbikes.com.au/events/all-british-day/1080868",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "6204ea510a92",
+      "title": "Buangor Motor ShowOct 17thVIC, 3375",
+      "description": "Buangor Motor Show Oct 17th VIC, 3375",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/buangor-motor-show/1081045",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "d7ec024fcf73",
       "title": "Log in with Google",
       "description": "Log in with Google Log in with Microsoft Log in with Apple * Email * Password Remember me Forgot password",
@@ -373,7 +351,7 @@
       "location": "",
       "state": "NT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=5/10/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=5/17/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -384,7 +362,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6659070?CalendarViewType=1&SelectedDate=5/10/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6659070?CalendarViewType=1&SelectedDate=5/17/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -395,7 +373,7 @@
       "location": "",
       "state": "NSW",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569256?CalendarViewType=1&SelectedDate=5/10/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569256?CalendarViewType=1&SelectedDate=5/17/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -406,7 +384,7 @@
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6625793?CalendarViewType=1&SelectedDate=5/10/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6625793?CalendarViewType=1&SelectedDate=5/17/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -417,7 +395,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6684277?CalendarViewType=1&SelectedDate=5/10/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6684277?CalendarViewType=1&SelectedDate=5/17/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -439,13 +417,13 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6541711?CalendarViewType=1&SelectedDate=5/10/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6541711?CalendarViewType=1&SelectedDate=5/17/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
       "id": "07f2ac0b810a",
       "title": "Want to organise or lead a ride",
-      "description": "Want to organise or lead a ride Ranking of Club Rides",
+      "description": "Want to organise or lead a ride Rating Club Rides",
       "startDate": null,
       "location": "",
       "state": "WA",
