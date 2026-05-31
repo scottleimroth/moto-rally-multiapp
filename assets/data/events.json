@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-24T03:38:24.718128",
-  "totalEvents": 32,
+  "lastUpdated": "2026-05-31T00:56:33.519825",
+  "totalEvents": 52,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -25,14 +25,25 @@
   "errors": [],
   "events": [
     {
+      "id": "dd41a4c2120b",
+      "title": "Three Ferry Ride",
+      "description": "9:30 am - 4:00 pm Three Ferry Ride",
+      "startDate": "2026-05-31",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/three-ferry-ride/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "33c07a18a560",
       "title": "Reconciliation Day, ACT Public Holiday",
-      "description": "Reconciliation Day, ACT Public Holiday Weekday Ride to Lunch - Taralga, NSW (Club Event) BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 4 June  2026 56th Alpine Rally, BMWTCNSW",
+      "description": "Reconciliation Day, ACT Public Holiday BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 4 June  2026 56th Alpine Rally, BMWTCNSW",
       "startDate": "2026-06-04",
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979240?CalendarViewType=1&SelectedDate=5/24/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979240?CalendarViewType=1&SelectedDate=5/31/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -58,6 +69,39 @@
       "sourceName": "Ducati Owners Club Victoria"
     },
     {
+      "id": "f4ce4f2a1193",
+      "title": "Log Book Day 2026",
+      "description": "9:00 am - 1:00 pm Log Book Day 2026",
+      "startDate": "2026-06-13",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/log-book-day-2026/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "b16159c74eea",
+      "title": "Mopeds Plus : Strathalbyn Stroll",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Strathalbyn Stroll",
+      "startDate": "2026-06-14",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-strathalbyn-stroll/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "bbf8abe3da7b",
+      "title": "Committee Meeting",
+      "description": "8:00 am - 5:00 pm Committee Meeting",
+      "startDate": "2026-06-16",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/committee-meeting-8/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "c1847dc54d94",
       "title": "Overnighter To Forrest – 2026",
       "description": "June 20 - June 21 Overnighter To Forrest – 2026",
@@ -67,6 +111,72 @@
       "category": "other",
       "sourceUrl": "https://tomcc.com.au/event/overnighter-to-forrest-2026/",
       "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "228ed6348bc5",
+      "title": "General Meeting",
+      "description": "8:00 am - 5:00 pm General Meeting",
+      "startDate": "2026-06-23",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/general-meeting-7/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "f9be099770e0",
+      "title": "Mopeds Plus : Mt Torrens Trek",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Mt Torrens Trek",
+      "startDate": "2026-07-12",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-mt-torrens-trek/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "5a6de2e9eecd",
+      "title": "Mopeds Plus : Williamstown Wander 2",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Williamstown Wander 2",
+      "startDate": "2026-08-09",
+      "location": "",
+      "state": "WA",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-williamstown-wander-2/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "e547022dbb70",
+      "title": "Mopeds Plus : Uraidla Ultimate",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Uraidla Ultimate",
+      "startDate": "2026-09-13",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-uraidla-ultimate-2/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "4949c25978a4",
+      "title": "Mopeds Plus : Mt Barker Burble",
+      "description": "8:00 am - 5:00 pm Mopeds Plus : Mt Barker Burble",
+      "startDate": "2026-10-11",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-mt-barker-burble/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "adef96b17b03",
+      "title": "Mopeds Plus : One Tree Hill Trundle",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : One Tree Hill Trundle",
+      "startDate": "2026-11-08",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-one-tree-hill-trundle-2/",
+      "sourceName": "Classic Owners MC SA"
     },
     {
       "id": "78718b4befdb",
@@ -89,17 +199,6 @@
       "category": "swap_meet",
       "sourceUrl": "https://vmccnsw.org.au/wp-content/uploads/2026/01/Bathurst-Easter-Tour-2026-Entry-Form.pdf",
       "sourceName": "VMCC NSW"
-    },
-    {
-      "id": "1ab8930fd0bb",
-      "title": "North Coast Classic Motorcycle Show and SwapMay 31stNSW, 2477",
-      "description": "North Coast Classic Motorcycle Show and Swap May 31st NSW, 2477",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/north-coast-classic-motorcycle-show-and-swap/1080847",
-      "sourceName": "Just Bikes"
     },
     {
       "id": "fbfd4a3e60b6",
@@ -223,6 +322,17 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "8b41dbbfc57f",
+      "title": "North West Swap Meet and Car ShowSep 19thNSW, 2380",
+      "description": "North West Swap Meet and Car Show Sep 19th NSW, 2380",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/north-west-swap-meet-and-car-show/1087637",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "d7ec024fcf73",
       "title": "Log in with Google",
       "description": "Log in with Google Log in with Microsoft Log in with Apple * Email * Password Remember me Forgot password",
@@ -252,7 +362,7 @@
       "location": "",
       "state": "NT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=5/24/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=5/31/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -263,7 +373,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6659070?CalendarViewType=1&SelectedDate=5/24/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6659070?CalendarViewType=1&SelectedDate=5/31/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -274,7 +384,7 @@
       "location": "",
       "state": "NSW",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569256?CalendarViewType=1&SelectedDate=5/24/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6569256?CalendarViewType=1&SelectedDate=5/31/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -285,7 +395,7 @@
       "location": "",
       "state": "NT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6625793?CalendarViewType=1&SelectedDate=5/24/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6625793?CalendarViewType=1&SelectedDate=5/31/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -296,7 +406,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6684277?CalendarViewType=1&SelectedDate=5/24/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6684277?CalendarViewType=1&SelectedDate=5/31/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -318,7 +428,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6541711?CalendarViewType=1&SelectedDate=5/24/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6541711?CalendarViewType=1&SelectedDate=5/31/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -375,6 +485,116 @@
       "category": "rally",
       "sourceUrl": "https://www.facebook.com/tomccau/",
       "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "1c569b4658ef",
+      "title": "A Three Ferry Ride, Sunday 31st May",
+      "description": "A Three Ferry Ride, Sunday 31st May 25 May Rod Bailey, will lead the ride, leaving Hawthorn Crescent 10 O’clock sharp. Any riders that wish to avoid the city can meet us about 10.30, outside the Little Birdy Cafe at Nairne. We will not be stopping so don’t get comfortable. From Nairne we will ride to Murray Bridge, Old Swanport Rd, Jervois and our first ferry to Tailem Bend, where we will stop for a cuppa. From Tailem Bend we head to Meningi, turning off onto Poltalloch Rd, crossing the lake on ",
+      "startDate": null,
+      "location": "",
+      "state": "WA",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/a-three-ferry-ride-sunday-31st-may/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "9f934f19d1a4",
+      "title": "Log Book Day 2026",
+      "description": "Log Book Day 2026 17 May Club Events",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/log-book-day-2026/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "b6e932a5b166",
+      "title": "Midweek Ride 21st April",
+      "description": "Midweek Ride 21st April 25 Apr Chris Herreen, led us on a Mystery Ride and 9 riders turned up, the weather was perfect for motorbikes. It turned out that the Mystery part of the ride was a stop at Hahndorf to play Mini Golf. We parked close to the golf links, very close to Otto’s Bakery, paid our $8- fees and started our round, at the beginning some tried to keep score but the scores were so depressing that almost all gave up and had fun. Every player was subjected to a considerable amount of us",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/midweek-ride-21st-april/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "c3155206feda",
+      "title": "Vale : Warren Duncan",
+      "description": "Vale : Warren Duncan 1 Apr I’m sad to report the passing of Warren Duncan who joined the Club in 1990 and achieved 35 years of continuous membership. He was an active participant in meetings and was elected joint Vice President in 2002/03 and as Vice President in 2006/07 when he also took on the role of Federation Rep. In 2012, together with Alan Wallis, Warren took on the task of coordinating the Moped Plus rides. Warren designed all the rides while driving local school buses through the Adelai",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/vale-warren-duncan/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "5e398ed96b94",
+      "title": "Club BBQ @ Thorndon Park 29/3/26",
+      "description": "Club BBQ @ Thorndon Park 29/3/26 31 Mar We couldn’t have picked a better day for the reorganised Summer BBQ, which was rescheduled due to hot weather. Thanks to Alan Kernich, Bob Cole (chef) and Evangeline (apple pie & cream) and all who attended and helped out on the day. We all agreed that this time of year is the perfect time for future club BBQs. Club Events , Event Reports",
+      "startDate": null,
+      "location": "",
+      "state": "WA",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/club-bbq-thorndon-park-29-3-26/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "183b58a06d0e",
+      "title": "Classic Courier : March – May 2026",
+      "description": "Classic Courier : March – May 2026 17 Mar Classic Courier",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/classic-courier-march-may-2026/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "4a030de7f685",
+      "title": "Classic Courier : December 2025 – February 2026",
+      "description": "Classic Courier : December 2025 – February 2026 10 Dec Classic Courier",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/classic-courier-december-2025-february-2026/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "fc8a16f692ed",
+      "title": "Classic Courier : September – November 2025",
+      "description": "Classic Courier : September – November 2025 7 Sep Classic Courier",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/classic-courier-september-november-2025/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "30387b40c8ca",
+      "title": "FOMSA Ride Week 2025",
+      "description": "FOMSA Ride Week 2025 1 Sep Other Events",
+      "startDate": null,
+      "location": "",
+      "state": "SA",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/fomsa-ride-week-2025/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "c4fbe35d3f38",
+      "title": "Ride to Greenock, Sunday 27 July",
+      "description": "Ride to Greenock, Sunday 27 July 25 Jul Following the forecast for inclement weather, this Sunday’s visit to Greenock Aviation Museum is still on, but the Club Captain has advised that members should gather their family and friends and travel to the museum by car. Club Events",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/ride-to-greenock-sunday-27-july/",
+      "sourceName": "Classic Owners MC SA"
     }
   ]
 }
