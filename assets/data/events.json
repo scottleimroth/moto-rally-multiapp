@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-31T00:56:33.519825",
-  "totalEvents": 52,
+  "lastUpdated": "2026-06-07T00:58:34.842184",
+  "totalEvents": 46,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,28 +24,6 @@
   ],
   "errors": [],
   "events": [
-    {
-      "id": "dd41a4c2120b",
-      "title": "Three Ferry Ride",
-      "description": "9:30 am - 4:00 pm Three Ferry Ride",
-      "startDate": "2026-05-31",
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/three-ferry-ride/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "33c07a18a560",
-      "title": "Reconciliation Day, ACT Public Holiday",
-      "description": "Reconciliation Day, ACT Public Holiday BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 4 June  2026 56th Alpine Rally, BMWTCNSW",
-      "startDate": "2026-06-04",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979240?CalendarViewType=1&SelectedDate=5/31/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
     {
       "id": "9550092240c7",
       "title": "June Monthly General Meeting",
@@ -179,15 +157,15 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
-      "id": "78718b4befdb",
-      "title": "BMW Clubs Australia Cars National Rally",
-      "description": "18 Mar 2027 @ 08:00 – 21 Mar 2027 @ 17:00 UTC+10 BMW Clubs Australia Cars National Rally",
-      "startDate": "2027-03-18",
+      "id": "74baf9871b78",
+      "title": "Mopeds Plus : Charleston Challenge",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Charleston Challenge",
+      "startDate": "2026-12-06",
       "location": "",
       "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://bmwca.au/?tribe_events=bmw-cars-national-rally",
-      "sourceName": "BMW Clubs Australia"
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-charleston-challenge-2/",
+      "sourceName": "Classic Owners MC SA"
     },
     {
       "id": "6a44947e7f08",
@@ -199,39 +177,6 @@
       "category": "swap_meet",
       "sourceUrl": "https://vmccnsw.org.au/wp-content/uploads/2026/01/Bathurst-Easter-Tour-2026-Entry-Form.pdf",
       "sourceName": "VMCC NSW"
-    },
-    {
-      "id": "fbfd4a3e60b6",
-      "title": "Tatts Finke Desert RaceJun 5thNT, 0870",
-      "description": "Tatts Finke Desert Race Jun 5th NT, 0870",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "track",
-      "sourceUrl": "https://www.justbikes.com.au/events/tatts-finke-desert-race/1081781",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "86e8991c13db",
-      "title": "37th Annual Swap MeetJun 7thNSW, 2485",
-      "description": "37th Annual Swap Meet Jun 7th NSW, 2485",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/37th-annual-swap-meet/1084198",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "3868e213938a",
-      "title": "GRENFELL VJMC MOTORCYCLE SHOW N SHINEJun 7thNSW, 2810",
-      "description": "GRENFELL VJMC MOTORCYCLE SHOW N SHINE Jun 7th NSW, 2810",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "show",
-      "sourceUrl": "https://www.justbikes.com.au/events/grenfell-vjmc-motorcycle-show-n-shine/1082391",
-      "sourceName": "Just Bikes"
     },
     {
       "id": "c49df116abe8",
@@ -333,6 +278,39 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "9c6ed0f5f2ca",
+      "title": "The 50th Anniversary Rally of the R100RS and other /7Sep 20thNSW, 2580",
+      "description": "The 50th Anniversary Rally of the R100RS and other /7 Sep 20th NSW, 2580",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.justbikes.com.au/events/the-50th-anniversary-rally-of-the-r100rs-and-other-7/1077057",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "18e2c2dd8026",
+      "title": "All British DaySep 27thQLD, 4105",
+      "description": "All British Day Sep 27th QLD, 4105",
+      "startDate": null,
+      "location": "",
+      "state": "QLD",
+      "category": "other",
+      "sourceUrl": "https://www.justbikes.com.au/events/all-british-day/1080868",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "6204ea510a92",
+      "title": "Buangor Motor ShowOct 17thVIC, 3375",
+      "description": "Buangor Motor Show Oct 17th VIC, 3375",
+      "startDate": null,
+      "location": "",
+      "state": "VIC",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/buangor-motor-show/1081045",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "d7ec024fcf73",
       "title": "Log in with Google",
       "description": "Log in with Google Log in with Microsoft Log in with Apple * Email * Password Remember me Forgot password",
@@ -355,61 +333,6 @@
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "091b64747c06",
-      "title": "Fix-A-Flat Session (Club Event)",
-      "description": "Fix-A-Flat Session (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6641896?CalendarViewType=1&SelectedDate=5/31/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "fb1fb15718a4",
-      "title": "Weekday Ride to Lunch - Nelligen, NSW (Club Event)",
-      "description": "Weekday Ride to Lunch - Nelligen, NSW (Club Event) National Motor Heritage Day - Tuross Head, NSW (Joint BMWMCC & BMWTCNSW Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6659070?CalendarViewType=1&SelectedDate=5/31/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "e9b51856f108",
-      "title": "National Motor Heritage Day - Tuross Head, NSW (Joint BMWMCC & BMWTCNSW Club Event)",
-      "description": "National Motor Heritage Day - Tuross Head, NSW (Joint BMWMCC & BMWTCNSW Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-6569256?CalendarViewType=1&SelectedDate=5/31/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "b40516cf948d",
-      "title": "Distinguished Gentleman's Ride (DGR)",
-      "description": "Distinguished Gentleman's Ride (DGR)",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6625793?CalendarViewType=1&SelectedDate=5/31/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
-      "id": "44703173d698",
-      "title": "Saturday Ride - Tuena, NSW (Club Event)",
-      "description": "Saturday Ride - Tuena, NSW (Club Event)",
-      "startDate": null,
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6684277?CalendarViewType=1&SelectedDate=5/31/2026",
-      "sourceName": "BMW MCC Canberra"
-    },
-    {
       "id": "cd34962f8770",
       "title": "Jun 1",
       "description": "",
@@ -428,7 +351,51 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6541711?CalendarViewType=1&SelectedDate=5/31/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6541711?CalendarViewType=1&SelectedDate=6/7/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "692b762995ea",
+      "title": "BMW Owners America National Rally 2026",
+      "description": "BMW Owners America National Rally 2026",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6301552?CalendarViewType=1&SelectedDate=6/7/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "a6d451fecc1b",
+      "title": "Queen's Birthday, ACT Public Holiday",
+      "description": "Queen's Birthday, ACT Public Holiday",
+      "startDate": null,
+      "location": "",
+      "state": "ACT",
+      "category": "other",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979241?CalendarViewType=1&SelectedDate=6/7/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "0e317ac8379b",
+      "title": "Weekday Ride to Lunch - Taralga, NSW (Club Event)",
+      "description": "Weekday Ride to Lunch - Taralga, NSW (Club Event) Saturday GS & TS Rides - Gundagai, NSW (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6687448?CalendarViewType=1&SelectedDate=6/7/2026",
+      "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "09630d1d56ee",
+      "title": "Weekday Ride to Lunch - Goulburn (Club Event)",
+      "description": "Weekday Ride to Lunch - Goulburn (Club Event)",
+      "startDate": null,
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.bmwmcc.au/event-6690862?CalendarViewType=1&SelectedDate=6/7/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -443,39 +410,6 @@
       "sourceName": "BMW MCC Canberra"
     },
     {
-      "id": "a25e5bf2df9a",
-      "title": "EUROPEAN H.O.G. RALLY",
-      "description": "EUROPEAN H.O.G. RALLY Cascais, Portugal June 18–21, 2026 Join us for the 32nd European H.O.G. Rally in the beautiful coastal town of Cascais, Portugal.  This event is open to all riders, Harley enthusiasts, and H.O.G. members – so bring your friends, rev up your engines, and get ready for an epic adventure! See Details",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/hog/rallies/european-hog-rally.html",
-      "sourceName": "Harley-Davidson Australia"
-    },
-    {
-      "id": "fd8c9b0a1c11",
-      "title": "STURGIS",
-      "description": "STURGIS Sturgis, South Dakota August 7–14, 2026 The mother of motorcycle rallies is back for its 86th year. Celebrate the legendary rally with Harley-Davidson August 2026.",
-      "startDate": null,
-      "location": "",
-      "state": "ALL",
-      "category": "rally",
-      "sourceUrl": "https://www.harley-davidson.com/au/en/content/event-calendar.html",
-      "sourceName": "Harley-Davidson Australia"
-    },
-    {
-      "id": "d5e9d86b90b1",
-      "title": "EUROPEAN BIKE WEEK",
-      "description": "EUROPEAN BIKE WEEK Lake Faak, Austria September 8–13, 2026 Experience Austria’s beautiful Lake Faak in September for the once-a-year event that brings together riders from around the world for one of a kind events, demos, and builds. See Details",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://www.harley-davidson.com/au/en/content/au/en/content/event-calendar/european-bike-week.html",
-      "sourceName": "Harley-Davidson Australia"
-    },
-    {
       "id": "01c2b70e3121",
       "title": "Triumph Owners Motorcycle Club of Australia (TOMCC)",
       "description": "Triumph Owners Motorcycle Club of Australia (TOMCC) The Triumph Owners Motorcycle Club of Australia (TOMCC) is more than just a group of motorcycle enthusiasts; we are a community dedicated to celebrating the iconic British brand Joining TOMCC means joining a family-oriented community that welcomes riders of all ages and experience levels. Whether you’re a seasoned rider or newbie. As a member, you’ll enjoy social get-togethers, group rides, and other organized events throughout the year. Highli",
@@ -485,6 +419,17 @@
       "category": "rally",
       "sourceUrl": "https://www.facebook.com/tomccau/",
       "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "52bb56cf659c",
+      "title": "Classic Courier : June – August 2026",
+      "description": "Classic Courier : June – August 2026 2 Jun Classic Courier",
+      "startDate": null,
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/classic-courier-june-august-2026/",
+      "sourceName": "Classic Owners MC SA"
     },
     {
       "id": "1c569b4658ef",
@@ -583,17 +528,6 @@
       "state": "SA",
       "category": "rally",
       "sourceUrl": "https://classicowners.org/fomsa-ride-week-2025/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "c4fbe35d3f38",
-      "title": "Ride to Greenock, Sunday 27 July",
-      "description": "Ride to Greenock, Sunday 27 July 25 Jul Following the forecast for inclement weather, this Sunday’s visit to Greenock Aviation Museum is still on, but the Club Captain has advised that members should gather their family and friends and travel to the museum by car. Club Events",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "rally",
-      "sourceUrl": "https://classicowners.org/ride-to-greenock-sunday-27-july/",
       "sourceName": "Classic Owners MC SA"
     }
   ]
