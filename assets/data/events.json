@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-07T00:58:34.842184",
-  "totalEvents": 46,
+  "lastUpdated": "2026-06-14T01:00:32.075957",
+  "totalEvents": 47,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,39 +24,6 @@
   ],
   "errors": [],
   "events": [
-    {
-      "id": "9550092240c7",
-      "title": "June Monthly General Meeting",
-      "description": "19:00 - 20:00 June Monthly General Meeting",
-      "startDate": "2026-06-09",
-      "location": "",
-      "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://tomcc.com.au/event/june-monthly-general-meeting-2/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
-    {
-      "id": "c68558836250",
-      "title": "Club Events",
-      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
-      "startDate": "2026-06-13",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
-      "sourceName": "Ducati Owners Club Victoria"
-    },
-    {
-      "id": "f4ce4f2a1193",
-      "title": "Log Book Day 2026",
-      "description": "9:00 am - 1:00 pm Log Book Day 2026",
-      "startDate": "2026-06-13",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/log-book-day-2026/",
-      "sourceName": "Classic Owners MC SA"
-    },
     {
       "id": "b16159c74eea",
       "title": "Mopeds Plus : Strathalbyn Stroll",
@@ -113,6 +80,17 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
+      "id": "a6de9d16464d",
+      "title": "July Monthly General Meeting",
+      "description": "19:00 - 20:00 July Monthly General Meeting",
+      "startDate": "2026-07-14",
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://tomcc.com.au/event/july-monthly-general-meeting-2/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
       "id": "5a6de2e9eecd",
       "title": "Mopeds Plus : Williamstown Wander 2",
       "description": "10:00 am - 4:00 pm Mopeds Plus : Williamstown Wander 2",
@@ -121,6 +99,28 @@
       "state": "WA",
       "category": "other",
       "sourceUrl": "https://classicowners.org/event/mopeds-plus-williamstown-wander-2/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "0ba04c60ac74",
+      "title": "Annual General Meeting- 2026",
+      "description": "19:00 - 20:30 Annual General Meeting- 2026",
+      "startDate": "2026-08-11",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://tomcc.com.au/event/annual-general-meeting-2026/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "de4f2c48a604",
+      "title": "Annual Club Lunch @ The British, North Adelaide",
+      "description": "Featured 12:00 pm - 2:00 pm Annual Club Lunch @ The British, North Adelaide",
+      "startDate": "2026-08-15",
+      "location": "",
+      "state": "SA",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/annual-club-lunch-the-british-north-adelaide/",
       "sourceName": "Classic Owners MC SA"
     },
     {
@@ -166,6 +166,17 @@
       "category": "other",
       "sourceUrl": "https://classicowners.org/event/mopeds-plus-charleston-challenge-2/",
       "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "78718b4befdb",
+      "title": "BMW Clubs Australia Cars National Rally",
+      "description": "18 Mar 2027 @ 08:00 – 21 Mar 2027 @ 17:00 UTC+10 BMW Clubs Australia Cars National Rally",
+      "startDate": "2027-03-18",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://bmwca.au/?tribe_events=bmw-cars-national-rally",
+      "sourceName": "BMW Clubs Australia"
     },
     {
       "id": "6a44947e7f08",
@@ -351,7 +362,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6541711?CalendarViewType=1&SelectedDate=6/7/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6541711?CalendarViewType=1&SelectedDate=6/14/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -362,7 +373,7 @@
       "location": "",
       "state": "ALL",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6301552?CalendarViewType=1&SelectedDate=6/7/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6301552?CalendarViewType=1&SelectedDate=6/14/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -373,7 +384,7 @@
       "location": "",
       "state": "ACT",
       "category": "other",
-      "sourceUrl": "https://www.bmwmcc.au/event-3979241?CalendarViewType=1&SelectedDate=6/7/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-3979241?CalendarViewType=1&SelectedDate=6/14/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -384,7 +395,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6687448?CalendarViewType=1&SelectedDate=6/7/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6687448?CalendarViewType=1&SelectedDate=6/14/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -395,7 +406,7 @@
       "location": "",
       "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6690862?CalendarViewType=1&SelectedDate=6/7/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6690862?CalendarViewType=1&SelectedDate=6/14/2026",
       "sourceName": "BMW MCC Canberra"
     },
     {
@@ -421,6 +432,17 @@
       "sourceName": "Triumph Owners MCC Australia"
     },
     {
+      "id": "9f934f19d1a4",
+      "title": "Log Book Day 2026",
+      "description": "Log Book Day 2026 17 May Club Events",
+      "startDate": null,
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/log-book-day-2026/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
       "id": "52bb56cf659c",
       "title": "Classic Courier : June – August 2026",
       "description": "Classic Courier : June – August 2026 2 Jun Classic Courier",
@@ -440,17 +462,6 @@
       "state": "WA",
       "category": "rally",
       "sourceUrl": "https://classicowners.org/a-three-ferry-ride-sunday-31st-may/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "9f934f19d1a4",
-      "title": "Log Book Day 2026",
-      "description": "Log Book Day 2026 17 May Club Events",
-      "startDate": null,
-      "location": "",
-      "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/log-book-day-2026/",
       "sourceName": "Classic Owners MC SA"
     },
     {
