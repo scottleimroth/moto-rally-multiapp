@@ -27,6 +27,7 @@ class EventCard extends StatelessWidget {
 
     return Card(
       elevation: 4,
+      clipBehavior: Clip.hardEdge,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(AppConstants.cardBorderRadius),
         side: BorderSide(
@@ -132,20 +133,28 @@ class EventCard extends StatelessWidget {
                       color: theme.textTheme.bodySmall?.color,
                     ),
                     const SizedBox(width: 4),
-                    Text(
-                      event.sourceName,
-                      style: theme.textTheme.bodySmall,
+                    Expanded(
+                      child: Text(
+                        event.sourceName,
+                        style: theme.textTheme.bodySmall,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
                     ),
-                    const Spacer(),
+                    const SizedBox(width: 8),
                     Icon(
                       Icons.update,
                       size: 16,
                       color: theme.textTheme.bodySmall?.color,
                     ),
                     const SizedBox(width: 4),
-                    Text(
-                      _formatLastUpdated(event.lastUpdated),
-                      style: theme.textTheme.bodySmall,
+                    Flexible(
+                      child: Text(
+                        _formatLastUpdated(event.lastUpdated),
+                        style: theme.textTheme.bodySmall,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
                     ),
                   ],
                 ),

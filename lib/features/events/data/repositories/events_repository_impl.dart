@@ -25,8 +25,9 @@ class EventsRepositoryImpl implements EventsRepository {
       );
       if (isCacheValid) {
         final cached = await _localDatasource.getCachedEvents();
-        if (cached.isNotEmpty) {
-          return _sortByDate(_upcomingOnly(cached));
+        final currentCached = _currentEvents(cached);
+        if (currentCached.isNotEmpty) {
+          return _sortByDate(currentCached);
         }
       }
     }
@@ -34,7 +35,7 @@ class EventsRepositoryImpl implements EventsRepository {
     // Fetch from network
     try {
       final result = await _remoteDatasource.fetchEvents();
-      final events = _upcomingOnly(result.events);
+      final events = _currentEvents(result.events);
 
       // Cache the results
       await _localDatasource.cacheEvents(events);
@@ -50,8 +51,9 @@ class EventsRepositoryImpl implements EventsRepository {
     } catch (e) {
       // Fall back to cache on error
       final cached = await _localDatasource.getCachedEvents();
-      if (cached.isNotEmpty) {
-        return _sortByDate(_upcomingOnly(cached));
+      final currentCached = _currentEvents(cached);
+      if (currentCached.isNotEmpty) {
+        return _sortByDate(currentCached);
       }
       rethrow;
     }
@@ -60,7 +62,7 @@ class EventsRepositoryImpl implements EventsRepository {
   @override
   Future<ScraperResult> refreshEvents() async {
     final result = await _remoteDatasource.fetchEvents();
-    final events = _upcomingOnly(result.events);
+    final events = _currentEvents(result.events);
 
     // Cache the results
     await _localDatasource.cacheEvents(events);
@@ -83,7 +85,9 @@ class EventsRepositoryImpl implements EventsRepository {
 
   @override
   Future<List<MotorcycleEvent>> getCachedEvents() {
-    return _localDatasource.getCachedEvents();
+    return _localDatasource
+        .getCachedEvents()
+        .then((events) => _sortByDate(_currentEvents(events)));
   }
 
   @override
@@ -107,7 +111,72 @@ class EventsRepositoryImpl implements EventsRepository {
     return sorted;
   }
 
-  List<MotorcycleEvent> _upcomingOnly(List<MotorcycleEvent> events) {
-    return events.where((event) => event.isUpcoming).toList();
+  List<MotorcycleEvent> _currentEvents(List<MotorcycleEvent> events) {
+    return events
+        .where((event) =>
+            event.isCurrentOrUpcoming() && _isAustralianMotorcycleEvent(event))
+        .toList();
+  }
+
+  bool _isAustralianMotorcycleEvent(MotorcycleEvent event) {
+    final text = [
+      event.title,
+      event.description,
+      event.location,
+      event.sourceName,
+      event.sourceUrl,
+    ].join(' ').toLowerCase();
+
+    const blockedTerms = [
+      'milwaukee',
+      'harley-davidson homecoming',
+      'homecoming festival',
+      'european hog',
+      'european h.o.g',
+      'slovenia',
+      'croatia',
+      'austria',
+      'germany',
+      'france',
+      'italy',
+      'spain',
+      'portugal',
+      'united states',
+      ' usa ',
+      'sturgis',
+      'daytona',
+      'cars national rally',
+      'full calendar of events suited to girder fork bikes',
+    ];
+
+    if (blockedTerms.any(text.contains)) return false;
+    if (!text.contains('motor') &&
+        !text.contains('bike') &&
+        !text.contains('rally') &&
+        !text.contains('ride') &&
+        !text.contains('mcc') &&
+        !text.contains(' mc ')) {
+      return false;
+    }
+
+    return text.contains('.au') ||
+        text.contains('australia') ||
+        text.contains('australian') ||
+        text.contains('new south wales') ||
+        text.contains('victoria') ||
+        text.contains('queensland') ||
+        text.contains('western australia') ||
+        text.contains('south australia') ||
+        text.contains('tasmania') ||
+        text.contains('northern territory') ||
+        text.contains('australian capital territory') ||
+        text.contains(' nsw') ||
+        text.contains(' vic') ||
+        text.contains(' qld') ||
+        text.contains(' wa') ||
+        text.contains(' sa') ||
+        text.contains(' tas') ||
+        text.contains(' nt') ||
+        text.contains(' act');
   }
 }
