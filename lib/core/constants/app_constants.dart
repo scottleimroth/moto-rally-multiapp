@@ -27,7 +27,7 @@ class AppConstants {
 
   // Storage Keys
   static const String watchlistBoxKey = 'watchlist_box';
-  static const String eventsBoxKey = 'events_cache_box';
+  static const String eventsBoxKey = 'events_cache_box_v2';
   static const String settingsBoxKey = 'settings_box';
 
   // UI Constants

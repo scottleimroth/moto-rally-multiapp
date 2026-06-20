@@ -25,8 +25,9 @@ class EventsRepositoryImpl implements EventsRepository {
       );
       if (isCacheValid) {
         final cached = await _localDatasource.getCachedEvents();
-        if (cached.isNotEmpty) {
-          return _sortByDate(cached);
+        final currentCached = _currentEvents(cached);
+        if (currentCached.isNotEmpty) {
+          return _sortByDate(currentCached);
         }
       }
     }
@@ -34,7 +35,7 @@ class EventsRepositoryImpl implements EventsRepository {
     // Fetch from network
     try {
       final result = await _remoteDatasource.fetchEvents();
-      final events = result.events;
+      final events = _currentEvents(result.events);
 
       // Cache the results
       await _localDatasource.cacheEvents(events);
@@ -50,8 +51,9 @@ class EventsRepositoryImpl implements EventsRepository {
     } catch (e) {
       // Fall back to cache on error
       final cached = await _localDatasource.getCachedEvents();
-      if (cached.isNotEmpty) {
-        return _sortByDate(cached);
+      final currentCached = _currentEvents(cached);
+      if (currentCached.isNotEmpty) {
+        return _sortByDate(currentCached);
       }
       rethrow;
     }
@@ -60,23 +62,32 @@ class EventsRepositoryImpl implements EventsRepository {
   @override
   Future<ScraperResult> refreshEvents() async {
     final result = await _remoteDatasource.fetchEvents();
+    final events = _currentEvents(result.events);
 
     // Cache the results
-    await _localDatasource.cacheEvents(result.events);
+    await _localDatasource.cacheEvents(events);
     await _localDatasource.storeMetadata({
       'lastUpdated': DateTime.now().toIso8601String(),
-      'totalEvents': result.events.length,
+      'totalEvents': events.length,
       'successfulSources': result.successfulSources,
       'totalSources': result.totalSources,
       'errors': result.errors.map((e) => e.message).toList(),
     });
 
-    return result;
+    return ScraperResult(
+      events: events,
+      errors: result.errors,
+      lastUpdated: result.lastUpdated,
+      totalSources: result.totalSources,
+      successfulSources: result.successfulSources,
+    );
   }
 
   @override
   Future<List<MotorcycleEvent>> getCachedEvents() {
-    return _localDatasource.getCachedEvents();
+    return _localDatasource
+        .getCachedEvents()
+        .then((events) => _sortByDate(_currentEvents(events)));
   }
 
   @override
@@ -98,5 +109,9 @@ class EventsRepositoryImpl implements EventsRepository {
       return a.startDate!.compareTo(b.startDate!);
     });
     return sorted;
+  }
+
+  List<MotorcycleEvent> _currentEvents(List<MotorcycleEvent> events) {
+    return events.where((event) => event.isCurrentOrUpcoming()).toList();
   }
 }
