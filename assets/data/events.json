@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-20T23:50:45.630255",
-  "totalEvents": 22,
+  "lastUpdated": "2026-06-20T13:55:32.479529",
+  "totalEvents": 10,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -13,7 +13,6 @@
     "Ducati Owners Club NSW",
     "Ducati Owners Club Victoria",
     "Ducati Owners Club SA",
-    "Harley-Davidson Australia",
     "Indian Motorcycle Club Australia",
     "Triumph Owners MCC Australia",
     "Classic Owners MC SA",
@@ -91,116 +90,6 @@
       "sourceName": "Classic Owners MC SA"
     },
     {
-      "id": "cbe6d66a36ba",
-      "title": "Sandy Hollow MotorfestAug 15thNSW, 2333",
-      "description": "Sandy Hollow Motorfest Aug 15th NSW, 2333",
-      "startDate": "2026-08-15",
-      "location": "",
-      "state": "NSW",
-      "category": "other",
-      "sourceUrl": "https://www.justbikes.com.au/events/sandy-hollow-motorfest/1090625",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "c5d98e3b55e2",
-      "title": "TATURA SWAPAug 16thVIC, 3616",
-      "description": "TATURA SWAP Aug 16th VIC, 3616",
-      "startDate": "2026-08-16",
-      "location": "",
-      "state": "VIC",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/tatura-swap/1090626",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "0a70b996062b",
-      "title": "Townsville Combined Motor Clubs Swap Meet 2026Aug 16thQLD, 4810",
-      "description": "Townsville Combined Motor Clubs Swap Meet 2026 Aug 16th QLD, 4810",
-      "startDate": "2026-08-16",
-      "location": "",
-      "state": "QLD",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/townsville-combined-motor-clubs-swap-meet-2026/1081386",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "cee3caf82141",
-      "title": "The Millmerran Swap MeetAug 22ndQLD, 4357",
-      "description": "The Millmerran Swap Meet Aug 22nd QLD, 4357",
-      "startDate": "2026-08-22",
-      "location": "",
-      "state": "QLD",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/the-millmerran-swap-meet/1085983",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "c3b35fd966bd",
-      "title": "Lismore Swap Meet 2026Aug 23rdNSW, 2480",
-      "description": "Lismore Swap Meet 2026 Aug 23rd NSW, 2480",
-      "startDate": "2026-08-23",
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/lismore-swap-meet-2026/1087466",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "a3d24aea98b4",
-      "title": "Dubbo MotorfestAug 29thNSW, 2830",
-      "description": "Dubbo Motorfest Aug 29th NSW, 2830",
-      "startDate": "2026-08-29",
-      "location": "",
-      "state": "NSW",
-      "category": "other",
-      "sourceUrl": "https://www.justbikes.com.au/events/dubbo-motorfest/1087650",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "3ab1c7a221e4",
-      "title": "MUSCLE in the BROOKAug 29thNSW, 2333",
-      "description": "MUSCLE in the BROOK Aug 29th NSW, 2333",
-      "startDate": "2026-08-29",
-      "location": "",
-      "state": "NSW",
-      "category": "other",
-      "sourceUrl": "https://www.justbikes.com.au/events/muscle-in-the-brook/1087467",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "176f3e1878ed",
-      "title": "33rd Annual Fathers Day Swap MeetSep 6thNSW, 2590",
-      "description": "33rd Annual Fathers Day Swap Meet Sep 6th NSW, 2590",
-      "startDate": "2026-09-06",
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/33rd-annual-fathers-day-swap-meet/1080550",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "3cf30588ca57",
-      "title": "Veteran Vintage and Classic Motorcycle ShowSep 11thNSW, 2880",
-      "description": "Veteran Vintage and Classic Motorcycle Show Sep 11th NSW, 2880",
-      "startDate": "2026-09-11",
-      "location": "",
-      "state": "NSW",
-      "category": "show",
-      "sourceUrl": "https://www.justbikes.com.au/events/veteran-vintage-and-classic-motorcycle-show/1081782",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "7d8eb5874801",
-      "title": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOWSep 12thQLD, 4570",
-      "description": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW Sep 12th QLD, 4570",
-      "startDate": "2026-09-12",
-      "location": "",
-      "state": "QLD",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/2026-gympie-historic-auto-club-inc-swap-meet-and-car-show/1079683",
-      "sourceName": "Just Bikes"
-    },
-    {
       "id": "e547022dbb70",
       "title": "Mopeds Plus : Uraidla Ultimate",
       "description": "10:00 am - 4:00 pm Mopeds Plus : Uraidla Ultimate",
@@ -210,28 +99,6 @@
       "category": "other",
       "sourceUrl": "https://classicowners.org/event/mopeds-plus-uraidla-ultimate-2/",
       "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "5b2fd5869b77",
-      "title": "North West Swap Meet and Car ShowSep 19thNSW, 2380",
-      "description": "North West Swap Meet and Car Show Sep 19th NSW, 2380",
-      "startDate": "2026-09-19",
-      "location": "",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/north-west-swap-meet-and-car-show/1087637",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "dc401a07478c",
-      "title": "The 50th Anniversary Rally of the R100RS and other /7Sep 20thNSW, 2580",
-      "description": "The 50th Anniversary Rally of the R100RS and other /7 Sep 20th NSW, 2580",
-      "startDate": "2026-09-20",
-      "location": "",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.justbikes.com.au/events/the-50th-anniversary-rally-of-the-r100rs-and-other-7/1077057",
-      "sourceName": "Just Bikes"
     },
     {
       "id": "4949c25978a4",
