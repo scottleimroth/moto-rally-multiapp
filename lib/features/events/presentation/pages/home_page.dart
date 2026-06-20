@@ -328,35 +328,43 @@ class EventsContent extends StatelessWidget {
   }
 
   Widget _buildTabletGrid(BuildContext context, List events) {
-    return GridView.builder(
-      padding: const EdgeInsets.all(16),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        childAspectRatio: 1.4,
-        crossAxisSpacing: 16,
-        mainAxisSpacing: 16,
-      ),
-      itemCount: events.length,
-      itemBuilder: (context, index) {
-        return EventCard(event: events[index]);
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final columns = constraints.maxWidth < 760 ? 1 : 2;
+        return GridView.builder(
+          padding: const EdgeInsets.all(16),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: columns,
+            childAspectRatio: columns == 1 ? 2.2 : 1.15,
+            crossAxisSpacing: 16,
+            mainAxisSpacing: 16,
+          ),
+          itemCount: events.length,
+          itemBuilder: (context, index) {
+            return EventCard(event: events[index]);
+          },
+        );
       },
     );
   }
 
   Widget _buildDesktopGrid(BuildContext context, List events) {
-    final columns = ResponsiveUtils.getGridColumns(context);
-
-    return GridView.builder(
-      padding: const EdgeInsets.all(24),
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: columns,
-        childAspectRatio: 1.3,
-        crossAxisSpacing: 20,
-        mainAxisSpacing: 20,
-      ),
-      itemCount: events.length,
-      itemBuilder: (context, index) {
-        return EventCard(event: events[index]);
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final columns = (constraints.maxWidth / 360).floor().clamp(2, 4);
+        return GridView.builder(
+          padding: const EdgeInsets.all(24),
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: columns,
+            childAspectRatio: 1.08,
+            crossAxisSpacing: 20,
+            mainAxisSpacing: 20,
+          ),
+          itemCount: events.length,
+          itemBuilder: (context, index) {
+            return EventCard(event: events[index]);
+          },
+        );
       },
     );
   }

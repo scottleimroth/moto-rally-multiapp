@@ -8,7 +8,7 @@ Runs via GitHub Actions on a weekly schedule.
 import json
 import re
 import hashlib
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 import requests
@@ -89,13 +89,6 @@ SOURCES = [
         "url": "https://www.docsa.com.au/index.php/schedule-2",
         "scraper": "scrape_generic_events"
     },
-    # Harley-Davidson
-    {
-        "id": "harleyau",
-        "name": "Harley-Davidson Australia",
-        "url": "https://www.harley-davidson.com/au/en/content/event-calendar.html",
-        "scraper": "scrape_generic_events"
-    },
     # Indian Motorcycle Club
     {
         "id": "imca",
@@ -169,44 +162,6 @@ CATEGORY_PATTERNS = {
     "other": [],
 }
 
-BAD_TITLE_PATTERNS = [
-    "log in",
-    "log in with google",
-    "reset password",
-    "club events",
-    "classic courier",
-    "vale :",
-    "midweek ride",
-    "three ferry ride",
-    "jun 1",
-    "want to organise",
-    "club sponsors a full calendar",
-    "bmw clubs australia cars",
-    "bmw owners america",
-    "european h.o.g",
-    "european bike week",
-    "sturgis",
-    "daytona",
-    "blue sky heaven",
-    "asia harley days",
-]
-
-OVERSEAS_TERMS = [
-    "austria",
-    "cascais",
-    "portugal",
-    "milwaukee",
-    "wisconsin",
-    "sturgis",
-    "south dakota",
-    "daytona",
-    "florida",
-    "thailand",
-    "japan",
-    "yokohama",
-    "america national rally",
-]
-
 
 def get_session() -> requests.Session:
     """Create a requests session with headers."""
@@ -238,6 +193,78 @@ def extract_state(text: str) -> str:
             if pattern in text_lower:
                 return state
     return "ALL"
+
+
+def is_australian_motorcycle_event(event: dict) -> bool:
+    """Keep Australian motorcycle events; drop overseas/global/non-bike noise."""
+    text = " ".join(
+        str(event.get(field, ""))
+        for field in ("title", "description", "location", "sourceName", "sourceUrl")
+    ).lower()
+
+    blocked_terms = [
+        "club events",
+        "classic courier",
+        "log in",
+        "log in with google",
+        "reset password",
+        "vale :",
+        "midweek ride",
+        "three ferry ride",
+        "jun 1",
+        "want to organise",
+        "milwaukee",
+        "harley-davidson homecoming",
+        "homecoming festival",
+        "european hog",
+        "european h.o.g",
+        "slovenia",
+        "croatia",
+        "austria",
+        "germany",
+        "france",
+        "italy",
+        "spain",
+        "portugal",
+        "united states",
+        " usa ",
+        "sturgis",
+        "daytona",
+        "blue sky heaven",
+        "asia harley days",
+        "cars national rally",
+        "bmw owners america",
+        "full calendar of events suited to girder fork bikes",
+    ]
+    if any(term in text for term in blocked_terms):
+        return False
+
+    motorcycling_terms = ("motor", "bike", "rally", "ride", "mcc", " mc ")
+    if not any(term in text for term in motorcycling_terms):
+        return False
+
+    australian_terms = (
+        ".au",
+        "australia",
+        "australian",
+        "new south wales",
+        "victoria",
+        "queensland",
+        "western australia",
+        "south australia",
+        "tasmania",
+        "northern territory",
+        "australian capital territory",
+        " nsw",
+        " vic",
+        " qld",
+        " wa",
+        " sa",
+        " tas",
+        " nt",
+        " act",
+    )
+    return any(term in text for term in australian_terms)
 
 
 def extract_category(text: str) -> str:
@@ -322,44 +349,10 @@ def parse_date(date_str: str) -> Optional[str]:
     return None
 
 
-def is_probably_bad_event(event: dict) -> bool:
-    """Drop navigation, overseas, car-only, news, and non-event scraper noise."""
-    title = str(event.get("title") or "")
-    text = " ".join(
-        str(event.get(key) or "")
-        for key in ("title", "description", "location", "sourceUrl", "sourceName")
-    ).lower()
-
-    if not title.strip():
-        return True
-    if any(pattern in title.lower() for pattern in BAD_TITLE_PATTERNS):
-        return True
-    if any(term in text for term in OVERSEAS_TERMS):
-        return True
-    if event.get("sourceUrl", "").lower().endswith(".pdf") and not event.get("startDate"):
-        return True
-    return False
-
-
 def generate_id(title: str, source_id: str, date: Optional[str]) -> str:
     """Generate a unique event ID."""
     unique_str = f"{source_id}_{title}_{date or 'nodate'}"
     return hashlib.md5(unique_str.encode()).hexdigest()[:12]
-
-
-def is_current_or_future_event(event: dict, today: Optional[date] = None) -> bool:
-    """Keep events that have not finished before today."""
-    today = today or date.today()
-    date_text = event.get("endDate") or event.get("startDate")
-    if not date_text:
-        return False
-
-    try:
-        event_end = date.fromisoformat(str(date_text)[:10])
-    except ValueError:
-        return True
-
-    return event_end >= today and not is_probably_bad_event(event)
 
 
 def scrape_motorcycle_rallies(session: requests.Session) -> list:
@@ -996,14 +989,24 @@ def main():
             seen_ids.add(event["id"])
             unique_events.append(event)
 
-    # Final global cleanup: never write events that have already finished.
-    # Individual scrapers try to skip old rows, but fallback data and source
-    # parsing quirks can still leak stale entries without this last gate.
-    before_filter = len(unique_events)
-    unique_events = [event for event in unique_events if is_current_or_future_event(event)]
-    removed_old = before_filter - len(unique_events)
-    if removed_old:
-        print(f"Removed {removed_old} past event(s) before writing JSON")
+    today = datetime.now().date()
+
+    def is_current_or_upcoming(event):
+        start = event.get("startDate")
+        if not start:
+            return False
+
+        end = event.get("endDate") or start
+        try:
+            return datetime.strptime(end, "%Y-%m-%d").date() >= today
+        except ValueError:
+            return False
+
+    unique_events = [
+        event
+        for event in unique_events
+        if is_current_or_upcoming(event) and is_australian_motorcycle_event(event)
+    ]
 
     # Sort by date
     def sort_key(e):
