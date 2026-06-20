@@ -26,7 +26,7 @@ class EventsRepositoryImpl implements EventsRepository {
       if (isCacheValid) {
         final cached = await _localDatasource.getCachedEvents();
         if (cached.isNotEmpty) {
-          return _sortByDate(cached);
+          return _sortByDate(_upcomingOnly(cached));
         }
       }
     }
@@ -34,7 +34,7 @@ class EventsRepositoryImpl implements EventsRepository {
     // Fetch from network
     try {
       final result = await _remoteDatasource.fetchEvents();
-      final events = result.events;
+      final events = _upcomingOnly(result.events);
 
       // Cache the results
       await _localDatasource.cacheEvents(events);
@@ -51,7 +51,7 @@ class EventsRepositoryImpl implements EventsRepository {
       // Fall back to cache on error
       final cached = await _localDatasource.getCachedEvents();
       if (cached.isNotEmpty) {
-        return _sortByDate(cached);
+        return _sortByDate(_upcomingOnly(cached));
       }
       rethrow;
     }
@@ -60,18 +60,25 @@ class EventsRepositoryImpl implements EventsRepository {
   @override
   Future<ScraperResult> refreshEvents() async {
     final result = await _remoteDatasource.fetchEvents();
+    final events = _upcomingOnly(result.events);
 
     // Cache the results
-    await _localDatasource.cacheEvents(result.events);
+    await _localDatasource.cacheEvents(events);
     await _localDatasource.storeMetadata({
       'lastUpdated': DateTime.now().toIso8601String(),
-      'totalEvents': result.events.length,
+      'totalEvents': events.length,
       'successfulSources': result.successfulSources,
       'totalSources': result.totalSources,
       'errors': result.errors.map((e) => e.message).toList(),
     });
 
-    return result;
+    return ScraperResult(
+      events: events,
+      errors: result.errors,
+      lastUpdated: result.lastUpdated,
+      totalSources: result.totalSources,
+      successfulSources: result.successfulSources,
+    );
   }
 
   @override
@@ -98,5 +105,9 @@ class EventsRepositoryImpl implements EventsRepository {
       return a.startDate!.compareTo(b.startDate!);
     });
     return sorted;
+  }
+
+  List<MotorcycleEvent> _upcomingOnly(List<MotorcycleEvent> events) {
+    return events.where((event) => event.isUpcoming).toList();
   }
 }

@@ -8,7 +8,7 @@ Runs via GitHub Actions on a weekly schedule.
 import json
 import re
 import hashlib
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Optional
 import requests
@@ -169,6 +169,44 @@ CATEGORY_PATTERNS = {
     "other": [],
 }
 
+BAD_TITLE_PATTERNS = [
+    "log in",
+    "log in with google",
+    "reset password",
+    "club events",
+    "classic courier",
+    "vale :",
+    "midweek ride",
+    "three ferry ride",
+    "jun 1",
+    "want to organise",
+    "club sponsors a full calendar",
+    "bmw clubs australia cars",
+    "bmw owners america",
+    "european h.o.g",
+    "european bike week",
+    "sturgis",
+    "daytona",
+    "blue sky heaven",
+    "asia harley days",
+]
+
+OVERSEAS_TERMS = [
+    "austria",
+    "cascais",
+    "portugal",
+    "milwaukee",
+    "wisconsin",
+    "sturgis",
+    "south dakota",
+    "daytona",
+    "florida",
+    "thailand",
+    "japan",
+    "yokohama",
+    "america national rally",
+]
+
 
 def get_session() -> requests.Session:
     """Create a requests session with headers."""
@@ -262,13 +300,66 @@ def parse_date(date_str: str) -> Optional[str]:
         except ValueError:
             pass
 
+    # Try compressed listings such as "MotorfestAug 15thNSW, 2333".
+    match = re.search(
+        r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s*(\d{1,2})(?:st|nd|rd|th)?(?:,?\s*(\d{4}))?",
+        date_str,
+        re.I,
+    )
+    if match:
+        month = month_map.get(match.group(1).lower()[:3], 1)
+        day = int(match.group(2))
+        explicit_year = match.group(3)
+        year = int(explicit_year) if explicit_year else date.today().year
+        try:
+            parsed = date(year, month, day)
+            if not explicit_year and parsed < date.today():
+                parsed = date(year + 1, month, day)
+            return parsed.strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
     return None
+
+
+def is_probably_bad_event(event: dict) -> bool:
+    """Drop navigation, overseas, car-only, news, and non-event scraper noise."""
+    title = str(event.get("title") or "")
+    text = " ".join(
+        str(event.get(key) or "")
+        for key in ("title", "description", "location", "sourceUrl", "sourceName")
+    ).lower()
+
+    if not title.strip():
+        return True
+    if any(pattern in title.lower() for pattern in BAD_TITLE_PATTERNS):
+        return True
+    if any(term in text for term in OVERSEAS_TERMS):
+        return True
+    if event.get("sourceUrl", "").lower().endswith(".pdf") and not event.get("startDate"):
+        return True
+    return False
 
 
 def generate_id(title: str, source_id: str, date: Optional[str]) -> str:
     """Generate a unique event ID."""
     unique_str = f"{source_id}_{title}_{date or 'nodate'}"
     return hashlib.md5(unique_str.encode()).hexdigest()[:12]
+
+
+def is_current_or_future_event(event: dict, today: Optional[date] = None) -> bool:
+    """Keep events that have not finished before today."""
+    today = today or date.today()
+    date_text = event.get("endDate") or event.get("startDate")
+    if not date_text:
+        return False
+
+    try:
+        event_end = date.fromisoformat(str(date_text)[:10])
+    except ValueError:
+        return True
+
+    return event_end >= today and not is_probably_bad_event(event)
 
 
 def scrape_motorcycle_rallies(session: requests.Session) -> list:
@@ -904,6 +995,15 @@ def main():
         if event["id"] not in seen_ids:
             seen_ids.add(event["id"])
             unique_events.append(event)
+
+    # Final global cleanup: never write events that have already finished.
+    # Individual scrapers try to skip old rows, but fallback data and source
+    # parsing quirks can still leak stale entries without this last gate.
+    before_filter = len(unique_events)
+    unique_events = [event for event in unique_events if is_current_or_future_event(event)]
+    removed_old = before_filter - len(unique_events)
+    if removed_old:
+        print(f"Removed {removed_old} past event(s) before writing JSON")
 
     # Sort by date
     def sort_key(e):

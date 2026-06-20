@@ -42,7 +42,13 @@ class MotorcycleEvent extends Equatable {
   /// Check if the event is upcoming
   bool get isUpcoming {
     if (startDate == null) return true;
-    return startDate!.isAfter(DateTime.now().subtract(const Duration(days: 1)));
+
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+    final eventEnd = endDate ?? startDate!;
+    final eventEndDay = DateTime(eventEnd.year, eventEnd.month, eventEnd.day);
+
+    return !eventEndDay.isBefore(today);
   }
 
   /// Format date range for display
