@@ -1,94 +1,65 @@
 # Moto Rally Australia
 
-**Free Australian Motorcycle Events Aggregator**
+Australian motorcycle event browser for the Pi internal apps dashboard.
 
-Find upcoming motorcycle rallies, swap meets, track days, and club events across Australia - all in one place.
+## Internal App
 
-![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20Web%20%7C%20Android-orange.svg)
-![License](https://img.shields.io/badge/License-Free-green.svg)
-![Events](https://img.shields.io/badge/Events-Auto--Updated%20Weekly-blue.svg)
+The live internal site is served by Caddy at:
 
-## Available Platforms
+```text
+https://moto-rally.internal
+```
 
-| Platform | How to Get It |
-|----------|---------------|
-| Web App | [Launch in browser](https://moto-rally-multiapp.pages.dev) — works offline! |
-| Android | [Download APK](https://github.com/scottleimroth/moto-rally-multiapp/releases/latest/download/moto-rally.apk) — enable "Unknown sources" to install |
-| Windows | [Download EXE](https://github.com/scottleimroth/moto-rally-multiapp/releases/latest) — run directly, no install needed |
-
-**100% Free** - No ads, no tracking, no sign-up required.
+The web app is plain static HTML, CSS, and JavaScript in `dist/web`. It does not require Flutter to run or rebuild the internal website.
 
 ## Features
 
-- **60+ Events** from 19 Australian motorcycle sources
-- **Auto-Updates Weekly** - Events scraped every Sunday via GitHub Actions
-- **Works Offline** - Save events to your watchlist for areas with no reception
-- **Filter by State** - NSW, VIC, QLD, SA, WA, TAS, NT, ACT
-- **Filter by Type** - Rallies, Swap Meets, Track Days, Club Rides, Shows
-- **Search** - Find events by name, location, or description
+- Current and future events only
+- Search by event, source, location, or description
+- Filter by state
+- Filter by category
+- Filter by source
+- Open original source links in a new tab
 
-## Event Sources
+## Event Data
 
-Events are automatically scraped from:
-- Just Bikes Australia
-- Old Bike Australasia
-- Motorcycling Australia (National, QLD, NSW, VIC)
-- BMW Motorcycle Club
-- Ducati Owners Club
-- Harley-Davidson Clubs
-- Triumph Owners
-- Classic Owners SA
-- VMCC NSW
-- Indian Motorcycle Club
-- And more...
+Events are scraped by:
 
-## Screenshots
-
-The app features a clean, easy-to-read interface designed for motorcyclists:
-- Dark theme for outdoor visibility
-- Large touch targets for gloved hands
-- Event details with maps and sharing
-
-## Technical Details
-
-Built with Flutter for true cross-platform support from a single codebase:
-- **Web**: Progressive Web App (PWA) with offline caching
-- **Android**: Native APK
-- **Windows**: Native desktop application
-
-Events are scraped using Python and automatically committed to the repo weekly.
-
-## For Developers
-
-```bash
-# Clone and run locally
-git clone https://github.com/scottleimroth/moto-rally-multiapp.git
-cd moto-rally-multiapp
-flutter pub get
-flutter run -d chrome    # Web
-flutter run -d windows   # Windows
-flutter run -d android   # Android
+```text
+scripts/scrape_events.py
 ```
 
-### Build Commands
+The scraper writes:
 
-```bash
-# Android APK
-flutter build apk --release
-
-# Web PWA
-flutter build web --release
-
-# Windows EXE
-flutter build windows --release
+```text
+assets/data/events.json
 ```
 
-## Contributing
+The deployed static site reads:
 
-Found a bug or want to add an event source? Pull requests welcome!
+```text
+dist/web/assets/assets/data/events.json
+```
 
-## License
+After updating events, copy the generated JSON into the deployed static asset path:
 
-© 2026 Woodsqott ~242~ MDFFMD. All rights reserved.
+```bash
+python3 scripts/scrape_events.py
+cp assets/data/events.json dist/web/assets/assets/data/events.json
+```
 
-Free for personal use. Not for resale.
+## Serve Locally
+
+```bash
+python3 -m http.server 8080 --directory dist/web
+```
+
+Then open:
+
+```text
+http://localhost:8080
+```
+
+## Legacy Flutter Files
+
+This project previously used Flutter for web/Android/Windows builds. The Pi-hosted internal website has been converted to static HTML/JS because it is only an event browser.
