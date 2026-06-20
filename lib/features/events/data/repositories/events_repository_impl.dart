@@ -112,6 +112,71 @@ class EventsRepositoryImpl implements EventsRepository {
   }
 
   List<MotorcycleEvent> _currentEvents(List<MotorcycleEvent> events) {
-    return events.where((event) => event.isCurrentOrUpcoming()).toList();
+    return events
+        .where((event) =>
+            event.isCurrentOrUpcoming() && _isAustralianMotorcycleEvent(event))
+        .toList();
+  }
+
+  bool _isAustralianMotorcycleEvent(MotorcycleEvent event) {
+    final text = [
+      event.title,
+      event.description,
+      event.location,
+      event.sourceName,
+      event.sourceUrl,
+    ].join(' ').toLowerCase();
+
+    const blockedTerms = [
+      'milwaukee',
+      'harley-davidson homecoming',
+      'homecoming festival',
+      'european hog',
+      'european h.o.g',
+      'slovenia',
+      'croatia',
+      'austria',
+      'germany',
+      'france',
+      'italy',
+      'spain',
+      'portugal',
+      'united states',
+      ' usa ',
+      'sturgis',
+      'daytona',
+      'cars national rally',
+      'full calendar of events suited to girder fork bikes',
+    ];
+
+    if (blockedTerms.any(text.contains)) return false;
+    if (!text.contains('motor') &&
+        !text.contains('bike') &&
+        !text.contains('rally') &&
+        !text.contains('ride') &&
+        !text.contains('mcc') &&
+        !text.contains(' mc ')) {
+      return false;
+    }
+
+    return text.contains('.au') ||
+        text.contains('australia') ||
+        text.contains('australian') ||
+        text.contains('new south wales') ||
+        text.contains('victoria') ||
+        text.contains('queensland') ||
+        text.contains('western australia') ||
+        text.contains('south australia') ||
+        text.contains('tasmania') ||
+        text.contains('northern territory') ||
+        text.contains('australian capital territory') ||
+        text.contains(' nsw') ||
+        text.contains(' vic') ||
+        text.contains(' qld') ||
+        text.contains(' wa') ||
+        text.contains(' sa') ||
+        text.contains(' tas') ||
+        text.contains(' nt') ||
+        text.contains(' act');
   }
 }

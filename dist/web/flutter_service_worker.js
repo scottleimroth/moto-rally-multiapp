@@ -5,7 +5,7 @@ const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"assets/AssetManifest.bin": "c5618aceb143e9e4d0c89403d10d889a",
 "assets/AssetManifest.bin.json": "e5fe03690183008b254879dd5c379449",
-"assets/assets/data/events.json": "f1623df4e26561ca78a5c5b8e69eb84e",
+"assets/assets/data/events.json": "c50dc127f43a8b3fb081a75d755aeb87",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "603510d9faf40e3dd74e1cb263d8182a",
 "assets/NOTICES": "e9fc6fc4aafc80bedc86180bd2497549",

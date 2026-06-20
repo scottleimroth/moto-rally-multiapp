@@ -89,13 +89,6 @@ SOURCES = [
         "url": "https://www.docsa.com.au/index.php/schedule-2",
         "scraper": "scrape_generic_events"
     },
-    # Harley-Davidson
-    {
-        "id": "harleyau",
-        "name": "Harley-Davidson Australia",
-        "url": "https://www.harley-davidson.com/au/en/content/event-calendar.html",
-        "scraper": "scrape_generic_events"
-    },
     # Indian Motorcycle Club
     {
         "id": "imca",
@@ -200,6 +193,65 @@ def extract_state(text: str) -> str:
             if pattern in text_lower:
                 return state
     return "ALL"
+
+
+def is_australian_motorcycle_event(event: dict) -> bool:
+    """Keep Australian motorcycle events; drop overseas/global/non-bike noise."""
+    text = " ".join(
+        str(event.get(field, ""))
+        for field in ("title", "description", "location", "sourceName", "sourceUrl")
+    ).lower()
+
+    blocked_terms = [
+        "milwaukee",
+        "harley-davidson homecoming",
+        "homecoming festival",
+        "european hog",
+        "european h.o.g",
+        "slovenia",
+        "croatia",
+        "austria",
+        "germany",
+        "france",
+        "italy",
+        "spain",
+        "portugal",
+        "united states",
+        " usa ",
+        "sturgis",
+        "daytona",
+        "cars national rally",
+        "full calendar of events suited to girder fork bikes",
+    ]
+    if any(term in text for term in blocked_terms):
+        return False
+
+    motorcycling_terms = ("motor", "bike", "rally", "ride", "mcc", " mc ")
+    if not any(term in text for term in motorcycling_terms):
+        return False
+
+    australian_terms = (
+        ".au",
+        "australia",
+        "australian",
+        "new south wales",
+        "victoria",
+        "queensland",
+        "western australia",
+        "south australia",
+        "tasmania",
+        "northern territory",
+        "australian capital territory",
+        " nsw",
+        " vic",
+        " qld",
+        " wa",
+        " sa",
+        " tas",
+        " nt",
+        " act",
+    )
+    return any(term in text for term in australian_terms)
 
 
 def extract_category(text: str) -> str:
@@ -918,7 +970,11 @@ def main():
         except ValueError:
             return False
 
-    unique_events = [event for event in unique_events if is_current_or_upcoming(event)]
+    unique_events = [
+        event
+        for event in unique_events
+        if is_current_or_upcoming(event) and is_australian_motorcycle_event(event)
+    ]
 
     # Sort by date
     def sort_key(e):
