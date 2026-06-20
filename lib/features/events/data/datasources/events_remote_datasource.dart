@@ -12,9 +12,8 @@ class EventsRemoteDatasource {
   final http.Client? _httpClient;
 
   // URL to fetch fresh events JSON from GitHub (raw file URL)
-  // Update this with your actual GitHub repo URL after pushing
   static const String _remoteJsonUrl =
-      'https://raw.githubusercontent.com/USER/moto-rally-multiapp/main/assets/data/events.json';
+      'https://raw.githubusercontent.com/scottleimroth/moto-rally-multiapp/main/assets/data/events.json';
 
   EventsRemoteDatasource(this._scraperService, [this._httpClient]);
 

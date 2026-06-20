@@ -26992,7 +26992,7 @@ s=2
 return A.Q(q.wP("watchlist_box",p),$async$a35)
 case 2:o=b
 s=3
-return A.Q(q.wP("events_cache_box",p),$async$a35)
+return A.Q(q.wP("events_cache_box_v2",p),$async$a35)
 case 3:n=b
 p=$.hl()
 q=t.PG
@@ -92940,7 +92940,7 @@ j=new A.zm(A.c([],t.c))
 l=j
 p=3
 s=6
-return A.Q(l.oR("GET",A.fq("https://raw.githubusercontent.com/USER/moto-rally-multiapp/main/assets/data/events.json",0,null),null).D7(0,B.LU),$async$yz)
+return A.Q(l.oR("GET",A.fq("https://raw.githubusercontent.com/scottleimroth/moto-rally-multiapp/main/assets/data/events.json",0,null),null).D7(0,B.LU),$async$yz)
 case 6:k=b
 if(k.b===200){i=k
 i=m.Se(A.azJ(A.ayC(i.e)).e9(0,i.w))

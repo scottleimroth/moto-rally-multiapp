@@ -905,6 +905,21 @@ def main():
             seen_ids.add(event["id"])
             unique_events.append(event)
 
+    today = datetime.now().date()
+
+    def is_current_or_upcoming(event):
+        start = event.get("startDate")
+        if not start:
+            return False
+
+        end = event.get("endDate") or start
+        try:
+            return datetime.strptime(end, "%Y-%m-%d").date() >= today
+        except ValueError:
+            return False
+
+    unique_events = [event for event in unique_events if is_current_or_upcoming(event)]
+
     # Sort by date
     def sort_key(e):
         d = e.get("startDate")
