@@ -2,66 +2,73 @@
 
 ## Last Session
 
-- **Date:** 2026-02-10
-- **Summary:** Added standard repo files
+- **Date:** 2026-06-21
+- **Summary:** Replaced the production Flutter web app with a React/Vite static frontend while keeping the Python scraper.
 - **Key changes:**
-  - Created CREDENTIALS.md, SECURITY_AUDIT.md, TODO.md, ARCHITECTURE.md
-  - Updated .gitignore and README
-- **Stopped at:** Repo standardisation complete
-- **Blockers:** None
+  - Added React, TypeScript, and Vite production web app.
+  - Kept `scripts/scrape_events.py` and `assets/data/events.json` as the data pipeline.
+  - Built event discovery, state/category filters, search, local watchlist, and trip planner.
+  - Removed Flutter web runtime, CanvasKit, service worker, and GitHub raw JSON fetch from `dist/web`.
+- **Stopped at:** React/Vite build verified locally.
+- **Blockers:** None.
 
 ---
 
 ## Current Status
 
 ### Working Features
-- 60+ events from 19 Australian motorcycle sources
-- Auto-update weekly via GitHub Actions scraper
-- Web PWA with offline support (Cloudflare Pages)
-- Android APK
-- Windows EXE
-- Filter by state (NSW, VIC, QLD, SA, WA, TAS, NT, ACT)
-- Filter by type (Rallies, Swap Meets, Track Days, Club Rides, Shows)
-- Search by name, location, or description
-- Dark theme for outdoor visibility
+
+- Upcoming Australian motorcycle events from the generated scraper JSON.
+- Search by event, place, state, or source.
+- Filter by Australian state.
+- Filter by event type.
+- Browser-local watchlist.
+- Trip planner with ride days, fuel stops, comfort breaks, route notes, service notes, accommodation notes, and checklist.
+- Static production output in `dist/web`.
 
 ### In Progress
-- None currently
+
+- None currently.
 
 ### Known Bugs
-- None currently tracked
+
+- None currently tracked.
 
 ---
 
 ## TODO - Priority
 
-1. [ ] Verify all 19 event source scrapers still work
-2. [ ] Update APK/EXE links to use GitHub Releases
-3. [ ] Add more event sources
+1. [ ] Verify all scraper sources still provide useful public event data.
+2. [ ] Add more high-quality Australian motorcycle event sources.
+3. [ ] Add scraper validation rules for suspicious titles and date mismatches.
+4. [ ] Confirm Cloudflare Pages build command is `npm run build` and output directory is `dist/web`.
 
 ---
 
-## TODO - Nice to Have
+## TODO - Nice To Have
 
-- [ ] Push notifications for watchlisted events
-- [ ] Map view of events
-- [ ] Calendar integration (add event to phone calendar)
-- [ ] iOS build
+- [ ] Map view of events.
+- [ ] Calendar export.
+- [ ] Route fuel-stop lookup.
+- [ ] Weather by route segment.
+- [ ] Rider-friendly accommodation notes.
+- [ ] Service and tyre shop notes.
 
 ---
 
 ## Completed
 
-- [x] Flutter cross-platform app (Web, Android, Windows) (2026)
-- [x] Python event scraper with 19 sources (2026)
-- [x] GitHub Actions weekly auto-scrape (2026)
-- [x] Cloudflare Pages deployment (2026)
-- [x] Repo standardisation (2026-02-10)
+- [x] Python event scraper with generated JSON output.
+- [x] GitHub Actions weekly scraper workflow.
+- [x] React/Vite production web frontend.
+- [x] Watchlist and trip-planner browser storage.
+- [x] Production Flutter web runtime retired.
 
 ---
 
 ## Notes
 
-- Events are scraped from public motorcycle club/event websites
-- Scraper runs weekly on Sunday via GitHub Actions
-- If a source site changes layout, that scraper may need updating
+- Events are scraped from public motorcycle club and event websites.
+- The public web app imports `assets/data/events.json` at build time.
+- The production site should not fetch GitHub raw JSON at runtime.
+- The production site should not register an app-level service worker.

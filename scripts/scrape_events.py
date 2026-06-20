@@ -155,12 +155,87 @@ STATE_PATTERNS = {
 # Event categories mapping
 CATEGORY_PATTERNS = {
     "swap_meet": ["swap", "swap meet", "swapmeet", "parts", "memorabilia"],
-    "rally": ["rally", "ride", "run", "tour", "adventure"],
+    "rally": ["rally", "ride", "run", "tour", "adventure", "trek", "weekend"],
     "track": ["track day", "trackday", "circuit", "racing", "race"],
-    "show": ["show", "display", "exhibition", "concours"],
+    "show": ["show", "display", "exhibition", "concours", "motorfest"],
     "racing": ["race", "racing", "championship", "superbike", "motogp", "grand prix"],
     "other": [],
 }
+
+MONTH_PATTERN = r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*"
+STATE_CODE_PATTERN = r"(NSW|VIC|QLD|WA|SA|TAS|ACT|NT)"
+
+
+def clean_event_text(text: str) -> str:
+    """Normalise broken spacing and punctuation scraped from HTML."""
+    if not text:
+        return ""
+
+    text = text.replace("\xa0", " ").replace("â€“", "-").replace("–", "-")
+    text = text.replace("�", " ")
+    text = re.sub(rf"([a-z0-9])({MONTH_PATTERN})", r"\1 \2", text, flags=re.I)
+    text = re.sub(rf"(\d)(st|nd|rd|th)({STATE_CODE_PATTERN})", r"\1\2 \3", text, flags=re.I)
+    text = re.sub(rf"(\d)({STATE_CODE_PATTERN})(\b)", r"\1 \2", text, flags=re.I)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip(" ,|-")
+
+
+def looks_like_relevant_event(title: str, text: str = "") -> bool:
+    """Keep rider-relevant events and drop admin/news/login clutter."""
+    title_lower = clean_event_text(title).lower()
+    text_lower = clean_event_text(text).lower()
+    combined = f"{title_lower} {text_lower}".strip()
+
+    if title_lower.startswith("when:") or title_lower.startswith("featured"):
+        return False
+
+    blocked_phrases = [
+        "log in",
+        "login",
+        "general meeting",
+        "annual general meeting",
+        "monthly general meeting",
+        "club events",
+        "classic courier",
+        "newsletter",
+        "vale",
+        "public holiday",
+        "organise or lead a ride",
+        "club bbq",
+        "club lunch",
+        "log book day",
+        "set up from",
+        "mopeds plus",
+        "muscle in the brook",
+    ]
+    if any(phrase in combined for phrase in blocked_phrases):
+        return False
+
+    explicit_years = [int(year) for year in re.findall(r"\b(20\d{2})\b", combined)]
+    current_year = datetime.now().year
+    if explicit_years and max(explicit_years) < current_year:
+        return False
+
+    positive_terms = [
+        "motorcycle",
+        "bike",
+        "rally",
+        "swap",
+        "show",
+        "track",
+        "race",
+        "racing",
+        "ride",
+        "tour",
+        "run",
+        "motofest",
+        "motorfest",
+        "motogp",
+        "asbk",
+        "weekend",
+        "tt",
+    ]
+    return any(term in combined for term in positive_terms)
 
 
 def get_session() -> requests.Session:
@@ -187,20 +262,26 @@ def fetch_page(url: str, session: requests.Session) -> Optional[BeautifulSoup]:
 
 def extract_state(text: str) -> str:
     """Extract Australian state from text."""
-    text_lower = text.lower()
+    text_clean = clean_event_text(text)
+    for state in STATE_PATTERNS:
+        if re.search(rf"\b{state}\b", text_clean, re.I):
+            return state
+
+    text_lower = text_clean.lower()
     for state, patterns in STATE_PATTERNS.items():
         for pattern in patterns:
-            if pattern in text_lower:
+            if re.search(rf"\b{re.escape(pattern)}\b", text_lower):
                 return state
     return "ALL"
 
 
 def is_australian_motorcycle_event(event: dict) -> bool:
     """Keep Australian motorcycle events; drop overseas/global/non-bike noise."""
-    text = " ".join(
+    title = clean_event_text(str(event.get("title", "")))
+    text = clean_event_text(" ".join(
         str(event.get(field, ""))
         for field in ("title", "description", "location", "sourceName", "sourceUrl")
-    ).lower()
+    )).lower()
 
     blocked_terms = [
         "club events",
@@ -239,6 +320,9 @@ def is_australian_motorcycle_event(event: dict) -> bool:
     if any(term in text for term in blocked_terms):
         return False
 
+    if not looks_like_relevant_event(title, text):
+        return False
+
     motorcycling_terms = ("motor", "bike", "rally", "ride", "mcc", " mc ")
     if not any(term in text for term in motorcycling_terms):
         return False
@@ -269,7 +353,7 @@ def is_australian_motorcycle_event(event: dict) -> bool:
 
 def extract_category(text: str) -> str:
     """Extract event category from text."""
-    text_lower = text.lower()
+    text_lower = clean_event_text(text).lower()
     for category, patterns in CATEGORY_PATTERNS.items():
         for pattern in patterns:
             if pattern in text_lower:
@@ -282,14 +366,8 @@ def parse_date(date_str: str) -> Optional[str]:
     if not date_str:
         return None
 
-    date_str = date_str.strip()
-
-    # Common date patterns
-    patterns = [
-        (r"(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})", "%d/%m/%Y"),
-        (r"(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d{4})", None),
-        (r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d{1,2}),?\s+(\d{4})", None),
-    ]
+    date_str = clean_event_text(date_str)
+    explicit_year = _extract_explicit_year(date_str)
 
     month_map = {
         "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
@@ -300,6 +378,27 @@ def parse_date(date_str: str) -> Optional[str]:
     match = re.search(r"(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{4})", date_str)
     if match:
         day, month, year = int(match.group(1)), int(match.group(2)), int(match.group(3))
+        try:
+            return datetime(year, month, day).strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
+    # Try "13 Aug" or "Aug 13th" with optional year
+    match = re.search(rf"(\d{{1,2}})(?:st|nd|rd|th)?\s+{MONTH_PATTERN}(?:\s+(\d{{4}}))?", date_str, re.I)
+    if match:
+        day = int(match.group(1))
+        month = month_map.get(match.group(2).lower()[:3], 1)
+        year = int(match.group(3)) if match.group(3) else (explicit_year or _infer_event_year(month, day))
+        try:
+            return datetime(year, month, day).strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
+    match = re.search(rf"{MONTH_PATTERN}\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:,?\s+(\d{{4}}))?", date_str, re.I)
+    if match:
+        month = month_map.get(match.group(1).lower()[:3], 1)
+        day = int(match.group(2))
+        year = int(match.group(3)) if match.group(3) else (explicit_year or _infer_event_year(month, day))
         try:
             return datetime(year, month, day).strftime("%Y-%m-%d")
         except ValueError:
@@ -347,6 +446,53 @@ def parse_date(date_str: str) -> Optional[str]:
             pass
 
     return None
+
+
+def _infer_event_year(month: int, day: int) -> int:
+    """Assume scraped events are upcoming and roll into next year when needed."""
+    today = datetime.now().date()
+    year = today.year
+    candidate = datetime(year, month, day).date()
+    if candidate < today and (today.month - month) > 6:
+        year += 1
+    return year
+
+
+def _extract_explicit_year(text: str) -> Optional[int]:
+    match = re.search(r"\b(20\d{2})\b", text)
+    if not match:
+        return None
+    return int(match.group(1))
+
+
+def strip_inline_date(text: str) -> str:
+    """Remove inline date fragments from scraped titles."""
+    text = clean_event_text(text)
+    patterns = [
+        rf"\b{MONTH_PATTERN}\s+\d{{1,2}}(?:st|nd|rd|th)?(?:,?\s+\d{{4}})?\b",
+        rf"\b\d{{1,2}}(?:st|nd|rd|th)?\s+{MONTH_PATTERN}(?:\s+\d{{4}})?\b",
+    ]
+    for pattern in patterns:
+        text = re.sub(pattern, "", text, flags=re.I)
+    text = re.sub(rf"\b{STATE_CODE_PATTERN}\b\s*,?\s*\d{{4}}\b", "", text, flags=re.I)
+    text = re.sub(rf"\b{STATE_CODE_PATTERN}\b$", "", text, flags=re.I)
+    return re.sub(r"\s+", " ", text).strip(" ,-")
+
+
+def _extract_inline_location(text: str) -> str:
+    """Pull basic location tokens such as NSW 2460 from compact titles."""
+    text = clean_event_text(text)
+    match = re.search(
+        rf"\b{STATE_CODE_PATTERN}\b(?:\s*,?\s*(\d{{4}}))?",
+        text,
+        re.I,
+    )
+    if not match:
+        return ""
+
+    state = match.group(1).upper()
+    postcode = match.group(2)
+    return f"{state} {postcode}".strip()
 
 
 def generate_id(title: str, source_id: str, date: Optional[str]) -> str:
@@ -424,7 +570,8 @@ def scrape_justbikes(session: requests.Session) -> list:
             if not title_el:
                 continue
 
-            title = title_el.get_text(strip=True)
+            raw_title = clean_event_text(title_el.get_text(" ", strip=True))
+            title = strip_inline_date(raw_title)
             if len(title) < 5:
                 continue
 
@@ -435,8 +582,10 @@ def scrape_justbikes(session: requests.Session) -> list:
                 if link and not link.startswith("http"):
                     link = f"https://www.justbikes.com.au{link}"
 
-            text = article.get_text(" ", strip=True)
-            date = parse_date(text)
+            text = clean_event_text(article.get_text(" ", strip=True))
+            date = parse_date(raw_title) or parse_date(text)
+            location = _extract_inline_location(raw_title)
+            state = extract_state(f"{location} {text}")
 
             if date:
                 try:
@@ -451,8 +600,8 @@ def scrape_justbikes(session: requests.Session) -> list:
                 "title": title,
                 "description": text[:500] if len(text) > 20 else "",
                 "startDate": date,
-                "location": "",
-                "state": extract_state(text),
+                "location": location,
+                "state": state,
                 "category": extract_category(title + " " + text),
                 "sourceUrl": link or "https://www.justbikes.com.au/events/upcoming",
                 "sourceName": "Just Bikes",
@@ -724,13 +873,15 @@ def scrape_generic_events(session: requests.Session, source: dict) -> list:
             if not title_el:
                 continue
 
-            title = title_el.get_text(strip=True)
+            title = clean_event_text(title_el.get_text(" ", strip=True))
             if len(title) < 5:
                 continue
 
             # Skip navigation/menu items
             skip_words = ["home", "about", "contact", "events", "calendar", "menu", "login", "join"]
             if title.lower() in skip_words:
+                continue
+            if not looks_like_relevant_event(title):
                 continue
 
             link = None
@@ -741,7 +892,7 @@ def scrape_generic_events(session: requests.Session, source: dict) -> list:
                     base_url = source["url"].rsplit("/", 1)[0]
                     link = f"{base_url}/{link.lstrip('/')}"
 
-            text = element.get_text(" ", strip=True)
+            text = clean_event_text(element.get_text(" ", strip=True))
             date = parse_date(text)
 
             # Check for datetime attribute
@@ -759,10 +910,10 @@ def scrape_generic_events(session: requests.Session, source: dict) -> list:
 
             events.append({
                 "id": generate_id(title, source["id"], date),
-                "title": title,
+                "title": strip_inline_date(title),
                 "description": text[:500] if len(text) > 20 else "",
                 "startDate": date,
-                "location": "",
+                "location": _extract_inline_location(text),
                 "state": extract_state(text),
                 "category": extract_category(title + " " + text),
                 "sourceUrl": link or source["url"],
@@ -1005,7 +1156,9 @@ def main():
     unique_events = [
         event
         for event in unique_events
-        if is_current_or_upcoming(event) and is_australian_motorcycle_event(event)
+        if is_current_or_upcoming(event)
+        and is_australian_motorcycle_event(event)
+        and not (event.get("state") == "ALL" and not event.get("location"))
     ]
 
     # Sort by date

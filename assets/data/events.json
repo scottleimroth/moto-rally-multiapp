@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-20T13:55:32.479529",
-  "totalEvents": 10,
+  "lastUpdated": "2026-06-21T05:52:57.384720",
+  "totalEvents": 11,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,114 +24,125 @@
   "errors": [],
   "events": [
     {
-      "id": "228ed6348bc5",
-      "title": "General Meeting",
-      "description": "8:00 am - 5:00 pm General Meeting",
-      "startDate": "2026-06-23",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/general-meeting-7/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "f9be099770e0",
-      "title": "Mopeds Plus : Mt Torrens Trek",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : Mt Torrens Trek",
-      "startDate": "2026-07-12",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-mt-torrens-trek/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "a6de9d16464d",
-      "title": "July Monthly General Meeting",
-      "description": "19:00 - 20:00 July Monthly General Meeting",
-      "startDate": "2026-07-14",
-      "location": "",
-      "state": "NT",
-      "category": "other",
-      "sourceUrl": "https://tomcc.com.au/event/july-monthly-general-meeting-2/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
-    {
-      "id": "5a6de2e9eecd",
-      "title": "Mopeds Plus : Williamstown Wander 2",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : Williamstown Wander 2",
-      "startDate": "2026-08-09",
-      "location": "",
-      "state": "WA",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-williamstown-wander-2/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "0ba04c60ac74",
-      "title": "Annual General Meeting- 2026",
-      "description": "18:00 - 21:00 Annual General Meeting- 2026",
-      "startDate": "2026-08-11",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://tomcc.com.au/event/annual-general-meeting-2026/",
-      "sourceName": "Triumph Owners MCC Australia"
-    },
-    {
-      "id": "de4f2c48a604",
-      "title": "Annual Club Lunch @ The British, North Adelaide",
-      "description": "Featured 12:00 pm - 2:00 pm Annual Club Lunch @ The British, North Adelaide",
-      "startDate": "2026-08-15",
-      "location": "",
-      "state": "SA",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/annual-club-lunch-the-british-north-adelaide/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "e547022dbb70",
-      "title": "Mopeds Plus : Uraidla Ultimate",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : Uraidla Ultimate",
-      "startDate": "2026-09-13",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-uraidla-ultimate-2/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "4949c25978a4",
-      "title": "Mopeds Plus : Mt Barker Burble",
-      "description": "8:00 am - 5:00 pm Mopeds Plus : Mt Barker Burble",
-      "startDate": "2026-10-11",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-mt-barker-burble/",
-      "sourceName": "Classic Owners MC SA"
-    },
-    {
-      "id": "adef96b17b03",
-      "title": "Mopeds Plus : One Tree Hill Trundle",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : One Tree Hill Trundle",
-      "startDate": "2026-11-08",
-      "location": "",
-      "state": "ALL",
+      "id": "2019b9fd11bc",
+      "title": "Grafton Classic Bike Rally",
+      "description": "Grafton Classic Bike Rally Aug 13th NSW, 2460",
+      "startDate": "2026-08-13",
+      "location": "NSW 2460",
+      "state": "NSW",
       "category": "rally",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-one-tree-hill-trundle-2/",
-      "sourceName": "Classic Owners MC SA"
+      "sourceUrl": "https://www.justbikes.com.au/events/grafton-classic-bike-rally/1090895",
+      "sourceName": "Just Bikes"
     },
     {
-      "id": "74baf9871b78",
-      "title": "Mopeds Plus : Charleston Challenge",
-      "description": "10:00 am - 4:00 pm Mopeds Plus : Charleston Challenge",
-      "startDate": "2026-12-06",
-      "location": "",
-      "state": "ALL",
-      "category": "other",
-      "sourceUrl": "https://classicowners.org/event/mopeds-plus-charleston-challenge-2/",
-      "sourceName": "Classic Owners MC SA"
+      "id": "680293c3db3c",
+      "title": "Sandy Hollow Motorfest",
+      "description": "Sandy Hollow Motorfest Aug 15th NSW, 2333",
+      "startDate": "2026-08-15",
+      "location": "NSW 2333",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/sandy-hollow-motorfest/1090625",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "03cfa6f706a9",
+      "title": "TATURA SWAP",
+      "description": "TATURA SWAP Aug 16th VIC, 3616",
+      "startDate": "2026-08-16",
+      "location": "VIC 3616",
+      "state": "VIC",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/tatura-swap/1090626",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "8e26f6104ab3",
+      "title": "The Millmerran Swap Meet",
+      "description": "The Millmerran Swap Meet Aug 22nd QLD, 4357",
+      "startDate": "2026-08-22",
+      "location": "QLD 4357",
+      "state": "QLD",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/the-millmerran-swap-meet/1085983",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "2fc15f69ebdf",
+      "title": "Townsville Combined Motor Clubs Swap Meet 2026",
+      "description": "Townsville Combined Motor Clubs Swap Meet 2026 Aug 16th QLD, 4810",
+      "startDate": "2026-08-26",
+      "location": "QLD 4810",
+      "state": "QLD",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/townsville-combined-motor-clubs-swap-meet-2026/1081386",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "bef9d0321760",
+      "title": "Lismore Swap Meet 2026",
+      "description": "Lismore Swap Meet 2026 Aug 23rd NSW, 2480",
+      "startDate": "2026-08-26",
+      "location": "NSW 2480",
+      "state": "NSW",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/lismore-swap-meet-2026/1087466",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "64b1779d32d2",
+      "title": "Bulli Antique Motorcycle Weekend 2026",
+      "description": "Bulli Antique Motorcycle Weekend 2026 Aug 28th NSW, 2516",
+      "startDate": "2026-08-26",
+      "location": "NSW 2516",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://www.justbikes.com.au/events/bulli-antique-motorcycle-weekend-2026/1090896",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "376c56a25864",
+      "title": "Dubbo Motorfest",
+      "description": "Dubbo Motorfest Aug 29th NSW, 2830",
+      "startDate": "2026-08-29",
+      "location": "NSW 2830",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/dubbo-motorfest/1087650",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "350bbb10d15a",
+      "title": "33rd Annual Fathers Day Swap Meet",
+      "description": "33rd Annual Fathers Day Swap Meet Sep 6th NSW, 2590",
+      "startDate": "2026-09-06",
+      "location": "NSW 2590",
+      "state": "NSW",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/33rd-annual-fathers-day-swap-meet/1080550",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "adfed61815af",
+      "title": "Veteran Vintage and Classic Motorcycle Show",
+      "description": "Veteran Vintage and Classic Motorcycle Show Sep 11th NSW, 2880",
+      "startDate": "2026-09-11",
+      "location": "NSW 2880",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/veteran-vintage-and-classic-motorcycle-show/1081782",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "9da42b7f9ec1",
+      "title": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW",
+      "description": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW Sep 12th QLD, 4570",
+      "startDate": "2026-09-12",
+      "location": "QLD 4570",
+      "state": "QLD",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/2026-gympie-historic-auto-club-inc-swap-meet-and-car-show/1079683",
+      "sourceName": "Just Bikes"
     }
   ]
 }

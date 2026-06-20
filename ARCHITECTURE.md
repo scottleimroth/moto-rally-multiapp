@@ -1,102 +1,77 @@
-# Moto Rally Australia - System Architecture
+# Moto Rally Australia - Architecture
+
+**Last updated:** 2026-06-21
 
 ## Overview
 
-A cross-platform motorcycle events aggregator that scrapes 19 Australian event sources weekly via GitHub Actions, stores events as JSON, and serves them through a Flutter app available as PWA, Android APK, and Windows EXE.
+Moto Rally Australia is now a web-first static application. The production site no longer uses the Flutter web runtime. The Python scraper remains the data pipeline and writes the generated event catalogue to `assets/data/events.json`.
 
----
+## Current Production Flow
 
-## Architecture Diagram
-
-```
-┌────────────────────┐
-│   GitHub Actions    │ (Weekly cron - Sunday)
-│   Python Scraper    │
-└────────┬───────────┘
-         │ Scrapes 19 sources
-         ▼
-┌────────────────────┐
-│   events.json      │ (Committed to repo)
-└────────┬───────────┘
-         │
-    ┌────┴────┬──────────────┐
-    ▼         ▼              ▼
-┌────────┐ ┌────────┐ ┌──────────┐
-│  Web   │ │Android │ │ Windows  │
-│  PWA   │ │  APK   │ │   EXE   │
-│(CF Pgs)│ │(Release│ │(Release) │
-└────────┘ └────────┘ └──────────┘
+```text
+Public event websites
+        |
+        v
+scripts/scrape_events.py
+        |
+        v
+assets/data/events.json
+        |
+        v
+React/Vite build
+        |
+        v
+dist/web
+        |
+        v
+Cloudflare Pages or static host
 ```
 
----
+## Why This Changed
 
-## Technology Stack
+The previous public web app used Flutter web plus bundled JSON, GitHub raw JSON, Hive browser cache, and a service worker. That created too many places for stale event data to survive. The new production path uses a single generated JSON contract and a lightweight static frontend.
 
-### Flutter App (all platforms)
-- **Framework:** Flutter/Dart
-- **Platforms:** Web (PWA), Android (APK), Windows (EXE)
-- **UI:** Dark theme, large touch targets for outdoor/gloved use
+## Frontend
 
-### Event Scraper
-- **Language:** Python
-- **Automation:** GitHub Actions (weekly cron)
-- **Sources:** 19 Australian motorcycle clubs and event aggregators
-- **Output:** JSON file committed to repo
+- Framework: React
+- Language: TypeScript
+- Build tool: Vite
+- Output: `dist/web`
+- Runtime data: build-time import of `assets/data/events.json`
+- Browser storage: local watchlist and trip plans only
+- Service worker: none in production
 
-### Deployment
-- **Web:** Cloudflare Pages (auto-deploy from main)
-- **Android/Windows:** GitHub Releases for binary distribution
+## Scraper
 
----
+- Script: `scripts/scrape_events.py`
+- Output: `assets/data/events.json`
+- Purpose: collect, clean, date-filter, and classify Australian motorcycle events
+- CI workflow: `.github/workflows/update-events.yml`
 
-## Component Structure
+## Deployment
 
-```
-moto-rally-multiapp/
-├── lib/                   # Flutter app source
-│   ├── main.dart
-│   ├── models/            # Event data models
-│   ├── screens/           # UI screens
-│   └── services/          # Data loading, filtering
-├── scraper/               # Python event scraper
-│   ├── scrape_events.py
-│   └── sources/           # Per-source scrapers
-├── assets/
-│   └── events.json        # Scraped event data
-├── .github/
-│   └── workflows/         # GitHub Actions for scraping
-├── android/               # Android build config
-├── windows/               # Windows build config
-├── web/                   # Web build config
-└── README.md
+Use:
+
+```bash
+npm run build
 ```
 
----
+Deploy:
 
-## Key Workflows
+```text
+dist/web
+```
 
-### Weekly Event Scrape
-1. GitHub Actions triggers on Sunday
-2. Python scraper hits all 19 event sources
-3. Events parsed, deduplicated, and merged into events.json
-4. Changes committed and pushed automatically
-5. Cloudflare Pages auto-deploys updated web app
+Cloudflare Pages should use normal static hosting behavior. Do not add aggressive cache rules for `index.html`.
 
-### User Event Discovery
-1. App loads events.json (bundled or fetched)
-2. User filters by state, type, or search query
-3. Event details shown with date, location, description
-4. User can add events to watchlist (stored locally)
+## Retired From Production
 
----
+Flutter source and native build artifacts may still exist in the repository history or working tree, but Flutter is no longer the public web production runtime. The production deployment should point at the Vite output in `dist/web`.
 
-## Security Considerations
+## Validation Performed
 
-- **No API keys required:** All scraping targets are public websites
-- **No user data collected:** No accounts, no tracking
-- **Offline-first:** PWA caches events for offline access
-- **HTTPS:** All platforms use HTTPS
-
----
-
-**Last Updated:** 2026-02-10
+- `npm test`
+- `npm run build`
+- `npm audit --audit-level=low`
+- Browser verification at desktop, half-width, and mobile widths
+- Trip planner interaction verification
