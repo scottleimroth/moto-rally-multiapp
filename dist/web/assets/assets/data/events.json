@@ -1,6 +1,6 @@
 {
-    "lastUpdated":  "2026-06-20T22:30:15.008794+10:00",
-    "totalEvents":  13,
+    "lastUpdated":  "2026-06-20T22:41:45.686814+10:00",
+    "totalEvents":  11,
     "sources":  [
                     "Motorcycle Rallies Australia",
                     "Just Bikes",
@@ -13,7 +13,6 @@
                     "Ducati Owners Club NSW",
                     "Ducati Owners Club Victoria",
                     "Ducati Owners Club SA",
-                    "Harley-Davidson Australia",
                     "Indian Motorcycle Club Australia",
                     "Triumph Owners MCC Australia",
                     "Classic Owners MC SA",
@@ -28,8 +27,8 @@
     "events":  [
                    {
                        "id":  "c1847dc54d94",
-                       "title":  "Overnighter To Forrest Ã¢â‚¬â€œ 2026",
-                       "description":  "June 20 - June 21 Overnighter To Forrest Ã¢â‚¬â€œ 2026",
+                       "title":  "Overnighter To Forrest - 2026",
+                       "description":  "June 20 - June 21 Overnighter To Forrest - 2026",
                        "startDate":  "2026-06-20",
                        "location":  "",
                        "state":  "ALL",
@@ -146,28 +145,6 @@
                        "category":  "other",
                        "sourceUrl":  "https://classicowners.org/event/mopeds-plus-charleston-challenge-2/",
                        "sourceName":  "Classic Owners MC SA"
-                   },
-                   {
-                       "id":  "78718b4befdb",
-                       "title":  "BMW Clubs Australia Cars National Rally",
-                       "description":  "18 Mar 2027 @ 08:00 Ã¢â‚¬â€œ 21 Mar 2027 @ 17:00 UTC+10 BMW Clubs Australia Cars National Rally",
-                       "startDate":  "2027-03-18",
-                       "location":  "",
-                       "state":  "ALL",
-                       "category":  "rally",
-                       "sourceUrl":  "https://bmwca.au/?tribe_events=bmw-cars-national-rally",
-                       "sourceName":  "BMW Clubs Australia"
-                   },
-                   {
-                       "id":  "6a44947e7f08",
-                       "title":  "The club sponsors a full calendar of events suited to girder fork bikes. Some rides are divided into long and short runs or have alternative routes. Ã‚Â A support vehicle accompanies all VMCC rides to cater for breakdowns.",
-                       "description":  "The club sponsors a full calendar of events suited to girder fork bikes. Some rides are divided into long and short runs or have alternative routes. Ã‚Â A support vehicle accompanies all VMCC rides to cater for breakdowns. VMCC members also participate in Invitation Events sponsored by affiliated historic motorcycle clubs. Ã‚Â Some of these are included on this events calendar. For 2026 there is a full calendar of events, hopefully something to suit everyone and all of your machines.Ã‚Â  Please plan to j",
-                       "startDate":  "2027-10-31",
-                       "location":  "",
-                       "state":  "NSW",
-                       "category":  "swap_meet",
-                       "sourceUrl":  "https://vmccnsw.org.au/wp-content/uploads/2026/01/Bathurst-Easter-Tour-2026-Entry-Form.pdf",
-                       "sourceName":  "VMCC NSW"
                    }
                ]
 }
