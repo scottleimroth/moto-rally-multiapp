@@ -1,33 +1,29 @@
 # Moto Rally Australia
 
-Australian motorcycle event browser for the Pi internal apps dashboard.
+Free Australian motorcycle event discovery and trip planning.
 
-## Internal App
+Moto Rally Australia is a public web app for finding upcoming Australian motorcycle rallies, swap meets, shows, and touring events. It uses a Python scraper to generate a reviewed JSON data file, then serves a lightweight React/Vite frontend from `dist/web`.
 
-The live internal site is served by Caddy at:
+## Current Production Architecture
 
-```text
-https://moto-rally.internal
-```
-
-The web app is plain static HTML, CSS, and JavaScript in `dist/web`. It does not require Flutter to run or rebuild the internal website.
+- **Frontend:** React, TypeScript, Vite
+- **Production output:** `dist/web`
+- **Data source:** `assets/data/events.json`
+- **Scraper:** `scripts/scrape_events.py`
+- **Hosting target:** Cloudflare Pages or another static host
+- **Production Flutter status:** retired from the public web deployment path
 
 ## Features
 
-- Current and future events only
-- Search by event, source, location, or description
-- Filter by state
-- Filter by category
-- Filter by source
-- Open original source links in a new tab
+- Upcoming Australian motorcycle events only
+- Search by event, place, state, or source
+- Filter by state and event type
+- Local watchlist in browser storage
+- Trip planner for ride days, fuel stops, comfort breaks, route notes, service notes, accommodation notes, and packing checklist
+- No runtime GitHub raw-data fetch
+- No app-level service worker cache layer
 
-## Event Data
-
-Events are scraped by:
-
-```text
-scripts/scrape_events.py
-```
+## Data Pipeline
 
 The scraper writes:
 
@@ -35,31 +31,38 @@ The scraper writes:
 assets/data/events.json
 ```
 
-The deployed static site reads:
+The web app imports that JSON at build time. This keeps the public site simple and avoids stale runtime data from competing sources.
 
-```text
-dist/web/assets/assets/data/events.json
-```
-
-After updating events, copy the generated JSON into the deployed static asset path:
+Run the scraper:
 
 ```bash
-python3 scripts/scrape_events.py
-cp assets/data/events.json dist/web/assets/assets/data/events.json
+python scripts/scrape_events.py
 ```
 
-## Serve Locally
+## Web Development
 
 ```bash
-python3 -m http.server 8080 --directory dist/web
+npm install
+npm run dev
+npm test
+npm run build
+npm run preview
 ```
 
-Then open:
+## Deployment
+
+Build command:
+
+```bash
+npm run build
+```
+
+Deploy directory:
 
 ```text
-http://localhost:8080
+dist/web
 ```
 
-## Legacy Flutter Files
+## Copyright
 
-This project previously used Flutter for web/Android/Windows builds. The Pi-hosted internal website has been converted to static HTML/JS because it is only an event browser.
+Copyright 2026 Scott Leimroth. All rights reserved.
