@@ -1,150 +1,148 @@
 {
-    "lastUpdated":  "2026-06-20T22:41:45.667471+10:00",
-    "totalEvents":  11,
-    "sources":  [
-                    "Motorcycle Rallies Australia",
-                    "Just Bikes",
-                    "Old Bike Australasia",
-                    "Throw Your Leg Over",
-                    "VMCC NSW",
-                    "BMW Clubs Australia",
-                    "BMW MCC Western Australia",
-                    "BMW MCC Canberra",
-                    "Ducati Owners Club NSW",
-                    "Ducati Owners Club Victoria",
-                    "Ducati Owners Club SA",
-                    "Indian Motorcycle Club Australia",
-                    "Triumph Owners MCC Australia",
-                    "Classic Owners MC SA",
-                    "Motorcycling Australia",
-                    "Motorcycling Queensland",
-                    "Motorcycling NSW",
-                    "Motorcycling Victoria"
-                ],
-    "errors":  [
-
-               ],
-    "events":  [
-                   {
-                       "id":  "c1847dc54d94",
-                       "title":  "Overnighter To Forrest - 2026",
-                       "description":  "June 20 - June 21 Overnighter To Forrest - 2026",
-                       "startDate":  "2026-06-20",
-                       "location":  "",
-                       "state":  "ALL",
-                       "category":  "other",
-                       "sourceUrl":  "https://tomcc.com.au/event/overnighter-to-forrest-2026/",
-                       "sourceName":  "Triumph Owners MCC Australia"
-                   },
-                   {
-                       "id":  "228ed6348bc5",
-                       "title":  "General Meeting",
-                       "description":  "8:00 am - 5:00 pm General Meeting",
-                       "startDate":  "2026-06-23",
-                       "location":  "",
-                       "state":  "ALL",
-                       "category":  "other",
-                       "sourceUrl":  "https://classicowners.org/event/general-meeting-7/",
-                       "sourceName":  "Classic Owners MC SA"
-                   },
-                   {
-                       "id":  "f9be099770e0",
-                       "title":  "Mopeds Plus : Mt Torrens Trek",
-                       "description":  "10:00 am - 4:00 pm Mopeds Plus : Mt Torrens Trek",
-                       "startDate":  "2026-07-12",
-                       "location":  "",
-                       "state":  "ALL",
-                       "category":  "other",
-                       "sourceUrl":  "https://classicowners.org/event/mopeds-plus-mt-torrens-trek/",
-                       "sourceName":  "Classic Owners MC SA"
-                   },
-                   {
-                       "id":  "a6de9d16464d",
-                       "title":  "July Monthly General Meeting",
-                       "description":  "19:00 - 20:00 July Monthly General Meeting",
-                       "startDate":  "2026-07-14",
-                       "location":  "",
-                       "state":  "NT",
-                       "category":  "other",
-                       "sourceUrl":  "https://tomcc.com.au/event/july-monthly-general-meeting-2/",
-                       "sourceName":  "Triumph Owners MCC Australia"
-                   },
-                   {
-                       "id":  "5a6de2e9eecd",
-                       "title":  "Mopeds Plus : Williamstown Wander 2",
-                       "description":  "10:00 am - 4:00 pm Mopeds Plus : Williamstown Wander 2",
-                       "startDate":  "2026-08-09",
-                       "location":  "",
-                       "state":  "WA",
-                       "category":  "other",
-                       "sourceUrl":  "https://classicowners.org/event/mopeds-plus-williamstown-wander-2/",
-                       "sourceName":  "Classic Owners MC SA"
-                   },
-                   {
-                       "id":  "0ba04c60ac74",
-                       "title":  "Annual General Meeting- 2026",
-                       "description":  "19:00 - 20:30 Annual General Meeting- 2026",
-                       "startDate":  "2026-08-11",
-                       "location":  "",
-                       "state":  "ALL",
-                       "category":  "other",
-                       "sourceUrl":  "https://tomcc.com.au/event/annual-general-meeting-2026/",
-                       "sourceName":  "Triumph Owners MCC Australia"
-                   },
-                   {
-                       "id":  "de4f2c48a604",
-                       "title":  "Annual Club Lunch @ The British, North Adelaide",
-                       "description":  "Featured 12:00 pm - 2:00 pm Annual Club Lunch @ The British, North Adelaide",
-                       "startDate":  "2026-08-15",
-                       "location":  "",
-                       "state":  "SA",
-                       "category":  "other",
-                       "sourceUrl":  "https://classicowners.org/event/annual-club-lunch-the-british-north-adelaide/",
-                       "sourceName":  "Classic Owners MC SA"
-                   },
-                   {
-                       "id":  "e547022dbb70",
-                       "title":  "Mopeds Plus : Uraidla Ultimate",
-                       "description":  "10:00 am - 4:00 pm Mopeds Plus : Uraidla Ultimate",
-                       "startDate":  "2026-09-13",
-                       "location":  "",
-                       "state":  "ALL",
-                       "category":  "other",
-                       "sourceUrl":  "https://classicowners.org/event/mopeds-plus-uraidla-ultimate-2/",
-                       "sourceName":  "Classic Owners MC SA"
-                   },
-                   {
-                       "id":  "4949c25978a4",
-                       "title":  "Mopeds Plus : Mt Barker Burble",
-                       "description":  "8:00 am - 5:00 pm Mopeds Plus : Mt Barker Burble",
-                       "startDate":  "2026-10-11",
-                       "location":  "",
-                       "state":  "ALL",
-                       "category":  "other",
-                       "sourceUrl":  "https://classicowners.org/event/mopeds-plus-mt-barker-burble/",
-                       "sourceName":  "Classic Owners MC SA"
-                   },
-                   {
-                       "id":  "adef96b17b03",
-                       "title":  "Mopeds Plus : One Tree Hill Trundle",
-                       "description":  "10:00 am - 4:00 pm Mopeds Plus : One Tree Hill Trundle",
-                       "startDate":  "2026-11-08",
-                       "location":  "",
-                       "state":  "ALL",
-                       "category":  "rally",
-                       "sourceUrl":  "https://classicowners.org/event/mopeds-plus-one-tree-hill-trundle-2/",
-                       "sourceName":  "Classic Owners MC SA"
-                   },
-                   {
-                       "id":  "74baf9871b78",
-                       "title":  "Mopeds Plus : Charleston Challenge",
-                       "description":  "10:00 am - 4:00 pm Mopeds Plus : Charleston Challenge",
-                       "startDate":  "2026-12-06",
-                       "location":  "",
-                       "state":  "ALL",
-                       "category":  "other",
-                       "sourceUrl":  "https://classicowners.org/event/mopeds-plus-charleston-challenge-2/",
-                       "sourceName":  "Classic Owners MC SA"
-                   }
-               ]
+  "lastUpdated": "2026-06-20T12:49:34.958200",
+  "totalEvents": 11,
+  "sources": [
+    "Motorcycle Rallies Australia",
+    "Just Bikes",
+    "Old Bike Australasia",
+    "Throw Your Leg Over",
+    "VMCC NSW",
+    "BMW Clubs Australia",
+    "BMW MCC Western Australia",
+    "BMW MCC Canberra",
+    "Ducati Owners Club NSW",
+    "Ducati Owners Club Victoria",
+    "Ducati Owners Club SA",
+    "Indian Motorcycle Club Australia",
+    "Triumph Owners MCC Australia",
+    "Classic Owners MC SA",
+    "Motorcycling Australia",
+    "Motorcycling Queensland",
+    "Motorcycling NSW",
+    "Motorcycling Victoria"
+  ],
+  "errors": [],
+  "events": [
+    {
+      "id": "228ed6348bc5",
+      "title": "General Meeting",
+      "description": "8:00 am - 5:00 pm General Meeting",
+      "startDate": "2026-06-23",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/general-meeting-7/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "f9be099770e0",
+      "title": "Mopeds Plus : Mt Torrens Trek",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Mt Torrens Trek",
+      "startDate": "2026-07-12",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-mt-torrens-trek/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "a6de9d16464d",
+      "title": "July Monthly General Meeting",
+      "description": "19:00 - 20:00 July Monthly General Meeting",
+      "startDate": "2026-07-14",
+      "location": "",
+      "state": "NT",
+      "category": "other",
+      "sourceUrl": "https://tomcc.com.au/event/july-monthly-general-meeting-2/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "27fd4a04a786",
+      "title": "Club Events",
+      "description": "Club Events The Club run many sorts of events from our fortnightly weekend rides, through to overnighters or weekends away (not to be missed) to our fantastic Fun Day events at the Phillip Island circuit.  This is the place to keep your eye on to see what is happening. Events may appear here before registration is open. If  the event is a limited-numbers event, there may be a wait list option for you to put your name down in case anyone cancels. Many events are free, some are not, some events re",
+      "startDate": "2026-07-21",
+      "location": "",
+      "state": "NSW",
+      "category": "rally",
+      "sourceUrl": "https://s3-ap-southeast-2.amazonaws.com/docv.org/committee/procedures/DOCV+Refund+Policy+2020+V2.pdf",
+      "sourceName": "Ducati Owners Club Victoria"
+    },
+    {
+      "id": "5a6de2e9eecd",
+      "title": "Mopeds Plus : Williamstown Wander 2",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Williamstown Wander 2",
+      "startDate": "2026-08-09",
+      "location": "",
+      "state": "WA",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-williamstown-wander-2/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "0ba04c60ac74",
+      "title": "Annual General Meeting- 2026",
+      "description": "18:00 - 21:00 Annual General Meeting- 2026",
+      "startDate": "2026-08-11",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://tomcc.com.au/event/annual-general-meeting-2026/",
+      "sourceName": "Triumph Owners MCC Australia"
+    },
+    {
+      "id": "de4f2c48a604",
+      "title": "Annual Club Lunch @ The British, North Adelaide",
+      "description": "Featured 12:00 pm - 2:00 pm Annual Club Lunch @ The British, North Adelaide",
+      "startDate": "2026-08-15",
+      "location": "",
+      "state": "SA",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/annual-club-lunch-the-british-north-adelaide/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "e547022dbb70",
+      "title": "Mopeds Plus : Uraidla Ultimate",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Uraidla Ultimate",
+      "startDate": "2026-09-13",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-uraidla-ultimate-2/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "4949c25978a4",
+      "title": "Mopeds Plus : Mt Barker Burble",
+      "description": "8:00 am - 5:00 pm Mopeds Plus : Mt Barker Burble",
+      "startDate": "2026-10-11",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-mt-barker-burble/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "adef96b17b03",
+      "title": "Mopeds Plus : One Tree Hill Trundle",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : One Tree Hill Trundle",
+      "startDate": "2026-11-08",
+      "location": "",
+      "state": "ALL",
+      "category": "rally",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-one-tree-hill-trundle-2/",
+      "sourceName": "Classic Owners MC SA"
+    },
+    {
+      "id": "74baf9871b78",
+      "title": "Mopeds Plus : Charleston Challenge",
+      "description": "10:00 am - 4:00 pm Mopeds Plus : Charleston Challenge",
+      "startDate": "2026-12-06",
+      "location": "",
+      "state": "ALL",
+      "category": "other",
+      "sourceUrl": "https://classicowners.org/event/mopeds-plus-charleston-challenge-2/",
+      "sourceName": "Classic Owners MC SA"
+    }
+  ]
 }
