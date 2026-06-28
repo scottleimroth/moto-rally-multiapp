@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T01:01:57.413079",
+  "lastUpdated": "2026-06-28T00:55:51.780270",
   "totalEvents": 11,
   "sources": [
     "Motorcycle Rallies Australia",
@@ -68,6 +68,17 @@
       "sourceName": "Just Bikes"
     },
     {
+      "id": "4631c27df7c3",
+      "title": "Grafton Motorfest",
+      "description": "Grafton Motorfest Aug 23rd NSW, 2460",
+      "startDate": "2026-08-23",
+      "location": "NSW 2460",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/grafton-motorfest/1091570",
+      "sourceName": "Just Bikes"
+    },
+    {
       "id": "2fc15f69ebdf",
       "title": "Townsville Combined Motor Clubs Swap Meet 2026",
       "description": "Townsville Combined Motor Clubs Swap Meet 2026 Aug 16th QLD, 4810",
@@ -123,25 +134,14 @@
       "sourceName": "Just Bikes"
     },
     {
-      "id": "adfed61815af",
-      "title": "Veteran Vintage and Classic Motorcycle Show",
-      "description": "Veteran Vintage and Classic Motorcycle Show Sep 11th NSW, 2880",
-      "startDate": "2026-09-11",
-      "location": "NSW 2880",
-      "state": "NSW",
+      "id": "b40056fba2fd",
+      "title": "OLD GIPPSLAND FATHERS DAY CAR & BIKE SHOW",
+      "description": "OLD GIPPSLAND FATHERS DAY CAR & BIKE SHOW Sep 6th VIC, 3825",
+      "startDate": "2026-09-06",
+      "location": "VIC 3825",
+      "state": "VIC",
       "category": "show",
-      "sourceUrl": "https://www.justbikes.com.au/events/veteran-vintage-and-classic-motorcycle-show/1081782",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "9da42b7f9ec1",
-      "title": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW",
-      "description": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW Sep 12th QLD, 4570",
-      "startDate": "2026-09-12",
-      "location": "QLD 4570",
-      "state": "QLD",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/2026-gympie-historic-auto-club-inc-swap-meet-and-car-show/1079683",
+      "sourceUrl": "https://www.justbikes.com.au/events/old-gippsland-fathers-day-car-bike-show/1091589",
       "sourceName": "Just Bikes"
     }
   ]
