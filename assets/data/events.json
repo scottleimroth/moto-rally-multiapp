@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-01T02:35:38.836896",
-  "totalEvents": 11,
+  "lastUpdated": "2026-10-01T03:03:59.715996",
+  "totalEvents": 13,
   "sources": [
     "Motorcycle Rallies Australia",
     "Just Bikes",
@@ -24,116 +24,6 @@
   "errors": [],
   "events": [
     {
-      "id": "350bbb10d15a",
-      "title": "33rd Annual Fathers Day Swap Meet",
-      "description": "33rd Annual Fathers Day Swap Meet Sep 6th NSW, 2590",
-      "startDate": "2026-09-06",
-      "location": "NSW 2590",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/33rd-annual-fathers-day-swap-meet/1080550",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "b40056fba2fd",
-      "title": "OLD GIPPSLAND FATHERS DAY CAR & BIKE SHOW",
-      "description": "OLD GIPPSLAND FATHERS DAY CAR & BIKE SHOW Sep 6th VIC, 3825",
-      "startDate": "2026-09-06",
-      "location": "VIC 3825",
-      "state": "VIC",
-      "category": "show",
-      "sourceUrl": "https://www.justbikes.com.au/events/old-gippsland-fathers-day-car-bike-show/1091589",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "e2b6aee21cc3",
-      "title": "Acland St Fathers Day Cars, Bikes & Culture Show",
-      "description": "Acland St Fathers Day Cars, Bikes & Culture Show Sep 6th VIC, 3182",
-      "startDate": "2026-09-06",
-      "location": "VIC 3182",
-      "state": "VIC",
-      "category": "show",
-      "sourceUrl": "https://www.justbikes.com.au/events/acland-st-fathers-day-cars-bikes-culture-show/1096721",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "f54f30b28a29",
-      "title": "The 50th Anniversary Rally of the R100RS and other /7",
-      "description": "The 50th Anniversary Rally of the R100RS and other /7 Sep 20th NSW, 2580",
-      "startDate": "2026-09-07",
-      "location": "NSW 2580",
-      "state": "NSW",
-      "category": "rally",
-      "sourceUrl": "https://www.justbikes.com.au/events/the-50th-anniversary-rally-of-the-r100rs-and-other-7/1077057",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "adfed61815af",
-      "title": "Veteran Vintage and Classic Motorcycle Show",
-      "description": "Veteran Vintage and Classic Motorcycle Show Sep 11th NSW, 2880",
-      "startDate": "2026-09-11",
-      "location": "NSW 2880",
-      "state": "NSW",
-      "category": "show",
-      "sourceUrl": "https://www.justbikes.com.au/events/veteran-vintage-and-classic-motorcycle-show/1081782",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "9da42b7f9ec1",
-      "title": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW",
-      "description": "2026 GYMPIE HISTORIC AUTO CLUB INC SWAP MEET and CAR SHOW Sep 12th QLD, 4570",
-      "startDate": "2026-09-12",
-      "location": "QLD 4570",
-      "state": "QLD",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/2026-gympie-historic-auto-club-inc-swap-meet-and-car-show/1079683",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "3b7b194e5094",
-      "title": "Shepparton Swap Meet",
-      "description": "Shepparton Swap Meet Sep 13th VIC, 3630",
-      "startDate": "2026-09-13",
-      "location": "VIC 3630",
-      "state": "VIC",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/shepparton-swap-meet/1091140",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "e390345964e6",
-      "title": "North West Swap Meet and Car Show",
-      "description": "North West Swap Meet and Car Show Sep 19th NSW, 2380",
-      "startDate": "2026-09-19",
-      "location": "NSW 2380",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/north-west-swap-meet-and-car-show/1087637",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "b40be452d682",
-      "title": "Shannons Motorcycle Spectacular",
-      "description": "Shannons Motorcycle Spectacular Sep 19th TAS, 7000",
-      "startDate": "2026-09-19",
-      "location": "TAS 7000",
-      "state": "TAS",
-      "category": "other",
-      "sourceUrl": "https://www.justbikes.com.au/events/shannons-motorcycle-spectacular/1095253",
-      "sourceName": "Just Bikes"
-    },
-    {
-      "id": "d87e16b4f519",
-      "title": "Finley Show & Shine & Swap Meet",
-      "description": "Finley Show & Shine & Swap Meet Sep 20th NSW, 2713",
-      "startDate": "2026-09-20",
-      "location": "NSW 2713",
-      "state": "NSW",
-      "category": "swap_meet",
-      "sourceUrl": "https://www.justbikes.com.au/events/finley-show-shine-swap-meet/1095490",
-      "sourceName": "Just Bikes"
-    },
-    {
       "id": "92a489794d78",
       "title": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride",
       "description": "BMWMCC Monthly Mid-Week Meet, Coffee & Ride - 1 October 2026 Celebration of Motorsport Show - Canberra 2026, Falcon GT Club Canberra",
@@ -141,8 +31,140 @@
       "location": "",
       "state": "ACT",
       "category": "rally",
-      "sourceUrl": "https://www.bmwmcc.au/event-6751301?CalendarViewType=1&SelectedDate=9/1/2026",
+      "sourceUrl": "https://www.bmwmcc.au/event-6751301?CalendarViewType=1&SelectedDate=10/1/2026",
       "sourceName": "BMW MCC Canberra"
+    },
+    {
+      "id": "f2db408c0790",
+      "title": "Dookie Military Vehicle Rally",
+      "description": "Dookie Military Vehicle Rally Oct 10th VIC, 3646",
+      "startDate": "2026-10-10",
+      "location": "VIC 3646",
+      "state": "VIC",
+      "category": "rally",
+      "sourceUrl": "https://www.justbikes.com.au/events/dookie-military-vehicle-rally/1096731",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "9a5292628ee0",
+      "title": "The Veteran and Vintage Motor Cycle Club of SA Inc (VVMCCSA) 70th Anniversary Rally",
+      "description": "The Veteran and Vintage Motor Cycle Club of SA Inc (VVMCCSA) 70th Anniversary Rally Oct 12th SA, 5214",
+      "startDate": "2026-10-12",
+      "location": "SA None",
+      "state": "SA",
+      "category": "rally",
+      "sourceUrl": "https://www.justbikes.com.au/events/the-veteran-and-vintage-motor-cycle-club-of-sa-inc-vvmccsa-70th-anniversary-rally/1090905",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "f29befc4833d",
+      "title": "Buangor Motor Show",
+      "description": "Buangor Motor Show Oct 17th VIC, 3375",
+      "startDate": "2026-10-17",
+      "location": "VIC 3375",
+      "state": "VIC",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/buangor-motor-show/1081045",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "1f2478052b80",
+      "title": "TARAGO CAR BIKE & TRUCK SHOW",
+      "description": "TARAGO CAR BIKE & TRUCK SHOW Oct 18th NSW, 2580",
+      "startDate": "2026-10-18",
+      "location": "NSW 2580",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/tarago-car-bike-truck-show/1099262",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "0094233c44ff",
+      "title": "Melbourne's Best Car & Bike Expo",
+      "description": "Melbourne's Best Car & Bike Expo Oct 18th VIC, 3202",
+      "startDate": "2026-10-18",
+      "location": "VIC 3202",
+      "state": "VIC",
+      "category": "other",
+      "sourceUrl": "https://www.justbikes.com.au/events/melbourne-s-best-car-bike-expo/1096205",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "3f9c0cd3f01a",
+      "title": "The 36th Great Canberra Swap Meet",
+      "description": "The 36th Great Canberra Swap Meet Oct 25th ACT, 2618",
+      "startDate": "2026-10-25",
+      "location": "ACT 2618",
+      "state": "ACT",
+      "category": "swap_meet",
+      "sourceUrl": "https://www.justbikes.com.au/events/the-36th-great-canberra-swap-meet/1084088",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "d5283b6ee635",
+      "title": "Coffs City Rotary Motor Show",
+      "description": "Coffs City Rotary Motor Show Oct 25th NSW, 2450",
+      "startDate": "2026-10-25",
+      "location": "NSW 2450",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/coffs-city-rotary-motor-show/1085986",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "1beac66d9b6b",
+      "title": "Tumut Motorcycle Show & Shine 2026",
+      "description": "Tumut Motorcycle Show & Shine 2026 Oct 17th NSW, 2720",
+      "startDate": "2026-10-26",
+      "location": "NSW 2720",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/tumut-motorcycle-show-shine-2026/1089573",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "1d08b658c33c",
+      "title": "Moto Italiane Ovest - 2026",
+      "description": "Moto Italiane Ovest - 2026 Oct 18th WA, 6104",
+      "startDate": "2026-10-26",
+      "location": "WA 6104",
+      "state": "WA",
+      "category": "other",
+      "sourceUrl": "https://www.justbikes.com.au/events/moto-italiane-ovest-2026/1099434",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "224f9b3b2cbd",
+      "title": "Trialla Woolshed Rally 2026",
+      "description": "Trialla Woolshed Rally 2026 Oct 30th VIC, 3260",
+      "startDate": "2026-10-26",
+      "location": "VIC 3260",
+      "state": "VIC",
+      "category": "rally",
+      "sourceUrl": "https://www.justbikes.com.au/events/trialla-woolshed-rally-2026/1086431",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "df7bed5e7040",
+      "title": "Mid North Coast Motorfest",
+      "description": "Mid North Coast Motorfest Nov 1st NSW, 2446",
+      "startDate": "2026-11-01",
+      "location": "NSW 2446",
+      "state": "NSW",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/mid-north-coast-motorfest/1087653",
+      "sourceName": "Just Bikes"
+    },
+    {
+      "id": "e96760e19867",
+      "title": "2026 ULVERSTONE CAR & BIKE SHOW",
+      "description": "2026 ULVERSTONE CAR & BIKE SHOW Nov 2nd TAS, 7315",
+      "startDate": "2026-11-02",
+      "location": "TAS 7315",
+      "state": "TAS",
+      "category": "show",
+      "sourceUrl": "https://www.justbikes.com.au/events/2026-ulverstone-car-bike-show/1087471",
+      "sourceName": "Just Bikes"
     }
   ]
 }
